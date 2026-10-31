@@ -1,1 +1,25 @@
-<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Reginald Wriggles' Problem</title><style>html,body{margin:0;height:100%;background:#25150e;color:#fff;font-family:Georgia,serif}body{display:grid;place-items:center}#m{padding:24px;text-align:center}</style></head><body><div id="m">Opening REGINALD WRIGGLES' PROBLEM…</div><script>(async()=>{const parts=["part-00.txt","part-01.txt","part-02.txt","part-03.txt","part-04.txt","part-05.txt","part-06.txt","part-07.txt","part-08.txt","part-09.txt","part-10.txt","part-11.txt","part-12.txt","part-13.txt","part-14.txt","part-15.txt","part-16.txt","part-17.txt","part-18.txt","part-19.txt","part-20.txt","part-21.txt","part-22.txt","part-23.txt","part-24.txt"];let h='';for(const f of parts){const r=await fetch(f,{cache:'no-store'});if(!r.ok)throw new Error('Missing '+f);h+=await r.text();}document.open();document.write(h);document.close();})().catch(e=>{document.getElementById('m').textContent='Unable to open flipbook: '+e.message;});</script></body></html>
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Reginald Wriggles' Problem</title><style>html,body{margin:0;height:100%;background:#25150e;color:#fff;font-family:Georgia,serif}body{display:grid;place-items:center}#m{padding:24px;text-align:center}</style></head><body><div id="m">Opening REGINALD WRIGGLES' PROBLEM…</div><script>(async()=>{const parts=["part-00.txt","part-01.txt","part-02.txt","part-03.txt","part-04.txt","part-05.txt","part-06.txt","part-07.txt","part-08.txt","part-09.txt","part-10.txt","part-11.txt","part-12.txt","part-13.txt","part-14.txt","part-15.txt","part-16.txt","part-17.txt","part-18.txt","part-19.txt","part-20.txt","part-21.txt","part-22.txt","part-23.txt","part-24.txt"];let h='';for(const f of parts){const r=await fetch(f,{cache:'no-store'});if(!r.ok)throw new Error('Missing '+f);h+=await r.text();}h=h.replace('</body>',`<style>
+.page{position:relative}
+#liveLinkPanel,#liveQrPanel{position:absolute;z-index:20;background:#fbf4d2;display:flex;align-items:center;justify-content:center;box-sizing:border-box}
+#liveLinkPanel{left:8.35%;top:69.35%;width:45.6%;height:10.95%;flex-direction:column;text-align:center;padding:1.4%}
+#liveLinkPanel a{color:#244f7c;text-decoration:underline;font-weight:bold;font-size:clamp(8px,1.25vw,18px);line-height:1.15;word-break:break-word}
+#liveLinkPanel .small{color:#9b221e;font-weight:bold;font-size:clamp(8px,1vw,15px);margin-top:4px}
+#liveQrPanel{left:57.65%;top:69.35%;width:34.1%;height:10.95%}
+#liveQrPanel img{width:auto;height:92%;max-width:92%;object-fit:contain;background:white}
+</style>
+<script>
+(function(){
+const url='https://bm-creations-public.vercel.app/reginald-wriggles-problem/';
+const page=document.querySelector('.page');
+if(!page)return;
+const a=document.createElement('div');a.id='liveLinkPanel';
+a.innerHTML='<a href="'+url+'" target="_blank" rel="noopener">OPEN LIVE FLIPBOOK<br>'+url+'</a><div class="small">B.M. CREATIONS</div>';
+const q=document.createElement('div');q.id='liveQrPanel';
+q.innerHTML='<img alt="QR code to open Reginald Wriggles Problem" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAUgAAAFIAQAAAAAab1qeAAACaElEQVR4nO2a0W7rMAxDDy/y/7/MPVBy/LKLdFiXuLCLFilCwLIgmRJtmYvj31XgRm7kryEPUJ6MLMCg/GCmt6us6HZ/YgAhlxuxQM633y6zogcgJUFcWQ+SEdb09gF2Loa0pCnFk/Z/NvvHId3xmSyXfbr2/bN/CPIAOgwNyDJYwh2eft/sn4fEndP+5tOwVVZ0L1LnFilIngNTeL5z9s9DqhyI4kBV0td2Crgq0VVWdD9SCpUbqUtPipZs1d/77VwEaVtIoyPKsGQTT3vX85eHHUpy9UIGYztvzqfNR5eRwlinN1MuFSF1uj/AzkWQ8ZzLqST3Q0pjB9h8dHHolEDcshIeClOGtfWl68joSkNkspGa3BO38o7PiyOyXAflED+Rz7BN4K6yogcgSwSJ/pkqqaVlW1XYP8DOZZDZLFWlffwnz8XoM+xcApnUtrr0xN1qqsolP8LOZZDhoGrhVVXSoPrqkR5g5wrIYxCR8NS49zFSyvv77VwIWbRejityNxFCJCFr758XxwFWVPlTo3Op9Hl+hJ2rII/wkUqkc2IRujuqPWDvny8gVYKIXZlelZJKp0+Ff7+dKyCjyg1hydBNpidVeZ8fvYZ0acY6a0+qGNXm95eRrpwPz5fiqVO52/l+GXk0jWevjObJHKMU1a+yotv92eeYrrLJdIpHGQHQ1j+vjel+XUSltJuyPBS8hOgqK7rfn+02a/wOla7v2+34/BFyXLDr4ikK6OajHyGNQ+kaF0fiVP3F7B+BnO/XVYcJJSbXSUcVpaus6H5/dsMegu/TeDVP7fP3F5DT/bobZt/Ijfz/+AJcLktfW6rRmwAAAABJRU5ErkJggg==">';
+page.appendChild(a);page.appendChild(q);
+function sync(){const c=document.getElementById('count');const show=c&&/^1\s*\//.test(c.textContent);a.style.display=show?'flex':'none';q.style.display=show?'flex':'none'}
+document.getElementById('prev')?.addEventListener('click',()=>setTimeout(sync,0));
+document.getElementById('next')?.addEventListener('click',()=>setTimeout(sync,0));
+document.addEventListener('keydown',()=>setTimeout(sync,0));sync();
+})();
+</script> </body>`);document.open();document.write(h);document.close();})().catch(e=>{document.getElementById('m').textContent='Unable to open flipbook: '+e.message;});</script></body></html>

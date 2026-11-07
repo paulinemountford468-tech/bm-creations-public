@@ -1,0 +1,56 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Albert &amp; Bertie — Nesty | A4 Turnable Flipbook</title><style>
+:root{font-family:Arial,Helvetica,sans-serif;color:#ecf5ff;background:#122b42}*{box-sizing:border-box}body{margin:0;min-height:100vh;background:linear-gradient(140deg,#0e2741,#2c5474);display:flex;align-items:center;justify-content:center}.site{width:100%;padding:20px 14px;text-align:center}h1{font-size:clamp(18px,3vw,25px);margin:0 0 4px;color:#fff}header p{font-size:13px;opacity:.85;margin:0 0 14px}.stage{perspective:1700px;position:relative;width:min(90vw, min(62vh * 0.707, 570px));aspect-ratio:210/297;margin:0 auto;filter:drop-shadow(0 14px 19px rgba(0,0,0,.48))}.book{position:relative;width:100%;height:100%;background:#f7f7f4;border-radius:2px 8px 8px 2px;box-shadow:inset 10px 0 15px rgba(0,0,0,.15),5px 4px 0 #ced5dc,7px 6px 0 #8a9aab;transform-style:preserve-3d}.paper,.flipface{position:absolute;inset:0;display:flex;justify-content:center;align-items:center;background:#fff;overflow:hidden;border-radius:2px 7px 7px 2px}.paper img,.flipface img{max-height:100%;max-width:100%;width:100%;height:100%;object-fit:contain;display:block}.flip{position:absolute;inset:0;z-index:3;display:none;pointer-events:none;transform-origin:left center;backface-visibility:hidden;box-shadow:8px 1px 14px rgba(0,0,0,.26)}
+.flipface{position:absolute;inset:0;backface-visibility:hidden}.flipface.back{display:none;transform:none}
+.flip.forward{display:block;animation:turnforward .54s ease-in forwards}
+.flip.backward{display:block;transform-origin:right center;animation:turnback .54s ease-in forwards}
+@keyframes turnforward{0%{transform:scaleX(1);opacity:1}80%{opacity:1}100%{transform:scaleX(.001);opacity:0}}
+@keyframes turnback{0%{transform:scaleX(1);opacity:1}80%{opacity:1}100%{transform:scaleX(.001);opacity:0}}
+.panel{display:flex;gap:12px;justify-content:center;align-items:center;margin:17px auto 0;flex-wrap:wrap}button{font-size:16px;font-weight:bold;min-width:125px;padding:12px 16px;border:2px solid #dae5f0;background:#fff;color:#17334c;border-radius:9px;cursor:pointer}button:hover:not(:disabled){background:#e3effd}button:disabled{opacity:.35;cursor:not-allowed}.count{font-weight:700;min-width:150px}.hint{font-size:12px;opacity:.82;margin-top:14px}@media(max-height:710px){.stage{width:min(83vw, min(58vh * .707, 500px))}.site{padding:9px}header p{margin-bottom:8px}.panel{margin-top:10px}}@media(prefers-reduced-motion:reduce){.flip.forward,.flip.backward{animation-duration:.01s}}
+</style><style>
+#archive-cover{position:fixed;inset:0;z-index:99;overflow:auto;background:linear-gradient(145deg,#102c49,#336280);display:flex;justify-content:center;align-items:flex-start;padding:18px;color:#152c3f}
+#archive-cover .archive-sheet{width:min(95vw,580px);min-height:min(94vh,810px);background:linear-gradient(#faf9ef,#e6eff4);border:8px solid #fefdf4;box-shadow:0 14px 50px #0008;display:flex;flex-direction:column;text-align:center;padding:24px 23px 26px;gap:14px}
+#archive-cover .brand{font-family:Georgia,serif;letter-spacing:.12em;font-weight:bold;color:#17436a;font-size:clamp(21px,3vw,30px)}
+#archive-cover .archive-id{border-top:2px solid #a1b7c9;border-bottom:2px solid #a1b7c9;padding:10px 0;font-weight:900;font-size:clamp(18px,2.8vw,27px);color:#153d62}
+#archive-cover .story-title{font-size:clamp(32px,5vw,47px);font-weight:900;line-height:1.1;color:#175080;margin-top:4px}
+#archive-cover .story-sub{font-size:19px;font-weight:700;color:#56748a}
+#archive-cover .story-summary{font-size:15px;line-height:1.4;margin:0}
+#archive-cover .cover-panels{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:auto}
+#archive-cover .cover-panel{border:2px solid #94aebe;border-radius:9px;padding:12px 9px;background:#fff;min-width:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:9px}
+#archive-cover .cover-panel strong{font-size:15px;color:#153d62}
+#archive-cover .qr{width:min(100%,175px);aspect-ratio:1}
+#archive-cover .emaillink{font-size:13px;font-weight:bold;overflow-wrap:anywhere;color:#0e5a9b;text-decoration:underline}
+#archive-cover .start{background:#174d7c;color:white;border:0;font-size:17px;width:100%;padding:13px 16px;border-radius:9px;cursor:pointer}
+#archive-cover .notice{font-size:11px;color:#557084}
+@media(max-width:420px){#archive-cover .archive-sheet{padding:17px 12px;gap:10px}#archive-cover .cover-panels{gap:7px}#archive-cover .cover-panel{padding:8px 5px}.emaillink{font-size:11px!important}}
+</style></head><body><section id="archive-cover" aria-label="BM Creations archive introductory cover"><div class="archive-sheet">
+<div class="brand">B.M. CREATIONS</div>
+<div class="archive-id">PUBLIC ARCHIVE — PAGE 38</div>
+<div class="story-title">ALBERT &amp; BERTIE</div>
+<div class="story-sub">NESTY</div>
+<p class="story-summary">A magical Albert the Caterpillar and Bertie Bee story, presented in the approved A4 portrait flipbook format.</p>
+<div class="cover-panels"><div class="cover-panel"><strong>PUBLIC QR CODE</strong><img class="qr" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAcIAAAHCAQAAAABUY/ToAAADmklEQVR4nO2cTY6jSBBGXwxItUykPkAfBW5W6iPNDeAofYCSYFlSom8WmQGYcm9a9tguRSwsG3iClEKRX/wYE39n0z9/CUKQQQYZZJBBBhnk85FWrcWs858Dq9kAMHWrweJXDQ9+2iCfi0SSRC9JmhvRKyPNjST/BkmiL8f84vG11hnk/cnFtpjTiOnnp8HSwtQBsBoAZtbe7p5Bfg+yPf0WrG3J96ehyUb6sHpiudU9g/zeZI00Swv9vJpGGmlc3mTD3e4Z5GuTZz2kEZBmoC8nMkAj10ihh4K8Tk5mVlKy97mRDTQqwYjlTfQz2MBa0rLHP22QT0WWOHS2MUl+NgPpyiWvtc4g703aFmRsAGAxq+5TIpIZUwc2LFEfCvJsNaoAkHI92EsCXB6NSSoa6UC81jqDvB9ZNXUJN4A7TabK6ZShn+uJWm0MHwryK1mq05I8GDVispZSnR7xYjVLaOog/0Su5olYLQ35hgY2pE+z999mtfXx+KcN8onIWqeerJH146dB+miBRsbyI2vqPlpNBpCEkT4jDgV5jSwCiOVN3iVbDUrfvin7m35tBexHP22Qz0V6nXqujrRn9OXbqYA90kR9KMiTeV5WHaSo6zFJ1V9maobWz03xtcjLgrw0L0znszd5VaimZNK8VYrCh4I8WnWJQwq/TZ6xd199k+uj5xrkddKsA2rS5TNovTI20KgMok32Jh9Ju8U9g/wu5EFTV8UjXUakLRjNAKGpg/xiJz103NpSZh8nOvpa+FCQRzvm9pxUUJXY5aw8YQsfCvIaOf2U7H0b9pi6OvGxd+ttAGyIGmOQX2zfy7y/6pvX6KMgdadztRRxKMhLO+kcLyU2OjjSdqyWrcOHgjzaYeJjGxPaA49L7C0spRyaOsiTeRw6Nsg8Iu1p/VaBjNw+yC9WfUj50OGopSHlszKKOcYgr5guzd3HdfbWKttjU/hQkFfI/b0fZYhoMitjjdK8mo/BttRvD37aIJ+LvPLeD/9362EKJF20W0MPBXmNPLz3A7zG2GLDNmg9+V9cy3Uvus4gb0+e3/sBS5tVPhDW/9ti/dyhaWgykzUur19rnUH+f6RGVrMhZZisreWiXx1Ayng75Lb3DPK1SY9DSVDeMJQ+Wlg6Di8d7ucf2foZmGw7+FrrDPJ+5GECFryKWD5qHu+9Di6aZqGpg3QrcWiPOTp+CKpLZVQOpewXv9Y6gwwyyCCDDDLIIP9k/wHh+3bNKQr6sQAAAABJRU5ErkJggg==" alt="QR code for the planned public flipbook address"><small>Scan to open this story</small></div><div class="cover-panel"><strong>EMAILABLE PUBLIC LINK</strong><a class="emaillink" href="https://bm-creations-public.vercel.app/ALBERT_BERTIE_NESTY_PAGE38.html">https://bm-creations-public.vercel.app/ALBERT_BERTIE_NESTY_PAGE38.html</a><button type="button" id="copy-link" style="font-size:13px;min-width:0;padding:10px">COPY LINK</button><small>Share by email or message</small></div></div>
+<button type="button" class="start" id="open-story">OPEN THE 12-PAGE FLIPBOOK</button>
+<div class="notice">Archive cover is ready for publication. QR and public link require this HTML file to be hosted at the address shown.</div>
+</div></section><main class="site"><header><h1>ALBERT &amp; BERTIE — NESTY</h1><p>12-page A4 portrait flipbook · original story pages preserved · official Albert &amp; Bertie back cover · no mirrored pages</p></header><div class="stage" aria-label="Portrait flipbook"><div class="book"><div class="paper"><img id="page-image" alt="Front cover" /></div><div id="flip" class="flip"><div class="flipface"><img id="flip-front" alt="" /></div><div class="flipface back"><img id="flip-back" alt="" /></div></div></div></div><nav class="panel" aria-label="Page turning controls"><button id="prev" type="button">← Previous</button><span id="count" class="count" aria-live="polite"></span><button id="next" type="button">Next →</button></nav><p class="hint">Tap the buttons, use ← → arrow keys, or swipe on the book. Works offline; no hosting needed to check it.</p></main><script>
+const sources=["data:image/png;base64,", "data:image/png;base64,", "data:image/png;base64,", "data:image/png;base64,", "data:image/png;base64,", "data:image/png;base64,", "data:image/png;base64,", "data:image/png;base64,", "data:image/png;base64,", "data:image/png;base64,", "data:image/png;base64,", "data:image/png;base64,"],names=["Front cover", "Story page 1", "Story page 2", "Story page 3", "Story page 4", "Story page 5", "Story page 6", "Story page 7", "Story page 8", "Story page 9", "Story page 10", "Official Albert & Bertie back cover"];
+let index=0,busy=false;
+const visible=document.getElementById('page-image'), front=document.getElementById('flip-front'), back=document.getElementById('flip-back'),leaf=document.getElementById('flip'),count=document.getElementById('count'),prev=document.getElementById('prev'),next=document.getElementById('next');
+function update(){visible.src=sources[index];visible.alt=names[index];count.textContent=names[index]+' · '+(index+1)+' of '+sources.length;prev.disabled=busy||index===0;next.disabled=busy||index===sources.length-1;}
+function turn(dir){if(busy||index+dir<0||index+dir>=sources.length)return;busy=true;const target=index+dir;front.src=sources[index];back.src=sources[target];leaf.className='flip '+(dir>0?'forward':'backward');visible.src=sources[target];prev.disabled=true;next.disabled=true;leaf.addEventListener('animationend',()=>{index=target;leaf.className='flip';busy=false;update()},{once:true});}
+prev.onclick=()=>turn(-1);next.onclick=()=>turn(1);document.addEventListener('keydown',e=>{if(e.key==='ArrowRight')turn(1);else if(e.key==='ArrowLeft')turn(-1)});
+let startX=null;const stage=document.querySelector('.stage');stage.addEventListener('touchstart',e=>{startX=e.changedTouches[0].screenX},{passive:true});stage.addEventListener('touchend',e=>{if(startX===null)return;const delta=e.changedTouches[0].screenX-startX;if(Math.abs(delta)>35)turn(delta<0?1:-1);startX=null},{passive:true});update();
+</script><script>
+(function(){let overlay=document.getElementById('archive-cover');document.getElementById('open-story').onclick=function(){overlay.style.display='none';history.replaceState(null,'',location.pathname+'?read=1')};document.getElementById('copy-link').onclick=async function(){let u='https://bm-creations-public.vercel.app/ALBERT_BERTIE_NESTY_PAGE38.html';try{await navigator.clipboard.writeText(u);this.textContent='COPIED'}catch(e){this.textContent='SELECT THE LINK ABOVE'}};if(new URLSearchParams(location.search).has('read'))overlay.style.display='none';})();
+</script><script>
+(async function(){
+const root='assets/page38/';
+try{
+const paths=Array.from({length:11},(_,i)=>root+String(i+1).padStart(2,'0')+'.txt');
+const last=Array.from({length:12},(_,i)=>root+'back_'+String(i+1).padStart(2,'0')+'.txt');
+const all=await Promise.all([...paths,...last].map(async p=>{const r=await fetch(p);if(!r.ok)throw Error(p+' '+r.status);return(await r.text()).trim()}));
+for(let i=0;i<11;i++)sources[i]='data:image/png;base64,'+all[i];
+sources[11]='data:image/png;base64,'+all.slice(11).join('');
+update();
+}catch(e){document.getElementById('count').textContent='Could not load artwork';console.error(e);}
+})();
+</script></body></html>

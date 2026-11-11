@@ -1,0 +1,214 @@
+<!doctype html>
+<html><head>
+<base href="https://animated-crisp-dd1078.netlify.app/">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+<meta http-equiv="Cache-Control" content="no-store, no-cache, must-revalidate, max-age=0">
+<title>The Life of Brian — Mobile Stable</title>
+<style>
+*{box-sizing:border-box} html,body{margin:0;height:100%;background:#111;color:white;font-family:Arial,sans-serif;overflow:hidden}
+#app{height:100%;display:grid;grid-template-rows:auto 1fr auto}
+header{display:flex;gap:8px;padding:8px;background:#071a38;border-bottom:2px solid #d7a72e;justify-content:center;align-items:center;flex-wrap:wrap}
+button{font:inherit;font-weight:700;padding:10px 14px;border:1px solid #d7a72e;border-radius:8px;background:#fff;color:#111;touch-action:manipulation}
+button:disabled{opacity:.45}
+main{min-height:0;display:flex;align-items:center;justify-content:center;padding:5px;background:#222}
+#page{display:block;max-width:100%;max-height:100%;width:auto;height:auto;object-fit:contain;background:white}
+footer{padding:9px;text-align:center;background:#071a38;border-top:2px solid #d7a72e;font-weight:700;min-height:42px}
+</style></head><body><div id="app">
+<header><a id="main-entrance" href="https://bm-creations-public.vercel.app/BM_MAIN_ENTRANCE_39_WITH_ANEWAIRA.html" style="display:inline-block;font:inherit;font-weight:700;padding:10px 14px;border:1px solid #d7a72e;border-radius:8px;background:#d7a72e;color:#071a38;text-decoration:none">BACK TO MAIN ENTRANCE</a><button id="cover">COVER</button><button id="prev">◀ PREVIOUS</button><button id="next">NEXT ▶</button></header>
+<main><img id="page" alt=""></main><footer id="status">Loading…</footer>
+</div><script>
+const pages=[{label:'Front Cover',src:'images/mobile_20261005_001.jpg'},
+{label:'Page 1',src:'images/mobile_20261005_002.jpg'},
+{label:'Page 2',src:'images/mobile_20261005_003.jpg'},
+{label:'Page 3',src:'images/mobile_20261005_004.jpg'},
+{label:'Page 4',src:'images/mobile_20261005_005.jpg'},
+{label:'Page 5',src:'images/mobile_20261005_006.jpg'},
+{label:'Page 6',src:'images/mobile_20261005_007.jpg'},
+{label:'Page 7',src:'images/mobile_20261005_008.jpg'},
+{label:'Page 8',src:'images/mobile_20261005_009.jpg'},
+{label:'Page 9',src:'images/mobile_20261005_010.jpg'},
+{label:'Page 10',src:'images/mobile_20261005_011.jpg'},
+{label:'Page 11',src:'images/mobile_20261005_012.jpg'},
+{label:'Page 12',src:'images/mobile_20261005_013.jpg'},
+{label:'Page 13',src:'images/mobile_20261005_014.jpg'},
+{label:'Page 14',src:'images/mobile_20261005_015.jpg'},
+{label:'Page 15',src:'images/mobile_20261005_016.jpg'},
+{label:'Page 16',src:'images/mobile_20261005_017.jpg'},
+{label:'Page 17',src:'images/mobile_20261005_018.jpg'},
+{label:'Page 18',src:'images/mobile_20261005_019.jpg'},
+{label:'Page 19',src:'images/mobile_20261005_020.jpg'},
+{label:'Page 20',src:'images/mobile_20261005_021.jpg'},
+{label:'Page 21',src:'images/mobile_20261005_022.jpg'},
+{label:'Page 22',src:'images/mobile_20261005_023.jpg'},
+{label:'Page 23',src:'images/mobile_20261005_024.jpg'},
+{label:'Page 24',src:'images/mobile_20261005_025.jpg'},
+{label:'Page 25',src:'images/mobile_20261005_026.jpg'},
+{label:'Page 26',src:'images/mobile_20261005_027.jpg'},
+{label:'Page 27',src:'images/mobile_20261005_028.jpg'},
+{label:'Page 28',src:'images/mobile_20261005_029.jpg'},
+{label:'Page 29',src:'images/mobile_20261005_030.jpg'},
+{label:'Page 30',src:'images/mobile_20261005_031.jpg'},
+{label:'Page 31',src:'images/mobile_20261005_032.jpg'},
+{label:'Page 32',src:'images/mobile_20261005_033.jpg'},
+{label:'Page 33',src:'images/mobile_20261005_034.jpg'},
+{label:'Page 34',src:'images/mobile_20261005_035.jpg'},
+{label:'Page 35',src:'images/mobile_20261005_036.jpg'},
+{label:'Page 36',src:'images/mobile_20261005_037.jpg'},
+{label:'Page 37',src:'images/mobile_20261005_038.jpg'},
+{label:'Page 38',src:'images/mobile_20261005_039.jpg'},
+{label:'Page 39',src:'images/mobile_20261005_040.jpg'},
+{label:'Page 40',src:'images/mobile_20261005_041.jpg'},
+{label:'Page 41',src:'images/mobile_20261005_042.jpg'},
+{label:'Page 42',src:'images/mobile_20261005_043.jpg'},
+{label:'Page 43',src:'images/mobile_20261005_044.jpg'},
+{label:'Page 44',src:'images/mobile_20261005_045.jpg'},
+{label:'Page 45',src:'images/mobile_20261005_046.jpg'},
+{label:'Page 46',src:'images/mobile_20261005_047.jpg'},
+{label:'Page 47',src:'images/mobile_20261005_048.jpg'},
+{label:'Page 48',src:'images/mobile_20261005_049.jpg'},
+{label:'Page 49',src:'images/mobile_20261005_050.jpg'},
+{label:'Page 50',src:'images/mobile_20261005_051.jpg'},
+{label:'Page 51',src:'images/mobile_20261005_052.jpg'},
+{label:'Page 52',src:'images/mobile_20261005_053.jpg'},
+{label:'Page 53',src:'images/mobile_20261005_054.jpg'},
+{label:'Page 54',src:'images/mobile_20261005_055.jpg'},
+{label:'Page 55',src:'images/mobile_20261005_056.jpg'},
+{label:'Page 56',src:'images/mobile_20261005_057.jpg'},
+{label:'Page 57',src:'images/mobile_20261005_058.jpg'},
+{label:'Page 58',src:'images/mobile_20261005_059.jpg'},
+{label:'Page 59',src:'images/mobile_20261005_060.jpg'},
+{label:'Page 60',src:'images/mobile_20261005_061.jpg'},
+{label:'Page 61',src:'images/mobile_20261005_062.jpg'},
+{label:'Page 62',src:'images/mobile_20261005_063.jpg'},
+{label:'Page 63',src:'images/mobile_20261005_064.jpg'},
+{label:'Page 64',src:'images/mobile_20261005_065.jpg'},
+{label:'Page 65',src:'images/mobile_20261005_066.jpg'},
+{label:'Page 66',src:'images/mobile_20261005_067.jpg'},
+{label:'Page 67',src:'images/mobile_20261005_068.jpg'},
+{label:'Page 68',src:'images/mobile_20261005_069.jpg'},
+{label:'Page 69',src:'images/mobile_20261005_070.jpg'},
+{label:'Page 70',src:'images/mobile_20261005_071.jpg'},
+{label:'Page 71',src:'images/mobile_20261005_072.jpg'},
+{label:'Page 72',src:'images/mobile_20261005_073.jpg'},
+{label:'Page 73',src:'images/mobile_20261005_074.jpg'},
+{label:'Page 74',src:'images/mobile_20261005_075.jpg'},
+{label:'Page 75',src:'images/mobile_20261005_076.jpg'},
+{label:'Page 76',src:'images/mobile_20261005_077.jpg'},
+{label:'Page 77',src:'images/mobile_20261005_078.jpg'},
+{label:'Page 78',src:'images/mobile_20261005_079.jpg'},
+{label:'Page 79',src:'images/mobile_20261005_080.jpg'},
+{label:'Page 80',src:'images/mobile_20261005_081.jpg'},
+{label:'Page 81',src:'images/mobile_20261005_082.jpg'},
+{label:'Page 82',src:'images/mobile_20261005_083.jpg'},
+{label:'Page 83',src:'images/mobile_20261005_084.jpg'},
+{label:'Page 84',src:'images/mobile_20261005_085.jpg'},
+{label:'Page 85',src:'images/mobile_20261005_086.jpg'},
+{label:'Page 86',src:'images/mobile_20261005_087.jpg'},
+{label:'Page 87',src:'images/mobile_20261005_088.jpg'},
+{label:'Page 88',src:'images/mobile_20261005_089.jpg'},
+{label:'Page 89',src:'images/mobile_20261005_090.jpg'},
+{label:'Page 90',src:'images/mobile_20261005_091.jpg'},
+{label:'Page 91',src:'images/mobile_20261005_092.jpg'},
+{label:'Page 92',src:'images/mobile_20261005_093.jpg'},
+{label:'Page 93',src:'images/mobile_20261005_094.jpg'},
+{label:'Page 94',src:'images/mobile_20261005_095.jpg'},
+{label:'Page 95',src:'images/mobile_20261005_096.jpg'},
+{label:'Page 96',src:'images/mobile_20261005_097.jpg'},
+{label:'Page 97',src:'images/mobile_20261005_098.jpg'},
+{label:'Page 98',src:'images/mobile_20261005_099.jpg'},
+{label:'Page 99',src:'images/mobile_20261005_100.jpg'},
+{label:'Page 100',src:'images/mobile_20261005_101.jpg'},
+{label:'Page 101',src:'images/mobile_20261005_102.jpg'},
+{label:'Page 102',src:'images/mobile_20261005_103.jpg'},
+{label:'Page 103',src:'images/mobile_20261005_104.jpg'},
+{label:'Page 104',src:'images/mobile_20261005_105.jpg'},
+{label:'Page 105',src:'images/mobile_20261005_106.jpg'},
+{label:'Page 106',src:'images/mobile_20261005_107.jpg'},
+{label:'Page 107',src:'images/mobile_20261005_108.jpg'},
+{label:'Page 108',src:'images/mobile_20261005_109.jpg'},
+{label:'Page 109',src:'images/mobile_20261005_110.jpg'},
+{label:'Page 110',src:'images/mobile_20261005_111.jpg'},
+{label:'Page 111',src:'images/mobile_20261005_112.jpg'},
+{label:'Page 112',src:'images/mobile_20261005_113.jpg'},
+{label:'Page 113',src:'images/mobile_20261005_114.jpg'},
+{label:'Page 114',src:'images/mobile_20261005_115.jpg'},
+{label:'Page 115',src:'images/mobile_20261005_116.jpg'},
+{label:'Page 116',src:'images/mobile_20261005_117.jpg'},
+{label:'Page 117',src:'images/mobile_20261005_118.jpg'},
+{label:'Page 118',src:'images/mobile_20261005_119.jpg'},
+{label:'Page 119',src:'images/mobile_20261005_120.jpg'},
+{label:'Page 120',src:'images/mobile_20261005_121.jpg'},
+{label:'Page 121',src:'images/mobile_20261005_122.jpg'},
+{label:'Page 122',src:'images/mobile_20261005_123.jpg'},
+{label:'Page 123',src:'images/mobile_20261005_124.jpg'},
+{label:'Page 124',src:'images/mobile_20261005_125.jpg'},
+{label:'Page 125',src:'images/mobile_20261005_126.jpg'},
+{label:'Page 126',src:'images/mobile_20261005_127.jpg'},
+{label:'Page 127',src:'images/mobile_20261005_128.jpg'},
+{label:'Page 128',src:'images/mobile_20261005_129.jpg'},
+{label:'Page 129',src:'images/mobile_20261005_130.jpg'},
+{label:'Page 130',src:'images/mobile_20261005_131.jpg'},
+{label:'Page 131',src:'images/mobile_20261005_132.jpg'},
+{label:'Page 132',src:'images/mobile_20261005_133.jpg'},
+{label:'Page 133',src:'images/mobile_20261005_134.jpg'},
+{label:'Page 134',src:'images/mobile_20261005_135.jpg'},
+{label:'Page 135',src:'images/mobile_20261005_136.jpg'},
+{label:'Page 136',src:'images/mobile_20261005_137.jpg'},
+{label:'Page 137',src:'images/mobile_20261005_138.jpg'},
+{label:'Page 138',src:'images/mobile_20261005_139.jpg'},
+{label:'Page 139',src:'images/mobile_20261005_140.jpg'},
+{label:'Page 140',src:'images/mobile_20261005_141.jpg'},
+{label:'Page 141',src:'images/mobile_20261005_142.jpg'},
+{label:'Page 142',src:'images/mobile_20261005_143.jpg'},
+{label:'Page 143',src:'images/mobile_20261005_144.jpg'},
+{label:'Page 144',src:'images/mobile_20261005_145.jpg'},
+{label:'Page 145',src:'images/mobile_20261005_146.jpg'},
+{label:'Page 146',src:'images/mobile_20261005_147.jpg'},
+{label:'Page 147',src:'images/mobile_20261005_148.jpg'},
+{label:'Page 148',src:'images/mobile_20261005_149.jpg'},
+{label:'Page 149',src:'images/mobile_20261005_150.jpg'},
+{label:'Page 150',src:'images/mobile_20261005_151.jpg'},
+{label:'Page 151',src:'images/mobile_20261005_152.jpg'},
+{label:'Page 152',src:'images/mobile_20261005_153.jpg'},
+{label:'Page 153',src:'images/mobile_20261005_154.jpg'},
+{label:'Page 154 — B.M. Creations Introduction',src:'images/mobile_20261005_155.jpg'},
+{label:'SECTION 1 — TV GAME SHOWS — PAGE 1',src:'images/mobile_20261005_156.jpg'},
+{label:'SECTION 1 — TV GAME SHOWS — PAGE 2',src:'images/mobile_20261005_157.jpg'},
+{label:'SECTION 2 — ART — PAGE 1',src:'images/mobile_20261005_158.jpg'},
+{label:'SECTION 2 — ART — PAGE 2',src:'images/mobile_20261005_159.jpg'},
+{label:'SECTION 3 — BOOKS AND STORYBOOKS — PAGE 1',src:'images/mobile_20261005_160.jpg'},
+{label:'SECTION 3 — BOOKS AND STORYBOOKS — PAGE 2',src:'images/mobile_20261005_161.jpg'},
+{label:'SECTION 4 — SONGS / POETRY — PAGE 1',src:'images/mobile_20261005_162.jpg'},
+{label:'SECTION 5 — CONSUMER GOODS — PAGE 1',src:'images/mobile_20261005_163.jpg'},
+{label:'SECTION 6 — COMICS / COLLECTABLES — PAGE 1',src:'images/mobile_20261005_164.jpg'},
+{label:'SECTION 7 — INVENTIONS AND CAMPAIGNS — PAGE 1',src:'images/mobile_20261005_165.jpg'},
+{label:'SECTION 8 — ANIMATION AND FLIPBOOKS — PAGE 1',src:'images/mobile_20261005_166.jpg'},
+{label:'SECTION 9 — THE ALIEHAMS ARE COMING — PAGE 1',src:'images/mobile_20261005_167.jpg'},
+{label:'SECTION 9 — THE ALIEHAMS ARE COMING — PAGE 2',src:'images/mobile_20261005_168.jpg'},
+{label:'SECTION 9 — THE ALIEHAMS ARE COMING — PAGE 3',src:'images/mobile_20261005_169.jpg'}];
+let current=0, busy=true, requestId=0;
+const img=document.getElementById('page'), status=document.getElementById('status');
+const prev=document.getElementById('prev'), next=document.getElementById('next'), cover=document.getElementById('cover');
+function controls(){prev.disabled=busy||current===0;cover.disabled=busy||current===0;next.disabled=busy||current===pages.length-1;}
+function loadPage(target){
+ target=Math.max(0,Math.min(pages.length-1,target));
+ if(busy||target===current&&img.dataset.ready==='1') return;
+ busy=true; controls();
+ const my=++requestId;
+ status.textContent='Loading '+pages[target].label+'…';
+ img.style.visibility='hidden';
+ img.onload=()=>{
+   if(my!==requestId) return;
+   current=target; img.dataset.ready='1'; img.style.visibility='visible';
+   status.textContent=pages[current].label+' • '+(current+1)+' of '+pages.length;
+   busy=false; controls();
+ };
+ img.onerror=()=>{if(my!==requestId)return; status.textContent='Could not load '+pages[target].label+' — please press again'; img.style.visibility='visible'; busy=false; controls();};
+ img.dataset.ready='0';
+ img.src=pages[target].src+'?r=20261005b';
+}
+prev.onclick=()=>loadPage(current-1); next.onclick=()=>loadPage(current+1); cover.onclick=()=>loadPage(0);
+// No swipe, animation, auto-turn, keyboard, or preloading.
+current=0; busy=false; loadPage(0);
+</script></body></html>

@@ -43,7 +43,9 @@
    const number = index + 1;
    entry.id = 'page-' + number;
    const publicLinks = Array.from(entry.querySelectorAll('a[href]')).filter(a => /^https?:/i.test(a.getAttribute('href')));
-   if (!publicLinks.length && number !== 23 && number !== 17) return;
+   if (!publicLinks.length && number !== 23 && number !== 17 && number !== 16) return;
+   if(number===16){const a=source.createElement('a');a.href='https://bm-creations-public.vercel.app/aliehams/';a.textContent='OPEN ORIGINAL THREE-PAGE FLIPBOOK';entry.querySelector('.desc').appendChild(a);publicLinks.push(a);entry.querySelectorAll('.status').forEach(p=>p.textContent='Original three Aliehams pages recovered from the extended Life of Brian archive');entry.querySelectorAll('.qr.blank').forEach(p=>p.remove());}
+   archiveQRs[16]="iVBORw0KGgoAAAANSUhEUgAAAcIAAAHCAQAAAABUY/ToAAADuUlEQVR4nO2cUYrrOBBFzx0b8ulALyBLkXcwS3rMknoH9lKyA/szYHPnQ1IcJ8MMPDp00lP10ThtHyxBUaq6JVnm92z84zdBCDLIIIMMMsggg3w9UsVaYG5hPK75p3pA/dwCc32q/+bRBvmSZLJtT8B4uig7TfJF/kstwCqgsW17T37HaIN8SXIu8UU9QPICzC3qu4s8dEu+UULVF70zyB9KpqkxzAczHsE+Hyzp8CgBvMRog3xFcjyu8gDYE2xx6JnvDPJHkJ3tIV82Vg+op0Qk9bMEgO3lnvz9dwb5o8hRknQE0rl9eCivb6y5LPuqdwb5Q8jsMLfZTrfg8djkK+guAlZ5/9S7zTPI55Hkcj1NQKneF7IjOUefxlt6xLXA9/Be8wzyeSTFJSaAzi7rVg5BvrqUTfKS86HwoSD/gZROtoe5xcNVTxwA6djYnlaVer9q1+85zyCfR9Y4tJATawD9Ord4mFtKr6O7iBQ6dZAPVtoXXfENDzkENfbQ2bukqCnuk2ItC/LGSiGfPtsFugld7wgEdBcZQMmrDGvr7xttkK9I3uTUJeZUTdpDVwJULckg3404FOQjqR6QTgswH2p7fpY8zDvJsWgAX/HOIH8K+RCH0gS5QZbDTW2C5HwoTaEPBXlvVWNsqgI0FR+q6TSUjLsLfSjIfyVXMeqQXUW/JlDPquIvs1Q7snWL0bvOM8gvJ2sc2kToCbaYQ25uTJSrISvWEYeCvLHb7a3s8qFt8Rrgtn0Wa1mQO6s5dWm31qsSm3KAuok+ncOHgryzqlPXvWXp2sbPNVhNrLdFLtayIPe2xaHaqLdLXVZrsHLqw0v1sPChIG+tOk2Vo7cCf79/qJT/oQ8FeW9ZhRa0C3RLa+YPi25plYYF16Nli3LnbP7W0Qb5iuSutr8mQGl/NXDVHR35UJB3du2GNWb886K6hXFB6RM8nhaUvLb5EDVct1W/1zyDfB559aG1NeVYff5HcZ+z8KjGAlD6/LDS8F2jDfIVyVqXVcsa490ukLyq2bvS7b3mGeSzye27H6Utlk8ENTcbHPNals7x3Y8g7+1WAdpEolrWs33tI3lr3kccCvKRrN/9IE2gvtvaHBcxSuVPOh/ySep3nWeQX08+HIweBWY+YuaPRdBCmj4WQbNoPMV5+yD/m2wsnRaU9w9NjaXTRaWDP8d5+yDvrMahzsBcxZ80rJgZlE+VfbaIbkLJ1KMf7zXPIJ9HPuwfYkuF2Kr8WvkDoVMHuTfFN86DDDLIIIMMMsj/Ofk3I4oa5cko844AAAAASUVORK5CYII=";
    if(number===17){const a=source.createElement('a');a.href='https://bm-creations-public.vercel.app/boarno-collection/';a.textContent='OPEN BOARNO COMIC COLLECTION';entry.appendChild(a);publicLinks.push(a);entry.querySelectorAll('.status').forEach(p=>p.textContent='Original BOARNO comics recovered');entry.querySelectorAll('.qr.blank').forEach(p=>p.remove());}
    if (number === 23) {
     const a=source.createElement('a'); a.href='https://paulinemountford468-tech.github.io/SNOWBRITE-AND-THE-ICE-KINGDOM/'; a.textContent='OPEN PUBLIC FLIPBOOK'; entry.appendChild(a); publicLinks.push(a);
@@ -60,6 +62,7 @@
   const walker = source.createTreeWalker(source.body, NodeFilter.SHOW_TEXT);
   let node; while (node = walker.nextNode()) { node.textContent = node.textContent.replace(/37 Archive Items/gi, '39 Archive Items').replace(/37 archive entries/gi, '39 archive entries').replace(/37 items/gi, '39 items').replace(/Browse 37 approved/gi, 'Browse 39 approved'); }
   document.replaceChild(document.importNode(source.documentElement, true), document.documentElement);
+ if(location.hash){document.getElementById(location.hash.slice(1))?.scrollIntoView();}
  } catch (error) {
   host.firstElementChild.textContent = 'The complete archive could not load. Please reload this page.';
  }

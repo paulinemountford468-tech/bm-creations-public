@@ -18,7 +18,12 @@
     const response = await fetch('BM_MAIN_ENTRANCE_37_PAGE37_LINK_QR_FIXED.html');
     if (!response.ok) throw new Error('Archive could not load');
     const source = new DOMParser().parseFromString(await response.text(), 'text/html');
-    source.head.querySelectorAll('style,link[rel="stylesheet"]').forEach(node => document.head.appendChild(document.importNode(node, true)));
+    source.head.querySelectorAll('style').forEach(node => {
+      const style = document.createElement('style');
+      style.textContent = '@scope (#complete-archive) {' + node.textContent.replace(/\\bbody\\b/g, ':scope').replace(/:root/g, ':scope') + '}';
+      document.head.appendChild(style);
+    });
+    const preservedLinks = Array.from(document.querySelectorAll('.top a'), link => [link, link.getAttribute('href')]);
     host.replaceChildren(...Array.from(source.body.childNodes, node => document.importNode(node, true)));
     host.querySelectorAll('script').forEach(old => {
       const script = document.createElement('script');
@@ -26,6 +31,7 @@
       script.textContent = old.textContent;
       old.replaceWith(script);
     });
+    preservedLinks.forEach(([link, href]) => link.setAttribute('href', href));
   } catch (error) {
     host.firstElementChild.textContent = 'Open the complete archive using the link below.';
   }

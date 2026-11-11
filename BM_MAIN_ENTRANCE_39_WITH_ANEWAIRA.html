@@ -7,6 +7,29 @@
 <header class="top"><div class="brand">B.M. CREATIONS — PUBLIC ARCHIVE</div><p class="sub">MAIN ENTRANCE · ORIGINAL ARCHIVE RETAINED · NEW ARCHIVE PAGE 39</p>
 <section class="feature" aria-label="ANEWAIRA archive entry" style="margin-bottom:16px"><div><div class="number">ARCHIVE PAGE 39</div><h2>ANEWAIRA</h2><p>Invention and Investment Portfolio · Laboratory demonstration video</p><a href="mailto:?subject=ANEWAIRA%20Investment%20Portfolio&amp;body=https%3A%2F%2Fbm-creations-public.vercel.app%2Fanewaira%2F">EMAIL PUBLIC LINK</a></div><div><a href="anewaira/">OPEN ANEWAIRA PORTFOLIO</a><br><img alt="QR code to ANEWAIRA portfolio" style="width:110px;height:110px;margin-top:10px" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAZoAAAGaAQAAAAAefbjOAAADI0lEQVR4nO2cQWrjQBBFX40EXrYgB5ijSFebI+UG0lFygAH1MtDiz6K7ZTkJDMZBduTSwgmOHq7GRXX9X62YuPqafl3PgEMOOeSQQw45dEzIytUCLMbUgVm3mA0sBrHeMNwlPIf2h3pJ0gxMdhJEM400Yuoa2UAjSdIltF94Du0HteVn7KB/BSPM9YU2QbR8g0GTdg/PoftD/VsL/ZsZvd6Nfm4+69OftiaHrrjar94UpFbEFzF1mIjf8EkO/SwoSBqB3FQOscUGwAZKjZCUPkL7hefQ3tBkZmYd0M8ANQ/oZ7CBJUuNe4Xn0N67xrZVCO8m4pL3Ck1dA4TLXuLB1+TQLRBZVa6VQeO6fxAkaW6KLKVKUI0PviaHboEo3/LMxpSQ5kb0SmgMifzeSKN8i2fEkaGaEUq1hQiJnAwlLaSSDHO92TPiyNCaESobhjbJUGoEbASHZ8TBoU1GnGtE3Uma/JLrxvkPnhHHh7LwJEgQT7IhmtkQEma/3016a9EI2HCX8BzaX2t82Bdyeci7RpEepeX0GvFUUJDKDDwkbABsiKsvtbpWP2pNDl17lRqxiszcWeZGM1EmXVl/yNXn00ClSQhSPjYzWQvEFqZuKX3EH2svof3Cc+huNaIR/dyU8pCnX1WRuh/xXFA/N7IhvBuwGNnPjmY25EJBHYreJzyHdvcjRtiY1dXUru7lGKQy5vAacXToYtc4+9nVuKxzjTIC887y+FCdfa4uxFj9SYrcrM7ERoQ8+Joc+g6ompT1nGVbN5GQKKrDTu5HPAG01oiqJrJJGapdqfXkbX+eiD34mhy6BdrOPoufvZ6PmNn4Utmr8j7i8FB2napR3STB0lIlaDJiB8SXBCymvcNzaHfoY2dZ5Cbnw9elMpx/8xrxFFBcH+qMpzoKjW3pLCczywJ1vFN4Du0GffkEj+VdIwjr56WFMGP9q0E/7hueQ7tDX2TEYuWLZ2k1dX8R0dDU+XOfzwDVjAgCIpyf6LP+tcPgJKahSbaBHnxNDt0CcdacUI9c17FnOTNRjQr3LJ8Bss9Pfv/38v9M5pBDDjnkkEMOAfwDOgicFLMvg7gAAAAASUVORK5CYII="></div></section><section class="feature" aria-label="New archive entry"><div><div class="number">ARCHIVE PAGE 38</div><h2>ALBERT &amp; BERTIE — NESTY</h2><p>12-page A4 portrait flipbook · Official Albert &amp; Bertie back cover</p></div><a href="ALBERT_BERTIE_NESTY_PAGE38.html">OPEN PAGE 38 FLIPBOOK</a></section></header>
 <div class="archive-heading">EXISTING BM CREATIONS MAIN ENTRANCE — ALL EARLIER PAGES PRESERVED</div>
-<iframe class="frame" title="Existing BM Creations main entrance" src="BM_MAIN_ENTRANCE_37_PAGE37_LINK_QR_FIXED.html"></iframe>
+<main id="complete-archive" aria-label="Complete BM Creations archive">
+<p style="text-align:center">Loading the complete Main Entrance…</p>
+<p style="text-align:center"><a style="color:#e8cc85" href="BM_MAIN_ENTRANCE_37_PAGE37_LINK_QR_FIXED.html">OPEN ALL EARLIER ARCHIVE ENTRIES</a></p>
+</main>
+<script>
+(async function () {
+  const host = document.getElementById('complete-archive');
+  try {
+    const response = await fetch('BM_MAIN_ENTRANCE_37_PAGE37_LINK_QR_FIXED.html');
+    if (!response.ok) throw new Error('Archive could not load');
+    const source = new DOMParser().parseFromString(await response.text(), 'text/html');
+    source.head.querySelectorAll('style,link[rel="stylesheet"]').forEach(node => document.head.appendChild(document.importNode(node, true)));
+    host.replaceChildren(...Array.from(source.body.childNodes, node => document.importNode(node, true)));
+    host.querySelectorAll('script').forEach(old => {
+      const script = document.createElement('script');
+      Array.from(old.attributes).forEach(attr => script.setAttribute(attr.name, attr.value));
+      script.textContent = old.textContent;
+      old.replaceWith(script);
+    });
+  } catch (error) {
+    host.firstElementChild.textContent = 'Open the complete archive using the link below.';
+  }
+})();
+</script>
 <div class="small">BM Creations · The locked archive pages have not been changed.</div>
 </body></html>

@@ -15,7 +15,7 @@
 (async function () {
  const host = document.getElementById('complete-archive');
  try {
-  const response = await fetch('BM_MAIN_ENTRANCE_37_PAGE37_LINK_QR_FIXED.html');
+  const response = await fetch('BM_MAIN_ENTRANCE_37_PAGE37_LINK_QR_FIXED.html', {cache:'no-store'});
   if (!response.ok) throw new Error('Archive could not load');
   const source = new DOMParser().parseFromString(await response.text(), 'text/html');
   const archive = source.querySelector('main');
@@ -59,7 +59,7 @@
   source.title = 'BM Creations — The Main Entrance — 39 Archive Items';
   const walker = source.createTreeWalker(source.body, NodeFilter.SHOW_TEXT);
   let node; while (node = walker.nextNode()) { node.textContent = node.textContent.replace(/37 Archive Items/gi, '39 Archive Items').replace(/37 archive entries/gi, '39 archive entries').replace(/37 items/gi, '39 items').replace(/Browse 37 approved/gi, 'Browse 39 approved'); }
-  document.open(); document.write('<!doctype html>' + source.documentElement.outerHTML); document.close();
+  document.replaceChild(document.importNode(source.documentElement, true), document.documentElement);
  } catch (error) {
   host.firstElementChild.textContent = 'The complete archive could not load. Please reload this page.';
  }

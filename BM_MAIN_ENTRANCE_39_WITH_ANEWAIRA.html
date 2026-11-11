@@ -35,6 +35,19 @@
    if (qr) { const copy = source.importNode(qr, true); copy.style.width = '110px'; copy.style.height = '110px'; article.appendChild(copy); }
    archive.appendChild(article);
   });
+
+  // Keep every Life of Brian opening and sharing link on the reader with return navigation.
+  const oldBook = 'https://animated-crisp-dd1078.netlify.app/';
+  const bookUrl = 'https://bm-creations-public.vercel.app/life-of-brian/';
+  const bookEntry = Array.from(archive.querySelectorAll('article.entry'))[1];
+  bookEntry.id = 'page-2';
+  bookEntry.querySelectorAll('a[href]').forEach(link => {
+   const href = link.getAttribute('href');
+   link.setAttribute('href', href.split(oldBook).join(bookUrl).split(encodeURIComponent(oldBook)).join(encodeURIComponent(bookUrl)));
+   if (link.textContent.trim() === oldBook) link.textContent = bookUrl;
+  });
+  bookEntry.querySelectorAll('a img:not(.thumb)').forEach(image => { image.src = 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAZoAAAGaAQAAAAAefbjOAAAC/ElEQVR4nO2cS66bQBBFT6UteYilLMBLgR1kSU9ZUnYAS/EOYGip0c2gP+CX0YsTG0ExsLDhyN2iXP+yiS8fw7evM+CQQw455JBDDu0TsnycgOmEdYDZZTbrmA2mckP3luU59HqolSSNwHCZTT2zqScIprOsI0iS9Ai9bnkOvR6asgKwrpGsm86yj5EkIABkDfKm5Tn0Muj0+YP21ykK7iamC2L6Hu19y3NoC9BsizPBcL2b+v/0TQ5tECo6ohEwAcM1noAQYQoRpnPyHtaZrI3vyaF/AA1mZnYB2ttZ1gHp5WME65hTqPGu5Tn0ah2xUgDDJSAmAGbLb3nMdW98Tw49A5GiynYEIEh9IwFB0ESkkfSSrkqS+o3vyaFnoCwRNBKtIulskYi+ikVPUMpbuETsGSL/7AlFDghSDyRt0Y4hX23HevPG9+TQM9DaaiQF0BSVASQdQRYVl4gjQPkhS/XBNxHasViIbFMi2a1widg7VB5yE0l+RFsEJPuTSUCKtnA/YvdQsRql0pXyk1U2oFF2K1LU4RKxd2gVaxTZiA9PvzqaGj36PAK08iOSmUgWgnWskU1H1SUuEXuGcl1j6IKMJp40XAUQIu3NAGYT0wkNFuLLl+fQy6GiI8byPoUZYz5brIbnIw4C1XxEKCFokxOXS0RazvBY4wBQ8Sz5lJp8LGk0a+fTJWLXUI0+q2ao2qJVzUuNpQTmOmL30NpqrCLNEnhCqm/FojdcIvYOrSRinZdK9iPoofbpnuURoNpVdzdSq205NFzvpvZ2lgFYq7ncvPE9OfQMVDNUNWdZUpP5evEeVtUv1xH7h5aZLv1cJrlSzjK3ZkOa6nnH8hx6W6VrSU6VmteiI/AeqkNADx0zY6h9MkvNK6zsh3uWB4RaRezjZqafdsJW9uPmk8BHgP6Y8huMNMZjrfKZmAwNF690HQH6PNOl4ceIAZS5z7OA8DD8ufE9OfQMVOsawNJg26fG/FoUXfr03Y/YO2T+z2QOOeSQQw455NBfQr8BtYfH0c8WISMAAAAASUVORK5CYII='; image.alt = 'QR code for The Life of Brian with Main Entrance return'; });
+
   source.title = 'BM Creations — The Main Entrance — 39 Archive Items';
   const walker = source.createTreeWalker(source.body, NodeFilter.SHOW_TEXT);
   let node; while (node = walker.nextNode()) { node.textContent = node.textContent.replace(/37 Archive Items/gi, '39 Archive Items').replace(/37 archive entries/gi, '39 archive entries').replace(/37 items/gi, '39 items'); }

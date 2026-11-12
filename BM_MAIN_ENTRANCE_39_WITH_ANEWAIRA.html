@@ -62,7 +62,7 @@
     email.textContent='EMAIL PUBLIC FLIPBOOK LINK';
     entry.querySelectorAll('.status').forEach(note=>{if(/still to recover/.test(note.textContent))note.textContent='Public flipbook and QR code confirmed by owner';});
    }
-   const readerUrl = 'https://bm-creations-public.vercel.app/archive-reader.html?entry=' + number;
+   const readerUrl = number===9 ? 'https://bm-creations-public.vercel.app/walter-splash-golden-smile/' : 'https://bm-creations-public.vercel.app/archive-reader.html?entry=' + number;
    publicLinks.forEach(a => { const old=a.getAttribute('href'); if(a.textContent.trim()===old) a.textContent=readerUrl; a.href=readerUrl; a.removeAttribute('target'); });
    if(!entry.querySelector('a[href^="mailto:?"]')){const a=source.createElement('a');a.href='mailto:?subject=BM%20Creations%20Archive%20'+number+'&body='+encodeURIComponent(readerUrl);a.textContent='EMAIL PUBLIC LINK';entry.appendChild(a);}
    if(archiveQRs[number] && !Array.from(entry.querySelectorAll('img')).some(i=>/QR/i.test(i.alt))){const i=source.createElement('img');i.alt='QR code for archive '+number;i.style.width='110px';i.style.height='110px';entry.appendChild(i);}

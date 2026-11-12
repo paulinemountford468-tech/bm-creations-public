@@ -49,7 +49,14 @@
    if(number===17){const a=source.createElement('a');a.href='https://bm-creations-public.vercel.app/boarno-collection/';a.textContent='OPEN BOARNO COMIC COLLECTION';entry.appendChild(a);publicLinks.push(a);entry.querySelectorAll('.status').forEach(p=>p.textContent='Original BOARNO comics recovered');entry.querySelectorAll('.qr.blank').forEach(p=>p.remove());}
    if (number === 23) {
     const a=source.createElement('a'); a.href='https://paulinemountford468-tech.github.io/SNOWBRITE-AND-THE-ICE-KINGDOM/'; a.textContent='OPEN PUBLIC FLIPBOOK'; entry.appendChild(a); publicLinks.push(a);
-    entry.querySelectorAll('p').forEach(p=>{if(/still to recover/.test(p.textContent))p.textContent='Original Snowbrite flipbook recovered';});
+    entry.querySelectorAll('.qr.blank').forEach(square=>square.remove());
+    const description=entry.querySelector('.desc') || entry;
+    description.appendChild(a);
+    let email=entry.querySelector('a[href^="mailto:?"]');
+    if(!email){email=source.createElement('a');description.appendChild(email);}
+    email.href='mailto:?subject='+encodeURIComponent('BM Creations Archive 23 — SNOWBRITE AND THE ICE KINGDOM')+'&body='+encodeURIComponent('View SNOWBRITE AND THE ICE KINGDOM:\nhttps://bm-creations-public.vercel.app/archive-reader.html?entry=23');
+    email.textContent='EMAIL PUBLIC FLIPBOOK LINK';
+    entry.querySelectorAll('.status').forEach(note=>{if(/still to recover/.test(note.textContent))note.textContent='Public flipbook and QR code confirmed by owner';});
    }
    const readerUrl = 'https://bm-creations-public.vercel.app/archive-reader.html?entry=' + number;
    publicLinks.forEach(a => { const old=a.getAttribute('href'); if(a.textContent.trim()===old) a.textContent=readerUrl; a.href=readerUrl; a.removeAttribute('target'); });

@@ -1,5 +1,5 @@
 {
-  "status": "Recovered edition; originals 1 and 8 not yet recovered",
+  "status": "Complete: cover, original story pages 1\u201318, back cover",
   "pages": [
     {
       "label": "Front cover",
@@ -8,97 +8,109 @@
       "sha256": "af443803799f11bafe0a756122022770d801e2a0a3824d41550dc4c751f39abb"
     },
     {
-      "label": "Original page 2",
+      "label": "Page 1",
+      "file": "page-01.jpg",
+      "source": "upload/03-1-UU.png",
+      "sha256": "24937fe38294ccfdd2405637f7384070c940e390eb856b7a87400951df4cad03"
+    },
+    {
+      "label": "Page 2",
       "file": "01.jpg",
       "source": "golden_recovery/Walter_Splash_THIS_CHAT_Images_Part_4/023_a_bright_colorful_children_s_comic_book_page_und.png",
       "sha256": "b26aae94224751fb6d02b0b924bbba97f9f508ff1d4ba37d9477a0547b9c8b7b"
     },
     {
-      "label": "Original page 3",
+      "label": "Page 3",
       "file": "02.jpg",
       "source": "golden_recovery/Walter_Splash_THIS_CHAT_Images_Part_1/024_a_colorful_highly_detailed_children_s_comic_book.png",
       "sha256": "ad3755a1f4a9ddfabdb282c8da8ca55aad7de1fbc9eb0295ecd81c738b0e796e"
     },
     {
-      "label": "Original page 4",
+      "label": "Page 4",
       "file": "03.jpg",
       "source": "golden_recovery/Walter_Splash_THIS_CHAT_Images_Part_4/021_a_colorful_high_detail_cartoon_fantasy_infograph.png",
       "sha256": "2d80afcec7e666adba4fb219071fda8cfedde098732b9fbf58520d02ea59dd74"
     },
     {
-      "label": "Original page 5",
+      "label": "Page 5",
       "file": "04.jpg",
       "source": "golden_recovery/Walter_Splash_THIS_CHAT_Images_Part_3/022_a_colorful_high_detail_comic_book_style_page_illu.png",
       "sha256": "781d020eff379ca230009030f05dbf9c7ccd04139ffab292ddbfe755762f37c9"
     },
     {
-      "label": "Original page 6",
+      "label": "Page 6",
       "file": "05.jpg",
       "source": "golden_recovery/Walter_Splash_THIS_CHAT_Images_Part_4/022_a_vibrant_colorful_comic_illustration_page_under.png",
       "sha256": "1583e69ca7f6ebe73219cca1094515cb91c4fdc9b11ebab4486c39352a75e415"
     },
     {
-      "label": "Original page 7",
+      "label": "Page 7",
       "file": "06.jpg",
       "source": "golden_recovery/Walter_Splash_THIS_CHAT_Images_Part_3/021_a_vibrant_highly_detailed_colorful_children_s_sto.png",
       "sha256": "700167e4691dae656f150ed1df229e9dbd2186a1819c5b79b066ce507026a29e"
     },
     {
-      "label": "Original page 9",
+      "label": "Page 8",
+      "file": "page-08.jpg",
+      "source": "upload/01-8-YY.png",
+      "sha256": "2b5a59364f64b2eacc5159c2472573d5a2193af01fb8a54c728fb59259b2b9ae"
+    },
+    {
+      "label": "Page 9",
       "file": "07.jpg",
       "source": "golden_recovery/Walter_Splash_THIS_CHAT_Images_Part_1/022_a_colorful_illustrated_children_s_book_page_stor.png",
       "sha256": "52bbf4654b2b9a2a765941cf56daa302930990ccd567813e906a36414fbf8664"
     },
     {
-      "label": "Original page 10",
+      "label": "Page 10",
       "file": "08.jpg",
       "source": "golden_recovery/Walter_Splash_THIS_CHAT_Images_Part_4/020_a_bright_colorful_illustrated_children_s_book_pag.png",
       "sha256": "804a555b590f7e06b20d5f69b03b1ecadf1c2623dad50dcaf24db5b0403739fb"
     },
     {
-      "label": "Original page 11",
+      "label": "Page 11",
       "file": "09.jpg",
       "source": "golden_recovery/Walter_Splash_THIS_CHAT_Images_Part_3/020_a_bright_colorful_highly_detailed_children_s_sto.png",
       "sha256": "d8b9e74a6449ae46b294be935c89c85a345d1e33ec4a84ae2edfc442e888c3b1"
     },
     {
-      "label": "Original page 12",
+      "label": "Page 12",
       "file": "10.jpg",
       "source": "golden_recovery/Walter_Splash_THIS_CHAT_Images_Part_2/019_a_vibrant_high_detail_illustrated_children_s_book.png",
       "sha256": "cbfaeaf118609b60fa3d73d7d6434cafd488821b83d62afc3aebb6ee31c6a3f8"
     },
     {
-      "label": "Original page 13",
+      "label": "Page 13",
       "file": "11.jpg",
       "source": "golden_recovery/Walter_Splash_THIS_CHAT_Images_Part_4/019_a_bright_colorful_children_s_storybook_page_scene.png",
       "sha256": "3b74ea287034f1d821ea9ecb3fc64f97f8f5296779c596d6e2613bd7b533cee7"
     },
     {
-      "label": "Original page 14",
+      "label": "Page 14",
       "file": "12.jpg",
       "source": "golden_recovery/Walter_Splash_THIS_CHAT_Images_Part_1/019_a_colorful_illustrated_children_s_storybook_post.png",
       "sha256": "e16b1c2c54475037b426a5be406fe41c85211018a3d23df7af49de6514bff97c"
     },
     {
-      "label": "Original page 15",
+      "label": "Page 15",
       "file": "13.jpg",
       "source": "golden_recovery/Walter_Splash_THIS_CHAT_Images_Part_4/017_a_bright_colorful_illustrated_children_s_book_page.png",
       "sha256": "494e08008e798fc54fa7f476a894a971a395edc705af487683d4f21fc57e2896"
     },
     {
-      "label": "Original page 16",
+      "label": "Page 16",
       "file": "14.jpg",
       "source": "golden_recovery/Walter_Splash_THIS_CHAT_Images_Part_2/016_a_bright_colorful_children_s_storybook_education.png",
       "sha256": "f59e2c897b69d575af1de1091538652ed5a43d19072f34b880e5c8376964a30c"
     },
     {
-      "label": "Original page 17",
+      "label": "Page 17",
       "file": "15.jpg",
       "source": "golden_recovery/Walter_Splash_THIS_CHAT_Images_Part_4/016_a_vibrant_detailed_illustrated_children_s_storybo.png",
       "sha256": "2eef8bef19434cadcad2b1231fc2853411d4c9e496973ee0bc323065344a721e"
     },
     {
-      "label": "Original page 18",
+      "label": "Page 18",
       "file": "16.jpg",
       "source": "aqua_recovery/A magical transformation for Walter.png",
       "sha256": "fcf98e61e22c6c8bf89ebf39d4b186b223ab74e19875477d656f889255496d23"

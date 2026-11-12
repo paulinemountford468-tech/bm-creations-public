@@ -1,0 +1,86 @@
+[
+  {
+    "label": "Front cover",
+    "file": "00.jpg",
+    "source": "Locked wraparound front, x=810..1536",
+    "sha256": "a9d9e3dd64e55e1d93544a0c95b13d7047a3d02dfd4a947920c688e138d42f6d"
+  },
+  {
+    "label": "Page 1",
+    "file": "01.jpg",
+    "source": "golden_recovery/Walter_Splash_THIS_CHAT_Images_Part_3/044_a_bright_colorful_children_s_storybook_cartoon.png",
+    "sha256": "d70c49c1fa367228227938fd54dd621af7a32a9c1ed923f64bf426af204853ac"
+  },
+  {
+    "label": "Page 2",
+    "file": "02.jpg",
+    "source": "golden_recovery/Walter_Splash_THIS_CHAT_Images_Part_4/043_a_bright_colorful_highly_detailed_illustrated_ch.png",
+    "sha256": "ca27fbad6e9162af61edb7c1c98636150d90691d7220a817c00f9c8894fbdc22"
+  },
+  {
+    "label": "Page 3",
+    "file": "03.jpg",
+    "source": "golden_recovery/Walter_Splash_THIS_CHAT_Images_Part_2/040_a_bright_colorful_children_s_storybook_illustrati.png",
+    "sha256": "cbb8eed56689ba54b15829efac26ea57795398c3a5e81d999da8c2812ffcdea0"
+  },
+  {
+    "label": "Page 4",
+    "file": "04.jpg",
+    "source": "golden_recovery/Walter_Splash_THIS_CHAT_Images_Part_1/041_a_richly_illustrated_children_s_storybook_theme.png",
+    "sha256": "cba732108a51437a3f7e8e7afc3ad12a79530dbec1d488784dd862d00a3ffd36"
+  },
+  {
+    "label": "Page 5",
+    "file": "05.jpg",
+    "source": "golden_recovery/Walter_Splash_THIS_CHAT_Images_Part_4/040_a_vibrant_detailed_illustrated_children_s_book.png",
+    "sha256": "4303f4a207031b3c44a0849cee5a1aa39fc97feeadb664277f4a070e04b4b1cb"
+  },
+  {
+    "label": "Page 6",
+    "file": "06.jpg",
+    "source": "golden_recovery/Walter_Splash_THIS_CHAT_Images_Part_3/040_a_highly_detailed_colorful_storybook_comic_style.png",
+    "sha256": "f8b06d8097b9d474265f3bafbc307575ce49bc616a7c56d3627c98fc3cd4b5f7"
+  },
+  {
+    "label": "Page 7",
+    "file": "07.jpg",
+    "source": "golden_recovery/Walter_Splash_THIS_CHAT_Images_Part_3/039_PAGE 6 LOCKED.png",
+    "sha256": "fa0335e782e511312d312c8dfe39c89b1d8d241ef3ae7c4bbeb8ccd9b6523b45"
+  },
+  {
+    "label": "Page 8",
+    "file": "08.jpg",
+    "source": "golden_recovery/Walter_Splash_THIS_CHAT_Images_Part_1/039_a_bright_colorful_two_page_children_s_storybook_c.png \u2014 left page",
+    "sha256": "01252ccf166d6ebf9f1720c19f6c9dbeafc8705cb50fcd4811e9c8c8853badbb"
+  },
+  {
+    "label": "Page 9",
+    "file": "09.jpg",
+    "source": "golden_recovery/Walter_Splash_THIS_CHAT_Images_Part_1/039_a_bright_colorful_two_page_children_s_storybook_c.png \u2014 right page",
+    "sha256": "6fc14ed1406765630f46c8d024419d41c4736866361f1e258ac747618ab0d567"
+  },
+  {
+    "label": "Page 10",
+    "file": "10.jpg",
+    "source": "golden_recovery/Walter_Splash_THIS_CHAT_Images_Part_2/038_a_bright_colorful_children_s_storybook_comic_st.png",
+    "sha256": "cc080235ef56160b4decd75803597bfe6dc63ebf7a28bfbb50f1e061da651c16"
+  },
+  {
+    "label": "Page 11",
+    "file": "11.jpg",
+    "source": "golden_recovery/Walter_Splash_THIS_CHAT_Images_Part_4/038_a_colorful_detailed_illustrated_children_s_book_c.png",
+    "sha256": "5f55d50ad4ade5e9c2101934a28e19fbac8505b20c20ad7ff891d3bd5ce608a7"
+  },
+  {
+    "label": "Page 12",
+    "file": "12.jpg",
+    "source": "golden_recovery/Walter_Splash_THIS_CHAT_Images_Part_4/037_a_richly_illustrated_colorful_children_s_storyboo.png",
+    "sha256": "be4d56b03267c5ab504fe67139515e4a55a037975b4136c12ac7d8bebccf3960"
+  },
+  {
+    "label": "Back cover",
+    "file": "13.jpg",
+    "source": "Locked wraparound back, x=0..685",
+    "sha256": "3d0a64389ef42f2c4660f15eb63fda186103d5407d1b48dfdc6a5d643d63061b"
+  }
+]

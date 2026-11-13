@@ -1,0 +1,26 @@
+{
+  "title": "Donham Trump Comic No. 1 \u2014 The Great Gridlock Disaster",
+  "status": "Approved and locked by Brian Mountford",
+  "pages": [
+    {
+      "file": "locked-page-0.jpg",
+      "sha256": "a498b7c3e8bb87201cc30591c7fa53c8bdea44a907c388674ef34a3972e62d01"
+    },
+    {
+      "file": "locked-page-1.jpg",
+      "sha256": "fe8c0239afe0d0abe00e0f48411a838c0b1b0616f14e46320b011930a7f90658"
+    },
+    {
+      "file": "locked-page-2.jpg",
+      "sha256": "76933fd7f2ee3ca319743b059724e79e589ea22205b6d726f27d7e8dd6e9977b"
+    },
+    {
+      "file": "locked-page-3.jpg",
+      "sha256": "1204fa14be761d00896401b8e9326ba1f9f2a80accf55ce1191b40d37b64fe81"
+    },
+    {
+      "file": "locked-page-4.jpg",
+      "sha256": "fcee694e7a464964f5f0c7cd6c232c553d1ba5cce7212c3acf41d919d94a30ae"
+    }
+  ]
+}

@@ -10,5 +10,31 @@
   ],
   "earlier_variant_excluded": "A job fit for Donham Trump.png",
   "page_2_library_file_id": "libfile_9e0d2e8b05508191921039b3f936dae8",
-  "correction": "Restored missing continuation and punchline on 13 November 2026"
+  "correction": "Restored missing continuation and punchline on 13 November 2026",
+  "comic_number": 2,
+  "title": "Donham Trump \u2014 Back in Business! (Bitcoin comic)",
+  "status": "LOCKED MASTER \u2014 approved by Brian Mountford",
+  "locked_date": "2026-11-13",
+  "public_url": "https://bm-creations-public.vercel.app/donham-trump-comics/",
+  "main_entrance": "https://bm-creations-public.vercel.app/BM_MAIN_ENTRANCE_39_WITH_ANEWAIRA.html#page-19",
+  "collection_url": "https://bm-creations-public.vercel.app/donham-trump-collection/",
+  "artwork_policy": "Retain the two approved original comic pages unchanged. Changes only on explicit instruction.",
+  "locked_files": [
+    {
+      "file": "cover.svg",
+      "sha256": "63202386fef572e4dc5c18450cc3c46a9dc1dccfcfb84c8be70d18785c2ee0d4"
+    },
+    {
+      "file": "comic.jpg",
+      "sha256": "6c61f5d63a6f51b5075b055c6331d6f3bc4202950a1451cce1f237d0b56e52e2"
+    },
+    {
+      "file": "comic-page-2.jpg",
+      "sha256": "4d3d9d3eaeda49c410e05aee94e52a3aa94574e4096315009f75df273b2bbff8"
+    },
+    {
+      "file": "back.svg",
+      "sha256": "c75b8be569b90145dac371e719b401cc353b79adc2232f0ae4a0ad1020abfd21"
+    }
+  ]
 }

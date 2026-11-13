@@ -3,9 +3,12 @@
   "comic": "Original supplied file DONHAM TRUMP COMIC.png",
   "library_file_id": "libfile_1fe926e21d688191bb61c43d67912edc",
   "pages": [
-    "New typographic archive cover",
-    "Unchanged original comic artwork",
-    "New typographic back cover"
+    "Archive cover",
+    "Original comic page 1 \u2014 DONHAM TRUMP COMIC.png",
+    "Original comic page 2 \u2014 The final interview showdown.png",
+    "Back cover"
   ],
-  "earlier_variant_excluded": "A job fit for Donham Trump.png"
+  "earlier_variant_excluded": "A job fit for Donham Trump.png",
+  "page_2_library_file_id": "libfile_9e0d2e8b05508191921039b3f936dae8",
+  "correction": "Restored missing continuation and punchline on 13 November 2026"
 }

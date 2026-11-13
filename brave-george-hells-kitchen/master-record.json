@@ -1,0 +1,95 @@
+{
+  "title": "Brave George \u2014 Book1: Hell\u2019s Kitchen",
+  "archive_page": 20,
+  "public_url": "https://bm-creations-public.vercel.app/brave-george-hells-kitchen/",
+  "story_pages": 15,
+  "total_pages": 17,
+  "status": "LOCKED MASTER \u2014 user approved working public flipbook and Main Entrance inclusion on 13 November 2026",
+  "pages": [
+    {
+      "file": "page-0.jpg",
+      "source": "10-37.png",
+      "source_sha256": "4e4898f86d98107ffb7248b98b7a0f30a2d3252295924a3852a306635f7b0ec9"
+    },
+    {
+      "file": "page-1.jpg",
+      "source": "exec-a7faed1b-668d-468f-ba84-f57253605912.png",
+      "source_sha256": "f8d02b4879d1356180900558005a3c7ddd39f960664da2caa473f8c2d2bd6cad"
+    },
+    {
+      "file": "page-2.jpg",
+      "source": "exec-6974ea42-ca7e-4f1b-bbd4-45035eb26985.png",
+      "source_sha256": "6a52c0d526bf75828202399af5ee2ea161f877665567adc0498237ede1b14a30"
+    },
+    {
+      "file": "page-3.jpg",
+      "source": "exec-312f7c5e-8b03-4986-844a-28f7f88c1c8b.png",
+      "source_sha256": "e1e5a44f188bae25874a08c4418ea94f813e160cabe0ba81d5e22916e35a37c7"
+    },
+    {
+      "file": "page-4.jpg",
+      "source": "exec-38d1dd22-7505-42c3-a400-d7e987f8889c.png",
+      "source_sha256": "28834d9e6b12e8b7b4114dc4f91f35ad0616d5eaf1817400b83ac781921993f9"
+    },
+    {
+      "file": "page-5.jpg",
+      "source": "exec-590d5b5f-7b0b-41bf-a297-71510833ee35.png",
+      "source_sha256": "d1432c9feca38f8e68367d7da8a1eb539a668476fdcd3c7a320efb14050bd0ec"
+    },
+    {
+      "file": "page-6.jpg",
+      "source": "exec-af071317-3870-49aa-ad56-6980715e37b8.png",
+      "source_sha256": "14d1bd343e9bd961f6391e38da9f6222b6a22a14b7aa5a1e423247fcbc59e373"
+    },
+    {
+      "file": "page-7.jpg",
+      "source": "exec-1d6472f7-bd0a-403c-8e88-25b9c327d59c.png",
+      "source_sha256": "b898da6915344fa250eeef78b5b131f902987de9bf958f4595eb0f689d045645"
+    },
+    {
+      "file": "page-8.jpg",
+      "source": "01-46.png",
+      "source_sha256": "24ab7c46e0f5e34bdb7a0941b8941488143d28df431cb2b2d53f75199345ddca"
+    },
+    {
+      "file": "page-9.jpg",
+      "source": "exec-c03908b8-9a9c-4dc7-835c-670e4d8b145d.png",
+      "source_sha256": "da0b3f3fdd61825c2d774d3b0a505c94767116e761e8f2386616490b8c48ba37"
+    },
+    {
+      "file": "page-10.jpg",
+      "source": "03-44.png",
+      "source_sha256": "85a50f1ce1845d6f017ad6d37fcdb01937e06ae26c511d5994ec64b15d209ec7"
+    },
+    {
+      "file": "page-11.jpg",
+      "source": "04-43.png",
+      "source_sha256": "6f50f7bd8c469ed316bdfddddc2ffb9c5f1e9ef03bcd4d66b0d94d95e8e54069"
+    },
+    {
+      "file": "page-12.jpg",
+      "source": "05-42.png",
+      "source_sha256": "c36d94e9a7c70d14badbec1a39c12f5a35be61b162213af948e8982636ac824d"
+    },
+    {
+      "file": "page-13.jpg",
+      "source": "exec-26b5e48e-6540-42b2-bcf8-296ba4f5dffd.png",
+      "source_sha256": "b1e050aa1289e0a03d659fe27ee0a34aece1e2a6f4af17a07fdbf497c70dd007"
+    },
+    {
+      "file": "page-14.jpg",
+      "source": "07-40.png",
+      "source_sha256": "b99649ecb8b9fa261f982a8a1b28ae73db6434c1dc1da10f5488334d6f01061b"
+    },
+    {
+      "file": "page-15.jpg",
+      "source": "exec-3b5deafe-e535-461a-a30c-f02c71bb0fe9.png",
+      "source_sha256": "d6cb16d1ed01eeeb4af5625ccb44a5cb9df9672423ab4b0acb9c0ca863f1eb6f"
+    },
+    {
+      "file": "page-16.jpg",
+      "source": "09-38.png",
+      "source_sha256": "17016a3cfa05830f7ce6527f0242c6d836aae7f9ac3d0302e07c8e32ed9151dc"
+    }
+  ]
+}

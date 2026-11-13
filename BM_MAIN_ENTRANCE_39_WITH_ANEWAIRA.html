@@ -72,14 +72,6 @@
    if(archiveQRs[number] && !Array.from(entry.querySelectorAll('img')).some(i=>/QR/i.test(i.alt))){const i=source.createElement('img');i.alt='QR code for archive '+number;i.style.width='110px';i.style.height='110px';entry.appendChild(i);}
    entry.querySelectorAll('a[href^="mailto:"]').forEach(a => { const href=a.getAttribute('href'); if(!href.includes('body=')) return; const mail=new URL(href); mail.searchParams.set('body','View this BM Creations archive entry:\n'+readerUrl); a.href=mail.href; });
    entry.querySelectorAll('img').forEach(image => { if(/QR/i.test(image.alt) && archiveQRs[number]) image.src='data:image/png;base64,'+archiveQRs[number]; });
-   if(number===19){
-    publicLinks.forEach(a=>a.textContent='OPEN COMIC No. 2 — BACK IN BUSINESS!');
-    const box=source.createElement('div');box.style.cssText='margin-top:16px;padding-top:12px;border-top:1px solid #cbaa58';
-    const title=source.createElement('p');title.textContent='COMIC No. 1 — ROADWORKS: STOP! GO! OH NO! · New illustrated edition';box.appendChild(title);
-    const link=source.createElement('a');link.href="https://bm-creations-public.vercel.app/donham-trump-comic-1/";link.textContent='OPEN COMIC No. 1 — ROADWORKS';box.appendChild(link);
-    const mail=source.createElement('a');mail.href='mailto:?subject=Donham%20Trump%20Comic%20No.%201&body='+encodeURIComponent(link.href);mail.textContent='EMAIL COMIC No. 1 LINK';box.appendChild(mail);
-    const qr=source.createElement('img');qr.src='/donham-trump-comic-1/qr.png';qr.alt='QR code for Donham Trump Comic No. 1';qr.style.cssText='display:block;width:130px;height:130px;margin-top:10px';box.appendChild(qr);entry.appendChild(box);
-   }
 
   });
   source.title = 'BM Creations — The Main Entrance — 39 Archive Items';

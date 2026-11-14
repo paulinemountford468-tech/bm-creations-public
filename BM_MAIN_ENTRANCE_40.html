@@ -49,7 +49,7 @@
    if(number>=38 && number<=40){
     const artwork=source.createElement(number===40?'div':'img');artwork.className='thumb';
     if(number===40){artwork.style.cssText='width:150px;height:106px;display:flex;gap:4px;flex-shrink:0;background:white';[['delboar.jpg','Del Boar Trotter'],['rodney.jpg','Rodney Trotter']].forEach(([file,label])=>{const img=source.createElement('img');img.src='assets/main-entrance/'+file;img.alt=label;img.style.cssText='width:73px;height:106px;object-fit:contain';artwork.appendChild(img);});}
-    else{artwork.src=number===38?'assets/main-entrance/albert-bertie.gif':'assets/main-entrance/anewaira-icon.png';artwork.alt=number===38?'Albert and Bertie - supplied character image':'ANEWAIRA - owner-selected blue symbol';artwork.style.objectFit='contain';}
+    else{artwork.src=number===38?'assets/main-entrance/albert-bertie.gif':'assets/main-entrance/ANEWAIRA_A_WINDMILL_PREVIEW.gif';artwork.alt=number===38?'Albert and Bertie - supplied character image':'ANEWAIRA - rotating windmill with fixed white A';artwork.style.objectFit='contain';}
     entry.querySelector('.number').after(artwork);
    }
 

@@ -86,7 +86,16 @@
    if([8,9,10,16,19,20,22,35,36].includes(number)){entry.querySelectorAll('.status, .desc > span').forEach(note=>note.remove());const desc=entry.querySelector('.desc');if(desc)entry.querySelectorAll(':scope > a').forEach(a=>desc.appendChild(a));}
 
   });
-  source.querySelectorAll('.intro p').forEach(p=>{p.textContent=p.textContent.replace(' Item 17’s BOARNO collection layout is approved, but its collection website is not yet published.','');});
+  const archiveNotice=source.querySelector('.verified-note');
+  if(archiveNotice)archiveNotice.textContent='BM CREATIONS — OFFICIAL MAIN ENTRANCE · 40 ARCHIVE ENTRIES · 14 NOVEMBER 2026.';
+  const introduction=source.querySelector('.intro');
+  if(introduction){
+   introduction.replaceChildren();
+   const heading=source.createElement('h2');heading.textContent='Welcome to the Creative Archive';introduction.appendChild(heading);
+   const description=source.createElement('p');description.textContent='Explore 40 BM Creations archive entries by Brian Mountford, including stories, comics, games and inventions. Open each entry using its public link or QR code, or share it using the email link.';introduction.appendChild(description);
+   const pastTimes=source.createElement('p');pastTimes.textContent='Archive 01 opens the complete PAST TIMES master (Sets 1–7). Archive 21 opens PAST TIMES — SET 7 separately.';introduction.appendChild(pastTimes);
+   const official=source.createElement('p');official.textContent='Official BM Archives edition dated 14 November 2026. No alterations may be made unless personally requested by Brian Mountford.';introduction.appendChild(official);
+  }
   const boarnoStyle=source.createElement('style');boarnoStyle.textContent='@media(max-width:540px){#page-17 .thumb{width:110px!important;height:74px!important}}';source.head.appendChild(boarnoStyle);
   source.title = 'BM Creations — The Main Entrance — 40 Archive Items';
   const walker = source.createTreeWalker(source.body, NodeFilter.SHOW_TEXT);

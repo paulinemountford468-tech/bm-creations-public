@@ -14,7 +14,7 @@
   "share_url": "https://bm-creations-public.vercel.app/main-entrance-share/",
   "email_link": "mailto:?subject=B.M.+Creations+-+The+Complete+Creative+Archive&body=Explore+Brian+Mountford%27s+B.M.+Creations+public+archive+-+the+complete+updated+40-page+Main+Entrance%3A%0A%0Ahttps%3A%2F%2Fbm-creations-public.vercel.app%2FBM_MAIN_ENTRANCE_40.html",
   "editing_rule": "NO ALTERATIONS may be made to the official Main Entrance, its official QR code or its official emailable link unless personally requested by Brian Mountford.",
-  "latest_authorised_change": "Brian Mountford personally requested Page 41, Songs, Poems and Thoughts of BM, on 14 November 2026. Opening collection contains ten distinct illustrated works plus cover and back cover. Previously approved pages remain preserved.",
+  "latest_authorised_change": "Brian Mountford approved and locked the Albert and Bertie video addition to Main Entrance Page 38 on 14 November 2026.",
   "official_date": "14 November 2026",
   "official_qr_status": "OFFICIAL QR CODE - APPROVED AND LOCKED 14 NOVEMBER 2026",
   "official_email_status": "OFFICIAL EMAILABLE PUBLIC LINK - APPROVED AND LOCKED 14 NOVEMBER 2026",
@@ -29,5 +29,13 @@
   "approved_locked_entries": "1–40",
   "pending_review_entries": [
     41
-  ]
+  ],
+  "page38_video": {
+    "status": "APPROVED AND LOCKED",
+    "approved_by": "Brian Mountford",
+    "locked_date": "2026-11-14",
+    "public_url": "https://bm-creations-public.vercel.app/albert-bertie-video/",
+    "video_sha256": "dd3eca962ffc1c94adc1ce9b4faeef73f882782a6c1f98e015a86261ecd192db",
+    "editing_rule": "Preserve the approved video and Main Entrance Page 38 video button. Exact changes only when personally requested by Brian Mountford."
+  }
 }

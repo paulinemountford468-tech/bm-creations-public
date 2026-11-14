@@ -88,6 +88,7 @@
    if([8,9,10,16,19,20,22,35,36].includes(number)){entry.querySelectorAll('.status, .desc > span').forEach(note=>note.remove());const desc=entry.querySelector('.desc');if(desc)entry.querySelectorAll(':scope > a').forEach(a=>desc.appendChild(a));}
 
   });
+  const albertEntry=archive.querySelector('#page-38');if(albertEntry){const videoLink=source.createElement('a');videoLink.href='https://bm-creations-public.vercel.app/albert-bertie-video/';videoLink.textContent='WATCH ALBERT AND BERTIE VIDEO';videoLink.style.cssText='display:inline-block;margin:6px';(albertEntry.querySelector('.desc')||albertEntry.querySelector('h2').parentElement).appendChild(videoLink);}
   const archiveNotice=source.querySelector('.verified-note');
   if(archiveNotice)archiveNotice.textContent='BM CREATIONS — OFFICIAL MAIN ENTRANCE · 41 ARCHIVE ENTRIES · 14 NOVEMBER 2026.';
   const introduction=source.querySelector('.intro');

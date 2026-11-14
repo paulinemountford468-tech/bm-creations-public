@@ -83,6 +83,7 @@
    entry.querySelectorAll('a[href^="mailto:"]').forEach(a => { const href=a.getAttribute('href'); if(!href.includes('body=')) return; const mail=new URL(href); mail.searchParams.set('body','View this BM Creations archive entry:\n'+readerUrl); a.href=mail.href; });
    entry.querySelectorAll('img').forEach(image => { if(/QR/i.test(image.alt) && archiveQRs[number]) image.src='data:image/png;base64,'+archiveQRs[number]; });
    if(number===17){const desc=entry.querySelector('.desc');entry.querySelectorAll(':scope > a').forEach(a=>desc.appendChild(a));}
+   if([8,9,10,16,19,20,22,35,36].includes(number)){entry.querySelectorAll('.status, .desc > span').forEach(note=>note.remove());const desc=entry.querySelector('.desc');if(desc)entry.querySelectorAll(':scope > a').forEach(a=>desc.appendChild(a));}
 
   });
   source.querySelectorAll('.intro p').forEach(p=>{p.textContent=p.textContent.replace(' Item 17’s BOARNO collection layout is approved, but its collection website is not yet published.','');});

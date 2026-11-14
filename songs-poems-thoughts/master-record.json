@@ -1,0 +1,101 @@
+{
+  "title": "Songs, Poems and Thoughts of BM",
+  "creator": "Brian Mountford",
+  "archive_page": 41,
+  "works": 10,
+  "total_pages": 12,
+  "status": "Opening collection - published for Brian Mountford review",
+  "created": "2026-11-14",
+  "public_url": "https://bm-creations-public.vercel.app/songs-poems-thoughts/",
+  "pages": [
+    {
+      "page": 1,
+      "title": "Today Doesn\u2019t Matter If Yesterday Never Was",
+      "source_filename": "b98ea5f4-de72-4e78-aedc-96947763f1f2.png",
+      "library_file_id": "libfile_d17e4b17c6a08191944b00b712bba0ec",
+      "source_sha256": "32203ef1fb92f87754efd35dc393d5941a36556919ba23150a94f0998be7767c"
+    },
+    {
+      "page": 2,
+      "title": "When I Get to Heaven",
+      "source_filename": "WHEN I GET TO HEAVEN(1).png",
+      "library_file_id": "libfile_826b97fa2818819191070883d3b7dc73",
+      "source_sha256": "e14b02f7a6f1b9c55c4a511c90ce46062e58ea9607cd02af58ec8b8ebecb2d1c"
+    },
+    {
+      "page": 3,
+      "title": "The Ride of Your Life (or The White Knuckle Man)",
+      "source_filename": "song the ride.png",
+      "library_file_id": "libfile_9b753e9083f88191a1ce539c310cf2e8",
+      "source_sha256": "beac4108ee6106c8032eeb68e27a3653808a6a6f3830e6719e4f8f2cba1a9554"
+    },
+    {
+      "page": 4,
+      "title": "Santa\u2019s On His Way",
+      "source_filename": "28ce02c2-2d06-4204-94fd-d1c808af98c1(1).png",
+      "library_file_id": "libfile_724f92b339e4819194881cd4a07a969e",
+      "source_sha256": "74f7b72765d12d239645d738379d75d4b5fd7b5a9a68be8d6f98549db01752b8"
+    },
+    {
+      "page": 5,
+      "title": "And I Still Love You",
+      "source_filename": "15f6a5b2-c709-4c8e-9c0d-f8c2859338f4.png",
+      "library_file_id": "libfile_3edb166346688191a7e629086a9d2a34",
+      "source_sha256": "ecac7b1ebb218ebf160d9f4b6968a39215ecaae25d48a80053f0c852fa9e9d56"
+    },
+    {
+      "page": 6,
+      "title": "I For One Don\u2019t Care! (I\u2019m Only One)",
+      "source_filename": "1df56a0b-17c9-4445-be49-062c420bbbce.png",
+      "library_file_id": "libfile_fd848650fe98819193018ec77b020de9",
+      "source_sha256": "aa40ee69c463a8d27c72daa1830931039128669f477dfd21ee94ab2f6acef05b"
+    },
+    {
+      "page": 7,
+      "title": "How Long Does It Take to Get to Heaven?",
+      "source_filename": "HOW LONG DOES IT TAKE TO GET TO HEAVEN(1).png",
+      "library_file_id": "libfile_b0db58d793988191b39e98173d7daac9",
+      "source_sha256": "f194465a24f64f02bddfb8763f4ca9e21568bf61a94a4a15ccaffa0a149412c4"
+    },
+    {
+      "page": 8,
+      "title": "Diana - A Name Through Time",
+      "source_filename": "DIANA POEM.png",
+      "library_file_id": "libfile_854c305365f081918a9da35fd71747b3",
+      "source_sha256": "66ed52a50034e9f8d56db93cb997a91cadb4428895fbda9383863bffea9c95f2"
+    },
+    {
+      "page": 9,
+      "title": "Angels\u2019 Tears",
+      "source_filename": "poem with floral background and microdot mark.png",
+      "library_file_id": "libfile_4c3e43d6d8b081918ea3ce9e6f9a234a",
+      "source_sha256": "99543c88355c1f814a01ae94987c04ea08a481452e703d2869b2e194899dfb49"
+    },
+    {
+      "page": 10,
+      "title": "Watch Out - The Aliehams Are Coming",
+      "source_filename": "Watch Out: The Aliehams Are Coming!.png",
+      "library_file_id": "libfile_010fd52001088191a80dff692e5df051",
+      "source_sha256": "6dcb142204675407a358f7292e3c6d1111dbf7eef317b2f7a82618e98681bac5"
+    }
+  ],
+  "search_follow_up": [
+    {
+      "title": "Kindness in Mankind",
+      "status": "Recorded title; complete writing not yet recovered"
+    },
+    {
+      "title": "The Tree of Hope",
+      "status": "Recorded Ukraine tribute; display artwork found, separate verse not confirmed"
+    },
+    {
+      "title": "Jumpin\u2019 the Line",
+      "status": "Earlier revised lyric sheet referenced; full source not yet confirmed"
+    },
+    {
+      "title": "YO MON WE\u2019RE ALL ALIEHAMS",
+      "status": "5 STARZ debut single recorded in master catalogue; full lyric source not yet recovered"
+    }
+  ],
+  "duplicate_rule": "Latest user-uploaded Today Doesn\u2019t Matter poster used once; earlier variant excluded."
+}

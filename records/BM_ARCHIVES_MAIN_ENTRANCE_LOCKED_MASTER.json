@@ -3,18 +3,18 @@
   "status": "OFFICIAL LOCKED BM ARCHIVES MAIN ENTRANCE - 14 NOVEMBER 2026",
   "approved_by": "Brian Mountford",
   "locked_date": "2026-11-14",
-  "archive_entries": 40,
+  "archive_entries": 41,
   "public_url": "https://bm-creations-public.vercel.app/BM_MAIN_ENTRANCE_40.html",
-  "master_path": "BM_MAIN_ENTRANCE_40.html",
+  "master_path": "BM_MAIN_ENTRANCE_41.html",
   "also_updated_path": "BM_MAIN_ENTRANCE_39_WITH_ANEWAIRA.html",
   "locked_source_commit": "60157242de9123809adecbcd0c63a4c4a84984bb",
-  "master_sha256": "ca3beace2205b6f09473a5fc24b5f3eb9a4752980e6bbd5fedc21a708ef1697c",
+  "master_sha256": "ddfe225477ae62f35d1aa482b94c96c48152ec94db4e99d36b4d2454b3017f4b",
   "page39": "LOCKED - animated ANEWAIRA windmill with static white capital A",
   "qr_url": "https://bm-creations-public.vercel.app/BM_CREATIONS_MAIN_ENTRANCE_QR.png",
   "share_url": "https://bm-creations-public.vercel.app/main-entrance-share/",
   "email_link": "mailto:?subject=B.M.+Creations+-+The+Complete+Creative+Archive&body=Explore+Brian+Mountford%27s+B.M.+Creations+public+archive+-+the+complete+updated+40-page+Main+Entrance%3A%0A%0Ahttps%3A%2F%2Fbm-creations-public.vercel.app%2FBM_MAIN_ENTRANCE_40.html",
   "editing_rule": "NO ALTERATIONS may be made to the official Main Entrance, its official QR code or its official emailable link unless personally requested by Brian Mountford.",
-  "latest_authorised_change": "Replaced outdated header recovery notes and obsolete confirmed/missing-link lists with the official 14 November 2026 welcome text, personally requested by Brian Mountford.",
+  "latest_authorised_change": "Brian Mountford personally requested Page 41, Songs, Poems and Thoughts of BM, on 14 November 2026. Opening collection contains ten distinct illustrated works plus cover and back cover. Previously approved pages remain preserved.",
   "official_date": "14 November 2026",
   "official_qr_status": "OFFICIAL QR CODE - APPROVED AND LOCKED 14 NOVEMBER 2026",
   "official_email_status": "OFFICIAL EMAILABLE PUBLIC LINK - APPROVED AND LOCKED 14 NOVEMBER 2026",
@@ -25,5 +25,9 @@
     "date": "2026-11-14",
     "original_creative_masters": "Retained",
     "official_public_archive": "Retained"
-  }
+  },
+  "approved_locked_entries": "1–40",
+  "pending_review_entries": [
+    41
+  ]
 }

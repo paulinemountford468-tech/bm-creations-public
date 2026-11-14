@@ -4,13 +4,13 @@
   "archive_page": 41,
   "works": 14,
   "total_pages": 16,
-  "status": "Opening collection - published for Brian Mountford review",
+  "status": "APPROVED AND LOCKED MASTER",
   "created": "2026-11-14",
   "public_url": "https://bm-creations-public.vercel.app/songs-poems-thoughts/",
   "pages": [
     {
       "page": 1,
-      "title": "Today Doesn\u2019t Matter If Yesterday Never Was",
+      "title": "Today Doesn’t Matter If Yesterday Never Was",
       "source_filename": "b98ea5f4-de72-4e78-aedc-96947763f1f2.png",
       "library_file_id": "libfile_d17e4b17c6a08191944b00b712bba0ec",
       "source_sha256": "32203ef1fb92f87754efd35dc393d5941a36556919ba23150a94f0998be7767c"
@@ -31,7 +31,7 @@
     },
     {
       "page": 4,
-      "title": "Santa\u2019s On His Way",
+      "title": "Santa’s On His Way",
       "source_filename": "28ce02c2-2d06-4204-94fd-d1c808af98c1(1).png",
       "library_file_id": "libfile_724f92b339e4819194881cd4a07a969e",
       "source_sha256": "74f7b72765d12d239645d738379d75d4b5fd7b5a9a68be8d6f98549db01752b8"
@@ -45,7 +45,7 @@
     },
     {
       "page": 6,
-      "title": "I For One Don\u2019t Care! (I\u2019m Only One)",
+      "title": "I For One Don’t Care! (I’m Only One)",
       "source_filename": "1df56a0b-17c9-4445-be49-062c420bbbce.png",
       "library_file_id": "libfile_fd848650fe98819193018ec77b020de9",
       "source_sha256": "aa40ee69c463a8d27c72daa1830931039128669f477dfd21ee94ab2f6acef05b"
@@ -66,7 +66,7 @@
     },
     {
       "page": 9,
-      "title": "Angels\u2019 Tears",
+      "title": "Angels’ Tears",
       "source_filename": "poem angels tears.png",
       "library_file_id": "libfile_5d6457926e308191b1001b02b15cc4eb",
       "source_sha256": "b7c4f21c388bb985a3d9bb55c1df5203fb22897d1caf1d7cb42f218016c9fc0d"
@@ -101,7 +101,7 @@
     },
     {
       "page": 14,
-      "title": "5 STARZ - YO MAN I\u2019M AN ALIEEEHAM!",
+      "title": "5 STARZ - YO MAN I’M AN ALIEEEHAM!",
       "source_filename": "5starz-video-page.jpg",
       "library_file_id": "libfile_2cc1ae78c9ac8191ad112015d649aa57",
       "source_sha256": "6de663c14ed27db6e35a4f73d7e0d08c192844db19b88aacff4a7f8c479371d4"
@@ -113,13 +113,18 @@
       "status": "Recorded title; complete writing not yet recovered"
     },
     {
-      "title": "Jumpin\u2019 the Line",
+      "title": "Jumpin’ the Line",
       "status": "Earlier revised lyric sheet referenced; full source not yet confirmed"
     },
     {
-      "title": "YO MON WE\u2019RE ALL ALIEHAMS",
+      "title": "YO MON WE’RE ALL ALIEHAMS",
       "status": "5 STARZ debut single recorded in master catalogue; full lyric source not yet recovered"
     }
   ],
-  "duplicate_rule": "Latest user-uploaded Today Doesn\u2019t Matter poster used once; earlier variant excluded."
+  "duplicate_rule": "Latest user-uploaded Today Doesn’t Matter poster used once; earlier variant excluded.",
+  "approved_by": "Brian Mountford",
+  "approved_date": "2026-11-14",
+  "approval_statement": "THAT ALL WORKS LOCK THAT PAGE",
+  "change_policy": "No alterations unless personally requested by Brian Mountford.",
+  "locked_publication_commit": "2b9b43d45db91bbaa34d25b1685284a543b5431b"
 }

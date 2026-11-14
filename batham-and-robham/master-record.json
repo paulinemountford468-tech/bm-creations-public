@@ -5,8 +5,14 @@
     "Rodhamney Trotter"
   ],
   "archive_page": 40,
-  "total_pages": 2,
+  "total_pages": 3,
   "source": "Two user-supplied pages, artwork unchanged",
   "public_url": "https://bm-creations-public.vercel.app/batham-and-robham/",
-  "status": "Published for review"
+  "status": "Published for review",
+  "page_order": [
+    "Del Boar Trotter collector card No. 27",
+    "Batham and Robham character introduction",
+    "The Birmingham Triangle! comic"
+  ],
+  "updated": "2026-11-14"
 }

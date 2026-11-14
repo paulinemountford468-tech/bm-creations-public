@@ -2,8 +2,8 @@
   "title": "Songs, Poems and Thoughts of BM",
   "creator": "Brian Mountford",
   "archive_page": 41,
-  "works": 10,
-  "total_pages": 12,
+  "works": 14,
+  "total_pages": 16,
   "status": "Opening collection - published for Brian Mountford review",
   "created": "2026-11-14",
   "public_url": "https://bm-creations-public.vercel.app/songs-poems-thoughts/",
@@ -67,26 +67,50 @@
     {
       "page": 9,
       "title": "Angels\u2019 Tears",
-      "source_filename": "poem with floral background and microdot mark.png",
-      "library_file_id": "libfile_4c3e43d6d8b081918ea3ce9e6f9a234a",
-      "source_sha256": "99543c88355c1f814a01ae94987c04ea08a481452e703d2869b2e194899dfb49"
+      "source_filename": "poem angels tears.png",
+      "library_file_id": "libfile_5d6457926e308191b1001b02b15cc4eb",
+      "source_sha256": "b7c4f21c388bb985a3d9bb55c1df5203fb22897d1caf1d7cb42f218016c9fc0d"
     },
     {
       "page": 10,
       "title": "Watch Out - The Aliehams Are Coming",
-      "source_filename": "Watch Out: The Aliehams Are Coming!.png",
-      "library_file_id": "libfile_010fd52001088191a80dff692e5df051",
-      "source_sha256": "6dcb142204675407a358f7292e3c6d1111dbf7eef317b2f7a82618e98681bac5"
+      "source_filename": "THEALIEHAMS ARE COMING TUNE SONG.png",
+      "library_file_id": "libfile_a5a1bb17d06c8191af2ca619392d467b",
+      "source_sha256": "6e4dc14c31db04164f2acbdf740ea5d6d63da678ff8cf501947b0000768410c9"
+    },
+    {
+      "page": 11,
+      "title": "God Bless Diana - The Diana Verse",
+      "source_filename": "GOD BLESS DIANA POEM.png",
+      "library_file_id": "libfile_3afccdb87aa88191910047c836bd91e6",
+      "source_sha256": "f3c2dbe35c314636d14b8284a0f9dce1019c282e86f25fd06612145c78c4f80b"
+    },
+    {
+      "page": 12,
+      "title": "Born in the Gutter - Still Turning to the Sun",
+      "source_filename": "sunflower.png",
+      "library_file_id": "libfile_689229f3697c8191aa582644103912ec",
+      "source_sha256": "26ecc60025205091d620c6c81553656c367ccd81cbaea1862daf514198378dfd"
+    },
+    {
+      "page": 13,
+      "title": "The Silly Sausage Song",
+      "source_filename": "sausage-song.jpg",
+      "library_file_id": "libfile_ddb3e8b297c481919b894bc7de40444f",
+      "source_sha256": "08835831675303a5cb86d798e20a3f5e699b69c25ee7b2d3b5fd095ce2b51a23"
+    },
+    {
+      "page": 14,
+      "title": "5 STARZ - YO MAN I\u2019M AN ALIEEEHAM!",
+      "source_filename": "5starz-video-page.jpg",
+      "library_file_id": "libfile_2cc1ae78c9ac8191ad112015d649aa57",
+      "source_sha256": "6de663c14ed27db6e35a4f73d7e0d08c192844db19b88aacff4a7f8c479371d4"
     }
   ],
   "search_follow_up": [
     {
       "title": "Kindness in Mankind",
       "status": "Recorded title; complete writing not yet recovered"
-    },
-    {
-      "title": "The Tree of Hope",
-      "status": "Recorded Ukraine tribute; display artwork found, separate verse not confirmed"
     },
     {
       "title": "Jumpin\u2019 the Line",

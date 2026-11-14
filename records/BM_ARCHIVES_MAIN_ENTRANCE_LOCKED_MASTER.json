@@ -1,18 +1,29 @@
 {
   "title": "B.M. CREATIONS - COMPLETE MAIN ENTRANCE",
-  "status": "LOCKED BM ARCHIVES MASTER",
+  "status": "OFFICIAL LOCKED BM ARCHIVES MAIN ENTRANCE - 14 NOVEMBER 2026",
   "approved_by": "Brian Mountford",
   "locked_date": "2026-11-14",
   "archive_entries": 40,
   "public_url": "https://bm-creations-public.vercel.app/BM_MAIN_ENTRANCE_40.html",
   "master_path": "BM_MAIN_ENTRANCE_40.html",
   "also_updated_path": "BM_MAIN_ENTRANCE_39_WITH_ANEWAIRA.html",
-  "locked_source_commit": "d5ffc8cc8ca026ad2a772a937b16d90bf4963df9",
+  "locked_source_commit": "57012b2cf599ccf25b98b44b9ff9a3c744cbfffb",
   "master_sha256": "28e1ff4a1801c707b0f23e002330bb4010a554eee2c132aaea12bde1877d872c",
   "page39": "LOCKED - animated ANEWAIRA windmill with static white capital A",
   "qr_url": "https://bm-creations-public.vercel.app/BM_CREATIONS_MAIN_ENTRANCE_QR.png",
   "share_url": "https://bm-creations-public.vercel.app/main-entrance-share/",
   "email_link": "mailto:?subject=B.M.+Creations+-+The+Complete+Creative+Archive&body=Explore+Brian+Mountford%27s+B.M.+Creations+public+archive+-+the+complete+updated+40-page+Main+Entrance%3A%0A%0Ahttps%3A%2F%2Fbm-creations-public.vercel.app%2FBM_MAIN_ENTRANCE_40.html",
-  "editing_rule": "Preserve this approved master; make changes only as requested by Brian Mountford.",
-  "latest_authorised_change": "Removed unwanted status notes from cards 8,9,10,16,19,20,22,35,36 and grouped their links under their titles, requested by Brian Mountford on 14 November 2026."
+  "editing_rule": "NO ALTERATIONS may be made to the official Main Entrance, its official QR code or its official emailable link unless personally requested by Brian Mountford.",
+  "latest_authorised_change": "Removed unwanted status notes from cards 8,9,10,16,19,20,22,35,36 and grouped their links under their titles, requested by Brian Mountford on 14 November 2026.",
+  "official_date": "14 November 2026",
+  "official_qr_status": "OFFICIAL QR CODE - APPROVED AND LOCKED 14 NOVEMBER 2026",
+  "official_email_status": "OFFICIAL EMAILABLE PUBLIC LINK - APPROVED AND LOCKED 14 NOVEMBER 2026",
+  "qr_sha256": "85eb9b2dacf110a63e2ec7c4df40c488ecb01ba86506b38110d2b2cce2c7458e",
+  "cleanup": {
+    "obsolete_main_entrance_files_moved_to_trash": 24,
+    "total_bytes": 77872109,
+    "date": "2026-11-14",
+    "original_creative_masters": "Retained",
+    "official_public_archive": "Retained"
+  }
 }

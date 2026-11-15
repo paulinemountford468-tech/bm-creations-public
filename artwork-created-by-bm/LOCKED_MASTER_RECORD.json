@@ -1,0 +1,18 @@
+{
+  "page": 48,
+  "title": "ARTWORK CREATED BY BM",
+  "status": "LOCKED MASTER",
+  "approved_by": "Brian Mountford",
+  "approved_date": "2026-11-15",
+  "approved_version": "14-page collection displayed directly in chat",
+  "approved_master": "approved-inline-master.html",
+  "original_artwork_files": "art-01.js through art-14.js",
+  "layout": "One artwork per A4 portrait page",
+  "features": [
+    "Previous and Next page controls",
+    "Artwork selector",
+    "Enlarge"
+  ],
+  "change_rule": "Preserve approved artwork and page order. Make only changes specifically requested by Brian.",
+  "public_deployment_status": "Pending: saved Main Entrance and source updates are not confirmed on the existing public hosting account."
+}

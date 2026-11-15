@@ -3,9 +3,9 @@
   "status": "OFFICIAL LOCKED BM ARCHIVES MAIN ENTRANCE - 14 NOVEMBER 2026",
   "approved_by": "Brian Mountford",
   "locked_date": "2026-11-14",
-  "archive_entries": 41,
+  "archive_entries": 44,
   "public_url": "https://bm-creations-public.vercel.app/BM_MAIN_ENTRANCE_40.html",
-  "master_path": "BM_MAIN_ENTRANCE_41.html",
+  "master_path": "BM_MAIN_ENTRANCE_40.html",
   "also_updated_path": "BM_MAIN_ENTRANCE_39_WITH_ANEWAIRA.html",
   "locked_source_commit": "60157242de9123809adecbcd0c63a4c4a84984bb",
   "master_sha256": "ddfe225477ae62f35d1aa482b94c96c48152ec94db4e99d36b4d2454b3017f4b",
@@ -14,7 +14,7 @@
   "share_url": "https://bm-creations-public.vercel.app/main-entrance-share/",
   "email_link": "mailto:?subject=B.M.+Creations+-+The+Complete+Creative+Archive&body=Explore+Brian+Mountford%27s+B.M.+Creations+public+archive+-+the+complete+updated+40-page+Main+Entrance%3A%0A%0Ahttps%3A%2F%2Fbm-creations-public.vercel.app%2FBM_MAIN_ENTRANCE_40.html",
   "editing_rule": "NO ALTERATIONS may be made to the official Main Entrance, its official QR code or its official emailable link unless personally requested by Brian Mountford.",
-  "latest_authorised_change": "Brian Mountford approved and locked the Albert and Bertie video addition to Main Entrance Page 38 on 14 November 2026.",
+  "latest_authorised_change": "Brian Mountford locked Page 44, added it to the archives and requested public QR codes on Pages 43 and 44, 15 November 2026.",
   "official_date": "14 November 2026",
   "official_qr_status": "OFFICIAL QR CODE - APPROVED AND LOCKED 14 NOVEMBER 2026",
   "official_email_status": "OFFICIAL EMAILABLE PUBLIC LINK - APPROVED AND LOCKED 14 NOVEMBER 2026",
@@ -37,5 +37,21 @@
     "public_url": "https://bm-creations-public.vercel.app/albert-bertie-video/",
     "video_sha256": "dd3eca962ffc1c94adc1ce9b4faeef73f882782a6c1f98e015a86261ecd192db",
     "editing_rule": "Preserve the approved video and Main Entrance Page 38 video button. Exact changes only when personally requested by Brian Mountford."
+  },
+  "page43": {
+    "status": "APPROVED AND LOCKED",
+    "approved_by": "Brian Mountford",
+    "locked_date": "2026-11-15",
+    "public_url": "https://bm-creations-public.vercel.app/bideham-bites-back/",
+    "content": "Seven recovered BBB comics; comics 4, 8 and 9 remain missing.",
+    "qr_status": "Public flipbook QR added at Brian Mountford's request"
+  },
+  "page44": {
+    "status": "APPROVED AND LOCKED",
+    "approved_by": "Brian Mountford",
+    "locked_date": "2026-11-15",
+    "public_url": "https://bm-creations-public.vercel.app/kindness-crew/",
+    "content": "Two recovered original comics: Coco Needs Help!; Hearing Harry’s Big Day! Further uploaded images not yet recovered.",
+    "qr_status": "Public flipbook QR added at Brian Mountford's request"
   }
 }

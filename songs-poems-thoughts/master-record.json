@@ -2,9 +2,9 @@
   "title": "Songs, Poems and Thoughts of BM",
   "creator": "Brian Mountford",
   "archive_page": 41,
-  "works": 14,
-  "total_pages": 16,
-  "status": "APPROVED AND LOCKED MASTER",
+  "works": 16,
+  "total_pages": 18,
+  "status": "LOCKED ORIGINAL WITH AUTHORISED MUM ADDITION PREPARED FOR PUBLICATION",
   "created": "2026-11-14",
   "public_url": "https://bm-creations-public.vercel.app/songs-poems-thoughts/",
   "pages": [
@@ -105,6 +105,12 @@
       "source_filename": "5starz-video-page.jpg",
       "library_file_id": "libfile_2cc1ae78c9ac8191ad112015d649aa57",
       "source_sha256": "6de663c14ed27db6e35a4f73d7e0d08c192844db19b88aacff4a7f8c479371d4"
+    },
+    {
+      "page": 16,
+      "title": "Mum",
+      "source_filename": "mum.png",
+      "image_path": "mum.jpg"
     }
   ],
   "search_follow_up": [
@@ -126,5 +132,14 @@
   "approved_date": "2026-11-14",
   "approval_statement": "THAT ALL WORKS LOCK THAT PAGE",
   "change_policy": "No alterations unless personally requested by Brian Mountford.",
-  "locked_publication_commit": "2b9b43d45db91bbaa34d25b1685284a543b5431b"
+  "locked_publication_commit": "2b9b43d45db91bbaa34d25b1685284a543b5431b",
+  "pending_addition": {
+    "title": "Mum",
+    "source_filename": "mum.png",
+    "authorised_by": "Brian Mountford",
+    "date": "2026-11-15",
+    "position": "Before back cover",
+    "publication_status": "Saved; pending public publication"
+  },
+  "note": "Current reader already includes Where Is the Kind in Mankind? at work 15; Mum becomes work 16."
 }

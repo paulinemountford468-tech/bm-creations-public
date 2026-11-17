@@ -3,7 +3,7 @@
   "status": "OFFICIAL LOCKED BM ARCHIVES MAIN ENTRANCE - 14 NOVEMBER 2026",
   "approved_by": "Brian Mountford",
   "locked_date": "2026-11-14",
-  "archive_entries": 50,
+  "archive_entries": 51,
   "public_url": "https://bm-creations-public.vercel.app/BM_MAIN_ENTRANCE_40.html",
   "master_path": "BM_MAIN_ENTRANCE_40.html",
   "also_updated_path": "BM_MAIN_ENTRANCE_39_WITH_ANEWAIRA.html",
@@ -12,9 +12,9 @@
   "page39": "LOCKED - animated ANEWAIRA windmill with static white capital A",
   "qr_url": "https://bm-creations-public.vercel.app/BM_CREATIONS_MAIN_ENTRANCE_QR.png",
   "share_url": "https://bm-creations-public.vercel.app/main-entrance-share/",
-  "email_link": "mailto:?subject=B.M.%20Creations%20Main%20Entrance&body=Explore%20all%2050%20BM%20Creations%20archive%20entries%3A%0Ahttps%3A%2F%2Fbm-creations-public.vercel.app%2FBM_MAIN_ENTRANCE_40.html",
+  "email_link": "mailto:?subject=B.M.%20Creations%20Main%20Entrance&body=Explore%20all%2051%20BM%20Creations%20archive%20entries%3A%0Ahttps%3A%2F%2Fbm-creations-public.vercel.app%2FBM_MAIN_ENTRANCE_40.html",
   "editing_rule": "NO ALTERATIONS may be made to the official Main Entrance, its official QR code or its official emailable link unless personally requested by Brian Mountford.",
-  "latest_authorised_change": "Brian Mountford locked Tea for 2 and requested its Main Entrance addition and updated public email link and QR code on 17 November 2026.",
+  "latest_authorised_change": "Add Walter Splash Learning as Page 51, with public link, email button and QR code.",
   "official_date": "14 November 2026",
   "official_qr_status": "OFFICIAL QR CODE - APPROVED AND LOCKED 14 NOVEMBER 2026",
   "official_email_status": "OFFICIAL EMAILABLE PUBLIC LINK - APPROVED AND LOCKED 14 NOVEMBER 2026",
@@ -59,5 +59,12 @@
     "status": "APPROVED AND LOCKED",
     "locked_date": "2026-11-17",
     "public_url": "https://bm-creations-public.vercel.app/bert-and-barry/tea-for-2/"
+  },
+  "page51": {
+    "title": "Walter Splash — Learning",
+    "public_url": "https://bm-creations-public.vercel.app/walter-splash-learning/",
+    "status": "Main Entrance addition authorised by Brian Mountford",
+    "date": "2026-11-17",
+    "pages": 4
   }
 }

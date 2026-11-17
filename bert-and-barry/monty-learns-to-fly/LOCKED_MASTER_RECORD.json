@@ -62,5 +62,11 @@
       "width": 1054,
       "height": 1492
     }
-  ]
+  ],
+  "status": "LOCKED MASTER",
+  "approvedBy": "Brian Mountford",
+  "approvedDate": "2026-11-17",
+  "changeRule": "Preserve approved seven-page comic unchanged; make only specifically requested changes.",
+  "mainEntrancePage": 49,
+  "publicUrl": "https://bm-creations-public.vercel.app/bert-and-barry/monty-learns-to-fly/"
 }

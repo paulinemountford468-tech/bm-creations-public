@@ -1,0 +1,66 @@
+{
+  "title": "BERT AND BARRY — MONTY LEARNS TO FLY",
+  "comic": 2,
+  "creator": "Brian Mountford",
+  "format": "A4 portrait",
+  "pageCount": 7,
+  "artwork": "Approved story pages and back cover; original front cover",
+  "pages": [
+    {
+      "position": 1,
+      "label": "Front cover",
+      "original": "exec-bf1a20f9-3394-4091-8c3f-f6e27593b141.png",
+      "sha256": "6f5ed97c76cf00f7a0b2afe35971ff04b104e017a821f5f7d40e458afe99cf57",
+      "width": 1054,
+      "height": 1492
+    },
+    {
+      "position": 2,
+      "label": "Page 1",
+      "original": "exec-55b4c52b-b567-424c-9ab0-f0cdb275c620.png",
+      "sha256": "72b7df3630dfdf039b5c66e115a3a40ff6feab78f33850c48c1f81be8b747e7d",
+      "width": 1054,
+      "height": 1492
+    },
+    {
+      "position": 3,
+      "label": "Page 2",
+      "original": "exec-0ab06a01-f6b0-412e-a299-4093c5497b40.png",
+      "sha256": "c53c68bff93ba87233511cadaccd2e026e040c3c140462b622b0c95d3c21d3c8",
+      "width": 1054,
+      "height": 1492
+    },
+    {
+      "position": 4,
+      "label": "Page 3",
+      "original": "exec-bbb347c2-d9ae-41fb-a015-17176e98a026.png",
+      "sha256": "c7292e8b4036c70925f6596639e59b28f13badebd4e18563f3fc21217fd85592",
+      "width": 1054,
+      "height": 1492
+    },
+    {
+      "position": 5,
+      "label": "Page 4",
+      "original": "exec-0a7359cc-0b48-4ca9-ba89-c483e7e686bf.png",
+      "sha256": "528b9c6c8f4134fbbe68a30302c7ef41326638cdd3be7a5af4405853ff31115f",
+      "width": 1054,
+      "height": 1492
+    },
+    {
+      "position": 6,
+      "label": "Page 5",
+      "original": "exec-b3cda4a6-d30a-42c8-b223-01e7918a9ab5.png",
+      "sha256": "35a71a337890c5b81103584a2bd0c527fb99315702ebfac33d2ec5a03ce66504",
+      "width": 1054,
+      "height": 1492
+    },
+    {
+      "position": 7,
+      "label": "Back cover",
+      "original": "exec-dbd64930-6dac-4871-81a3-53dc6153c086.png",
+      "sha256": "54a67d73612c830c9033893874770a5e594826475835c606e337b50d2b5a273b",
+      "width": 1054,
+      "height": 1492
+    }
+  ]
+}

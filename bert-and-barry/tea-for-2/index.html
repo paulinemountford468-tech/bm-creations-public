@@ -1,0 +1,30 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Bert and Barry Comic 1 — Tea for 2</title><style>:root{color-scheme:light}*{box-sizing:border-box}body{margin:0;background:#14273a;color:#f8f3e7;font:18px Arial,sans-serif}#monty-comic-reader{max-width:1000px;margin:auto;padding:20px}h2{text-align:center;color:#e5c67c}.viz-controls{display:flex;justify-content:center;align-items:center;gap:10px;flex-wrap:wrap;margin:15px 0}.btn,select{font:inherit;padding:12px;border:1px solid #b89b5e;border-radius:6px;background:#f8eed7;color:#14273a}.btn:disabled{opacity:.45}.btn{cursor:pointer}.form-label{display:block;margin-bottom:7px}select{width:100%}a{color:#f4d98f}img{height:auto}@media print{h2,.viz-controls,label,select,a{display:none}@page{size:A4 portrait;margin:0}#monty-comic-reader{padding:0}img{max-height:none!important;width:210mm!important}}</style></head><body><div id="monty-comic-reader">
+  <h2>Tea for 2 — Comic 1</h2>
+  <div class="viz-controls">
+    <button class="btn" type="button" id="monty-prev">← Previous</button>
+    <span id="monty-status" aria-live="polite"></span>
+    <button class="btn btn-primary" type="button" id="monty-next">Next →</button>
+    <button class="btn" type="button" id="monty-zoom" aria-pressed="false">Enlarge</button>
+  </div>
+  <label class="form-label" for="monty-jump">Choose a page</label>
+  <select class="form-select" id="monty-jump"></select>
+  <figure style="margin:14px 0">
+    <img id="monty-page" alt="" style="display:block;width:100%;max-height:850px;object-fit:contain;margin:auto">
+  </figure>
+  <a href="https://bm-creations-public.vercel.app/BM_MAIN_ENTRANCE_40.html">Back to Main Entrance</a>
+  <script>window.montyPages=[];</script><script src="page-0.js"></script><script src="page-1.js"></script><script src="page-2.js"></script><script src="page-3.js"></script><script src="page-4.js"></script><script src="page-5.js"></script><script src="page-6.js"></script><script>
+  (function(){
+    const root=document.getElementById('monty-comic-reader');
+    const pages=window.montyPages;
+    const pic=root.querySelector('#monty-page'),prev=root.querySelector('#monty-prev'),next=root.querySelector('#monty-next'),status=root.querySelector('#monty-status'),jump=root.querySelector('#monty-jump'),zoom=root.querySelector('#monty-zoom');
+    let index=0,enlarged=false;
+    pages.forEach((p,n)=>{const option=document.createElement('option');option.value=n;option.textContent=p.label;jump.appendChild(option)});
+    function show(n){index=Math.max(0,Math.min(pages.length-1,n));pic.src=pages[index].src;pic.alt='Bert and Barry: Tea for 2 — '+pages[index].label;status.textContent=pages[index].label+' · '+(index+1)+' of '+pages.length;jump.value=index;prev.disabled=index===0;next.disabled=index===pages.length-1}
+    prev.onclick=()=>show(index-1);next.onclick=()=>show(index+1);jump.onchange=()=>show(Number(jump.value));
+    zoom.onclick=()=>{enlarged=!enlarged;pic.style.maxHeight=enlarged?'none':'850px';zoom.textContent=enlarged?'Fit page':'Enlarge';zoom.setAttribute('aria-pressed',String(enlarged))};
+    root.addEventListener('keydown',e=>{if(e.target.tagName==='SELECT')return;if(e.key==='ArrowRight')show(index+1);if(e.key==='ArrowLeft')show(index-1)});
+    show(0);
+  })();
+  </script>
+</div>
+</body></html>

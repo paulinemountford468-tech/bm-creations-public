@@ -105,6 +105,24 @@ ModuleNotFoundError: No module named 'qrcode'" style="width:150px;height:150px;o
    if([8,9,10,16,19,20,22,35,36].includes(number)){entry.querySelectorAll('.status, .desc > span').forEach(note=>note.remove());const desc=entry.querySelector('.desc');if(desc)entry.querySelectorAll(':scope > a').forEach(a=>desc.appendChild(a));}
 
   });
+  // Group each new book with its existing character entry; retain old anchors.
+  function groupBook(bookNumber, collectionNumber, collectionTitle) {
+   const book=archive.querySelector('#page-'+bookNumber);
+   const collection=archive.querySelector('#page-'+collectionNumber);
+   if(!book || !collection) throw new Error('Missing collection entry');
+   const heading=collection.querySelector('h2, strong');
+   if(heading) heading.textContent=collectionTitle;
+   const section=source.createElement('section');
+   section.id='page-'+bookNumber;
+   section.setAttribute('aria-label',book.querySelector('h2')?.textContent || 'Additional book');
+   section.style.cssText='grid-column:1/-1;flex-basis:100%;width:100%;border-top:1px solid #c7aa6c;margin-top:16px;padding-top:16px';
+   Array.from(book.children).forEach(child=>{if(!child.classList.contains('number'))section.appendChild(child);});
+   collection.appendChild(section);
+   book.remove();
+  }
+  groupBook(50,49,'BERT AND BARRY');
+  groupBook(51,35,'WALTER SPLASH');
+
   const albertEntry=archive.querySelector('#page-38');if(albertEntry){const videoLink=source.createElement('a');videoLink.href='https://bm-creations-public.vercel.app/albert-bertie-video/';videoLink.textContent='WATCH ALBERT AND BERTIE VIDEO';videoLink.style.cssText='display:inline-block;margin:6px';(albertEntry.querySelector('.desc')||albertEntry.querySelector('h2').parentElement).appendChild(videoLink);}
   const archiveNotice=source.querySelector('.verified-note');
   if(archiveNotice)archiveNotice.textContent='BM CREATIONS — OFFICIAL MAIN ENTRANCE · 51 ARCHIVE ENTRIES · 17 NOVEMBER 2026.';

@@ -1,0 +1,40 @@
+{
+  "title": "BERT AND BARRY \u2014 TEA FOR 2",
+  "comic": 1,
+  "creator": "Brian Mountford",
+  "status": "ALL SEVEN ORIGINAL APPROVED IMAGES RECOVERED",
+  "recovered": "2026-11-17",
+  "next_action": "Assemble flipbook using these exact images; add to Main Entrance after page49. Do not recreate art.",
+  "public_main_entrance": "https://bm-creations-public.vercel.app/BM_MAIN_ENTRANCE_40.html",
+  "comic2": "https://bm-creations-public.vercel.app/bert-and-barry/monty-learns-to-fly/",
+  "pages": [
+    {
+      "file": "originals/front-cover.png",
+      "sha256": "0aea71d2971db473bda018dafc3c02c934a81e222536da408b9477a0e95ad1b8"
+    },
+    {
+      "file": "originals/page-1.png",
+      "sha256": "7907637929532b2daa79c8c527cea6aea795f8849d7d8de190c90f064b59cf9c"
+    },
+    {
+      "file": "originals/page-2.png",
+      "sha256": "5e7510dda06d87f5470d31cc0f140d4869a3a4a88f2902a0d59089da822c89cc"
+    },
+    {
+      "file": "originals/page-3.png",
+      "sha256": "a514cd1546e248a069a62137ca2d80d03233805dc14e9e265e2d15801457cb12"
+    },
+    {
+      "file": "originals/page-4.png",
+      "sha256": "d624a97fbfcb60848ad3cb90d953bd7a483af7275c1b7e53b23dab6ffed35687"
+    },
+    {
+      "file": "originals/page-5.png",
+      "sha256": "f00acc78511661ebb223a51960ff610945077b418193b8dadd6c6b0bc0561696"
+    },
+    {
+      "file": "originals/back-cover.png",
+      "sha256": "54d9aff4eea3154570282b1e90d05adef2a8de80f9efcdb35fbba58fe9064cd2"
+    }
+  ]
+}

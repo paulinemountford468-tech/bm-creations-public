@@ -1,0 +1,48 @@
+{
+  "title": "BERT AND BARRY",
+  "comic_number": 1,
+  "story": "TEA FOR 2",
+  "creator": "Brian Mountford",
+  "status": "All seven artwork pages explicitly approved and locked by Brian",
+  "flipbook_status": "Assembly pending: execution environment unavailable; approved image bytes not accessible in current session",
+  "format": "A4 portrait",
+  "order": [
+    {
+      "position": 1,
+      "label": "Front cover",
+      "description": "COMIC NUMBER 1 — TEA FOR 2. Covered invention. Created by Brian Mountford."
+    },
+    {
+      "position": 2,
+      "label": "Story page 1",
+      "description": "Doris and Delores go to BIGWIN Bingo Hall. Bert presents sheet-covered invention: Are you ready for this, Barry? It could change your life!"
+    },
+    {
+      "position": 3,
+      "label": "Story page 2",
+      "description": "Bert unveils tea-bag-making machine. Barry: Wow, Bert! You never cease to amaze me. What is it?"
+    },
+    {
+      "position": 4,
+      "label": "Story page 3",
+      "description": "Five illustrated stages: heat leaves, shred, fill handmade bags, seal, box. Standard explanation-page format for future comics."
+    },
+    {
+      "position": 5,
+      "label": "Story page 4",
+      "description": "Get ready to be amazed, Barry! Machine malfunctions and covers Bert in tea leaves."
+    },
+    {
+      "position": 6,
+      "label": "Story page 5",
+      "description": "Bert examines failed machine. Barry pours water into teapot with STYPHOO tea bag. Two mugs BERT and BARRY. Never mind, Bert. Let’s have a nice cup of tea."
+    },
+    {
+      "position": 7,
+      "label": "Back cover",
+      "description": "WATCH OUT FOR MORE BERT AND BARRY STORIES CREATED BY BRIAN MOUNTFORD."
+    }
+  ],
+  "preservation": "Use approved images unchanged. Do not recreate them or substitute drafts. Back to Main Entrance link required.",
+  "main_entrance_status": "Not yet added; do not present an unassembled flipbook as ready."
+}

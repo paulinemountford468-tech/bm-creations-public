@@ -4,7 +4,7 @@
   "story": "TEA FOR 2",
   "creator": "Brian Mountford",
   "status": "All seven artwork pages explicitly approved and locked by Brian",
-  "flipbook_status": "Assembly pending: execution environment unavailable; approved image bytes not accessible in current session",
+  "flipbook_status": "Seven-page flipbook assembled and published using recovered approved images",
   "format": "A4 portrait",
   "order": [
     {
@@ -44,5 +44,6 @@
     }
   ],
   "preservation": "Use approved images unchanged. Do not recreate them or substitute drafts. Back to Main Entrance link required.",
-  "main_entrance_status": "Not yet added; do not present an unassembled flipbook as ready."
+  "main_entrance_status": "Added as Page 50 on 17 November 2026 at Brian Mountford's request",
+  "public_url": "https://bm-creations-public.vercel.app/bert-and-barry/tea-for-2/"
 }

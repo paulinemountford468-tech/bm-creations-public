@@ -105,16 +105,6 @@ ModuleNotFoundError: No module named 'qrcode'" style="width:150px;height:150px;o
    if([8,9,10,16,19,20,22,35,36].includes(number)){entry.querySelectorAll('.status, .desc > span').forEach(note=>note.remove());const desc=entry.querySelector('.desc');if(desc)entry.querySelectorAll(':scope > a').forEach(a=>desc.appendChild(a));}
 
   });
-  const linkoEntry=archive.querySelector('#page-22');
-  if(linkoEntry){
-   const desc=linkoEntry.querySelector('.desc') || linkoEntry;
-   const colourBall=source.createElement('section');
-   colourBall.id='linko-gaming-concepts';
-   colourBall.innerHTML='<strong>LINKO GAMING CONCEPTS — THE COLOUR BALL GAME</strong><p>Five-page flipbook with cover, playable nine-colour ball demonstration, rules and back cover.</p><p><a href="https://bm-creations-public.vercel.app/linko-gaming-concepts/">OPEN COLOUR BALL GAME FLIPBOOK</a></p><p><a href="mailto:?subject=LINKO%20Gaming%20Concepts&amp;body=https%3A%2F%2Fbm-creations-public.vercel.app%2Flinko-gaming-concepts%2F">EMAIL COLOUR BALL GAME LINK</a></p>';
-   colourBall.style.cssText='border-top:1px solid #c7aa6c;margin-top:12px;padding-top:12px';
-   desc.appendChild(colourBall);
-  }
-
   // Group each new book with its existing character entry; retain old anchors.
   function groupBook(bookNumber, collectionNumber, collectionTitle) {
    const book=archive.querySelector('#page-'+bookNumber);
@@ -132,6 +122,16 @@ ModuleNotFoundError: No module named 'qrcode'" style="width:150px;height:150px;o
   }
   groupBook(50,49,'BERT AND BARRY');
   groupBook(51,35,'WALTER SPLASH');
+  // Page 50 belongs to LINKO; Comic 1 remains inside the Bert and Barry collection.
+  const comicOne=archive.querySelector('#page-49 #page-50');
+  if(comicOne) comicOne.id='bert-and-barry-comic-1';
+  const linko50=source.createElement('article');
+  linko50.className='entry';
+  linko50.id='page-50';
+  linko50.innerHTML='<div class="number">50</div><div class="thumb" role="img" aria-label="LINKO colour ball" style="object-fit:contain;background:conic-gradient(#e63946 0deg 40deg,#f28c28 40deg 80deg,#f4d03f 80deg 120deg,#30a46c 120deg 160deg,#2389da 160deg 200deg,#293e9b 200deg 240deg,#8d5bd1 240deg 280deg,#ef80b1 280deg 320deg,#815733 320deg);width:85px;height:85px;border-radius:50%"></div><div class="desc"><strong>LINKO GAMING CONCEPTS — THE COLOUR BALL GAME</strong><p>Five-page flipbook: cover, concept, playable colour ball, rules and back cover.</p><a href="https://bm-creations-public.vercel.app/linko-gaming-concepts/">OPEN COLOUR BALL GAME FLIPBOOK</a><a href="mailto:?subject=LINKO%20Gaming%20Concepts&amp;body=https%3A%2F%2Fbm-creations-public.vercel.app%2Flinko-gaming-concepts%2F">EMAIL PUBLIC LINK</a></div>';
+  const bertCollection=archive.querySelector('#page-49');
+  if(bertCollection) bertCollection.after(linko50);else archive.appendChild(linko50);
+
 
   // Preserve Page 35's approved cover, description and QR row.
   const walter35=archive.querySelector('#page-35');

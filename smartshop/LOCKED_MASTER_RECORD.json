@@ -1,0 +1,45 @@
+{
+  "archive_page": 52,
+  "title": "SMARTSHOP \u2014 B.M. Inventions",
+  "status": "LOCKED MASTER",
+  "locked_date": "2026-11-18",
+  "page_count": 7,
+  "source_policy": "Five original SmartShop uploads; no drawn substitute pages; duplicate poster presentation removed.",
+  "pages": [
+    {
+      "page": 1,
+      "source": "01-SMARTSHOP-POSTER.png",
+      "description": "Original SmartShop poster"
+    },
+    {
+      "page": 2,
+      "source": "05-SMARTSHOP-2.jpg",
+      "description": "Original SmartShop layout drawing"
+    },
+    {
+      "page": 3,
+      "source": "03-SMARTSHOP-3.jpg",
+      "description": "Original Mr Lucky Bags display"
+    },
+    {
+      "page": 4,
+      "source": "04-IMG_3322-SMARTSHOP-5.jpg",
+      "description": "Original SmartShop unit photograph"
+    },
+    {
+      "page": 5,
+      "source": "06-IMG_3320-SMARTSHOP-6.jpg",
+      "description": "Original SmartShop concept description"
+    },
+    {
+      "page": 6,
+      "description": "Main Entrance QR code and direct link"
+    },
+    {
+      "page": 7,
+      "description": "Back cover with Main Entrance link"
+    }
+  ],
+  "main_entrance": "/BM_MAIN_ENTRANCE_40.html",
+  "public_flipbook": "/smartshop/"
+}

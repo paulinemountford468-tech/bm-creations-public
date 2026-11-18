@@ -151,6 +151,24 @@ ModuleNotFoundError: No module named 'qrcode'" style="width:150px;height:150px;o
   requestedBooks.style.cssText='max-width:1100px;margin:18px auto;padding:18px;border:2px solid #c7aa6c;border-radius:10px;background:#fff;color:#18364e';
   requestedBooks.innerHTML='<h2 style="margin-top:0">Open these flipbooks</h2><p><a href="https://bm-creations-public.vercel.app/walter-splash-golden-smile/">WALTER SPLASH AND THE GOLDEN SMILE — OPEN FLIPBOOK</a></p><p><a href="https://bm-creations-public.vercel.app/bert-and-barry/tea-for-2/">BERT AND BARRY COMIC 1 — TEA FOR 2 — OPEN FLIPBOOK</a></p>';
   archive.before(requestedBooks);
+  const laterPages=source.createElement('nav');
+  laterPages.setAttribute('aria-label','Main Entrance pages 42 to 50');
+  laterPages.style.cssText='max-width:940px;margin:16px auto;padding:18px;background:white;border:2px solid #c7aa6c;border-radius:11px;color:#14243f';
+  const laterHeading=source.createElement('strong');
+  laterHeading.textContent='CONTINUE TO PAGES 42–50';
+  laterPages.appendChild(laterHeading);
+  const laterNames={42:'Lucky Devile',43:'Bideham Bites Back',44:'The Kindness Crew',45:'The Pink Elephant',46:'The Kindness Crew 2',47:'Poke Ham On Island',48:'Artwork by BM',49:'Bert and Barry',50:'LINKO Colour Ball Game'};
+  Object.entries(laterNames).forEach(([number,name])=>{
+   const link=source.createElement('a');
+   link.href='#page-'+number;
+   link.textContent='Page '+number+' — '+name;
+   link.style.cssText='display:inline-block;margin:8px 10px 0 0;padding:10px;background:#09245a;color:white;border-radius:6px;font-size:16px;text-decoration:none';
+   laterPages.appendChild(link);
+  });
+  archive.before(laterPages);
+  const page41=archive.querySelector('#page-41');
+  if(page41) page41.after(laterPages.cloneNode(true));
+
 
   const albertEntry=archive.querySelector('#page-38');if(albertEntry){const videoLink=source.createElement('a');videoLink.href='https://bm-creations-public.vercel.app/albert-bertie-video/';videoLink.textContent='WATCH ALBERT AND BERTIE VIDEO';videoLink.style.cssText='display:inline-block;margin:6px';(albertEntry.querySelector('.desc')||albertEntry.querySelector('h2').parentElement).appendChild(videoLink);}
   const archiveNotice=source.querySelector('.verified-note');

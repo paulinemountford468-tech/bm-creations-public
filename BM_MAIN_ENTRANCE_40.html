@@ -129,6 +129,16 @@ ModuleNotFoundError: No module named 'qrcode'" style="width:150px;height:150px;o
   linko50.className='entry';
   linko50.id='page-50';
   linko50.innerHTML='<div class="number">50</div><div class="thumb" role="img" aria-label="LINKO colour ball" style="object-fit:contain;background:conic-gradient(#e63946 0deg 40deg,#f28c28 40deg 80deg,#f4d03f 80deg 120deg,#30a46c 120deg 160deg,#2389da 160deg 200deg,#293e9b 200deg 240deg,#8d5bd1 240deg 280deg,#ef80b1 280deg 320deg,#815733 320deg);width:85px;height:85px;border-radius:50%"></div><div class="desc"><strong>LINKO GAMING CONCEPTS — THE COLOUR BALL GAME</strong><p>Five-page flipbook: cover, concept, playable colour ball, rules and back cover.</p><a href="https://bm-creations-public.vercel.app/archive-reader.html?entry=50">OPEN COLOUR BALL GAME FLIPBOOK</a><a href="mailto:?subject=LINKO%20Gaming%20Concepts&amp;body=https%3A%2F%2Fbm-creations-public.vercel.app%2Flinko-gaming-concepts%2F">EMAIL PUBLIC LINK</a></div>';
+  const linkoQRLink=source.createElement('a');
+  linkoQRLink.href='https://bm-creations-public.vercel.app/linko-gaming-concepts/';
+  linkoQRLink.setAttribute('aria-label','Open LINKO Ball Page 50');
+  const linkoQR=source.createElement('img');
+  linkoQR.src='https://bm-creations-public.vercel.app/linko-gaming-concepts/qr.svg';
+  linkoQR.alt='Public QR code for LINKO Colour Ball Game — Page 50';
+  linkoQR.className='qr';
+  linkoQR.style.cssText='width:110px;height:110px;object-fit:contain;background:white';
+  linkoQRLink.appendChild(linkoQR);
+  linko50.appendChild(linkoQRLink);
   const bertCollection=archive.querySelector('#page-49');
   if(bertCollection) bertCollection.after(linko50);else archive.appendChild(linko50);
 

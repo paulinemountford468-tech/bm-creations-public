@@ -1,0 +1,46 @@
+{
+  "archive_page": 53,
+  "title": "PhysioBic Ball \u2014 B.M. Invention",
+  "status": "LOCKED MASTER",
+  "locked_date": "2026-11-18",
+  "page_count": 7,
+  "pages": [
+    {
+      "page": 1,
+      "source": "01-PHYSIOBIC-BALL.png",
+      "description": "Cover using supplied original product photo"
+    },
+    {
+      "page": 2,
+      "source": "Physiobic Ball Exerciser product showcase.png",
+      "description": "Existing locked product showcase"
+    },
+    {
+      "page": 3,
+      "source": "Physiobic Ball Exerciser product guide.png",
+      "description": "Existing locked product guide"
+    },
+    {
+      "page": 4,
+      "source": "Physiobic Ball Exerciser benefits and exercises(1).png",
+      "description": "Existing locked exercise examples"
+    },
+    {
+      "page": 5,
+      "source": "PHYSIOBIC SHEET.jpg",
+      "description": "Original PhysioBic sheet"
+    },
+    {
+      "page": 6,
+      "source": "01-PAGE-124-PARAGRAPH-124.docx; In-flight exercise with the Physiobic ring.png",
+      "description": "Brian's invention account from Page 125 Paragraph 125, paired with existing in-flight archive illustration"
+    },
+    {
+      "page": 7,
+      "description": "Back cover with direct Main Entrance link and QR"
+    }
+  ],
+  "main_entrance": "/BM_MAIN_ENTRANCE_40.html",
+  "public_flipbook": "/physiobic-ball/",
+  "source_policy": "Existing locked and supplied PhysioBic artwork only; no substitute product drawings. Story text summarizes Brian's original account; unrelated paragraph 126 excluded."
+}

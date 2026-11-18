@@ -1,23 +1,23 @@
 {
   "title": "B.M. CREATIONS - COMPLETE MAIN ENTRANCE",
-  "status": "OFFICIAL LOCKED BM ARCHIVES MAIN ENTRANCE - 14 NOVEMBER 2026",
+  "status": "OFFICIAL LOCKED MASTER — ALL EXISTING PAGES 1–50 — 18 NOVEMBER 2026",
   "approved_by": "Brian Mountford",
-  "locked_date": "2026-11-14",
-  "archive_entries": 51,
+  "locked_date": "2026-11-18",
+  "archive_entries": 50,
   "public_url": "https://bm-creations-public.vercel.app/BM_MAIN_ENTRANCE_40.html",
   "master_path": "BM_MAIN_ENTRANCE_40.html",
   "also_updated_path": "BM_MAIN_ENTRANCE_39_WITH_ANEWAIRA.html",
-  "locked_source_commit": "60157242de9123809adecbcd0c63a4c4a84984bb",
-  "master_sha256": "ddfe225477ae62f35d1aa482b94c96c48152ec94db4e99d36b4d2454b3017f4b",
+  "locked_source_commit": "fbb446f43be7ace187a93c4cc90af7222c91a753",
+  "master_sha256": "d24ff1b4833f5150efb4305f81d44a1385959ba8da0a25ba2b5132170f939cc3",
   "page39": "LOCKED - animated ANEWAIRA windmill with static white capital A",
-  "qr_url": "https://bm-creations-public.vercel.app/BM_CREATIONS_MAIN_ENTRANCE_QR.png",
+  "qr_url": "https://bm-creations-public.vercel.app/main-entrance-share/current-50-page-qr.svg",
   "share_url": "https://bm-creations-public.vercel.app/main-entrance-share/",
-  "email_link": "mailto:?subject=B.M.%20Creations%20Main%20Entrance&body=Explore%20all%2051%20BM%20Creations%20archive%20entries%3A%0Ahttps%3A%2F%2Fbm-creations-public.vercel.app%2FBM_MAIN_ENTRANCE_40.html",
-  "editing_rule": "NO ALTERATIONS may be made to the official Main Entrance, its official QR code or its official emailable link unless personally requested by Brian Mountford.",
-  "latest_authorised_change": "Add Walter Splash Learning as Page 51, with public link, email button and QR code.",
-  "official_date": "14 November 2026",
-  "official_qr_status": "OFFICIAL QR CODE - APPROVED AND LOCKED 14 NOVEMBER 2026",
-  "official_email_status": "OFFICIAL EMAILABLE PUBLIC LINK - APPROVED AND LOCKED 14 NOVEMBER 2026",
+  "email_link": "mailto:?subject=BM%20Creations%20%E2%80%94%20Current%20Main%20Entrance&body=https%3A%2F%2Fbm-creations-public.vercel.app%2FBM_MAIN_ENTRANCE_40.html",
+  "editing_rule": "NO CHANGES WHATSOEVER TO ANY OF THE EXISTING PAGES FROM PAGE 1 TO PAGE 50. All 50 existing Main Entrance pages and their current linked flipbooks are approved and locked by Brian Mountford on 18 November 2026. Preserve their content, artwork, layout, numbering, links and QR codes.",
+  "latest_authorised_change": "Remove both redundant continue-to-pages-42–50 panels. Brian confirmed 'thats fine' and approved and locked all existing pages 1–50.",
+  "official_date": "18 November 2026",
+  "official_qr_status": "CURRENT MAIN ENTRANCE QR — APPROVED AND LOCKED 18 NOVEMBER 2026",
+  "official_email_status": "CURRENT MAIN ENTRANCE PUBLIC EMAILABLE LINK — APPROVED AND LOCKED 18 NOVEMBER 2026",
   "qr_sha256": "85eb9b2dacf110a63e2ec7c4df40c488ecb01ba86506b38110d2b2cce2c7458e",
   "cleanup": {
     "obsolete_main_entrance_files_moved_to_trash": 24,
@@ -26,10 +26,8 @@
     "original_creative_masters": "Retained",
     "official_public_archive": "Retained"
   },
-  "approved_locked_entries": "1–40",
-  "pending_review_entries": [
-    41
-  ],
+  "approved_locked_entries": "1–50",
+  "pending_review_entries": [],
   "page38_video": {
     "status": "APPROVED AND LOCKED",
     "approved_by": "Brian Mountford",
@@ -55,16 +53,25 @@
     "qr_status": "Public flipbook QR added at Brian Mountford's request"
   },
   "page50": {
-    "title": "Bert and Barry — Tea for 2",
+    "title": "LINKO Gaming Concepts — The Colour Ball Game",
     "status": "APPROVED AND LOCKED",
-    "locked_date": "2026-11-17",
-    "public_url": "https://bm-creations-public.vercel.app/bert-and-barry/tea-for-2/"
+    "locked_date": "2026-11-18",
+    "public_url": "https://bm-creations-public.vercel.app/linko-gaming-concepts/"
   },
   "page51": {
     "title": "Walter Splash — Learning",
     "public_url": "https://bm-creations-public.vercel.app/walter-splash-learning/",
-    "status": "Main Entrance addition authorised by Brian Mountford",
+    "status": "APPROVED AND LOCKED WITHIN EXISTING PAGE 35",
     "date": "2026-11-17",
-    "pages": 4
+    "pages": 4,
+    "current_location": "Within Page 35 — Walter Splash",
+    "locked_date": "2026-11-18"
+  },
+  "master_blob_sha": "0bae894797d519d8debd8825c00795fddaea1f85",
+  "bert_and_barry_comic_1": {
+    "title": "Tea for 2",
+    "status": "APPROVED AND LOCKED",
+    "location": "Within Page 49 — Bert and Barry",
+    "public_url": "https://bm-creations-public.vercel.app/bert-and-barry/tea-for-2/"
   }
 }

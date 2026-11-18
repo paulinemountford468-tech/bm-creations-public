@@ -105,6 +105,16 @@ ModuleNotFoundError: No module named 'qrcode'" style="width:150px;height:150px;o
    if([8,9,10,16,19,20,22,35,36].includes(number)){entry.querySelectorAll('.status, .desc > span').forEach(note=>note.remove());const desc=entry.querySelector('.desc');if(desc)entry.querySelectorAll(':scope > a').forEach(a=>desc.appendChild(a));}
 
   });
+  const linkoEntry=archive.querySelector('#page-22');
+  if(linkoEntry){
+   const desc=linkoEntry.querySelector('.desc') || linkoEntry;
+   const colourBall=source.createElement('section');
+   colourBall.id='linko-gaming-concepts';
+   colourBall.innerHTML='<strong>LINKO GAMING CONCEPTS — THE COLOUR BALL GAME</strong><p>Five-page flipbook with cover, playable nine-colour ball demonstration, rules and back cover.</p><p><a href="https://bm-creations-public.vercel.app/linko-gaming-concepts/">OPEN COLOUR BALL GAME FLIPBOOK</a></p><p><a href="mailto:?subject=LINKO%20Gaming%20Concepts&amp;body=https%3A%2F%2Fbm-creations-public.vercel.app%2Flinko-gaming-concepts%2F">EMAIL COLOUR BALL GAME LINK</a></p>';
+   colourBall.style.cssText='border-top:1px solid #c7aa6c;margin-top:12px;padding-top:12px';
+   desc.appendChild(colourBall);
+  }
+
   // Group each new book with its existing character entry; retain old anchors.
   function groupBook(bookNumber, collectionNumber, collectionTitle) {
    const book=archive.querySelector('#page-'+bookNumber);

@@ -123,6 +123,19 @@ ModuleNotFoundError: No module named 'qrcode'" style="width:150px;height:150px;o
   groupBook(50,49,'BERT AND BARRY');
   groupBook(51,35,'WALTER SPLASH');
 
+  // Preserve Page 35's approved cover, description and QR row.
+  const walter35=archive.querySelector('#page-35');
+  const learning51=walter35?.querySelector('#page-51');
+  if(walter35 && learning51){
+   walter35.style.flexWrap='wrap';
+   const approvedTitle=walter35.querySelector(':scope > .desc > strong');
+   if(approvedTitle) approvedTitle.textContent='WALTER SPLASH — EARLY LEARNING PAGES / LEARNING OCEAN';
+   learning51.style.cssText='flex:0 0 100%;width:100%;display:flex;align-items:center;gap:15px;border-top:1px solid #c7aa6c;margin-top:16px;padding-top:16px';
+   const detail=learning51.querySelector(':scope > div');
+   if(detail){detail.classList.add('desc');const title=detail.querySelector('h2');if(title)title.style.cssText='font-size:17px;margin:0';}
+   learning51.querySelectorAll(':scope > img').forEach(img=>{img.className=/QR/i.test(img.alt)?'qr':'thumb';img.style.cssText='object-fit:contain;flex-shrink:0';});
+  }
+
   const requestedBooks=source.createElement('nav');
   requestedBooks.setAttribute('aria-label','Walter Splash and Bert and Barry flipbooks');
   requestedBooks.style.cssText='max-width:1100px;margin:18px auto;padding:18px;border:2px solid #c7aa6c;border-radius:10px;background:#fff;color:#18364e';

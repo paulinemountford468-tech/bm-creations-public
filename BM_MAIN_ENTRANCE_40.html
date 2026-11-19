@@ -173,9 +173,9 @@ ModuleNotFoundError: No module named 'qrcode'" style="width:150px;height:150px;o
    const official=source.createElement('p');official.textContent='Official BM Archives edition updated 17 November 2026. No alterations may be made unless personally requested by Brian Mountford.';introduction.appendChild(official);
   }
   const boarnoStyle=source.createElement('style');boarnoStyle.textContent='@media(max-width:540px){#page-17 .thumb{width:110px!important;height:74px!important}}';source.head.appendChild(boarnoStyle);
-  source.title = 'BM Creations — The Main Entrance — 51 Archive Items';
+  source.title = 'BM Creations — The Main Entrance — 53 Archive Items';
   const walker = source.createTreeWalker(source.body, NodeFilter.SHOW_TEXT);
-  let node; while (node = walker.nextNode()) { node.textContent = node.textContent.replace(/37 Archive Items/gi, '51 Archive Items').replace(/37 archive entries/gi, '51 archive entries').replace(/37 items/gi, '51 items').replace(/Browse 37 approved/gi, 'Browse 51 approved'); }
+  let node; while (node = walker.nextNode()) { node.textContent = node.textContent.replace(/37 Archive Items/gi, '53 Archive Items').replace(/37 archive entries/gi, '53 archive entries').replace(/37 items/gi, '53 items').replace(/Browse 37 approved/gi, 'Browse 53 approved'); }
   document.replaceChild(document.importNode(source.documentElement, true), document.documentElement);
  if(location.hash){document.getElementById(location.hash.slice(1))?.scrollIntoView();}
  } catch (error) {

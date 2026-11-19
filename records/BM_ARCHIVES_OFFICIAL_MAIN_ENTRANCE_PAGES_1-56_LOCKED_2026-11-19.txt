@@ -1,0 +1,20 @@
+B.M. CREATIONS — OFFICIAL MAIN ENTRANCE LOCK
+OFFICIAL DATE: 19 NOVEMBER 2026
+OWNER AND CREATOR: BRIAN MOUNTFORD
+STATUS: OFFICIAL LOCKED MASTER — ALL MAIN ENTRANCE PAGES 1–56
+
+Pages 1–56 are approved and locked. Preserve all existing page content, artwork, order, page numbers, public links, and QR codes. Do not alter them unless Brian Mountford personally requests a change.
+
+PAGE 56: NICE CREAM BISCUITS
+Status: APPROVED AND LOCKED
+Product credit: “Original product created by Brian Mountford.”
+Public page: https://bm-creations-public.vercel.app/nice-cream-biscuits/
+Page 56 QR target: https://bm-creations-public.vercel.app/nice-cream-biscuits/
+
+PUBLIC MAIN ENTRANCE
+https://bm-creations-public.vercel.app/BM_MAIN_ENTRANCE_40.html
+
+56-PAGE MAIN ENTRANCE QR
+https://bm-creations-public.vercel.app/main-entrance-share/current-56-page-qr.svg
+
+Page 56 credit and QR corrections are committed in the source. Vercel reports a build-rate limit, so the public deployment still needs a successful rebuild.

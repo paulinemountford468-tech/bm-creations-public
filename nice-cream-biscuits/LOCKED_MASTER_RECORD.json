@@ -1,0 +1,17 @@
+{
+  "title": "NICE CREAM BISCUITS",
+  "archive_page": 56,
+  "category": "B.M. Product Creation",
+  "status": "APPROVED AND LOCKED",
+  "approved_by": "Brian Mountford",
+  "locked_date": "2026-11-19",
+  "public_url": "https://bm-creations-public.vercel.app/nice-cream-biscuits/",
+  "main_entrance_url": "https://bm-creations-public.vercel.app/BM_MAIN_ENTRANCE_40.html",
+  "product_credit": "Original product created by Brian Mountford.",
+  "master_page": "nice-cream-biscuits/index.html",
+  "artwork": "nice-cream-biscuits/assets/nice-cream-biscuits.png",
+  "page_qr": "nice-cream-biscuits/assets/page56-qr.svg",
+  "page_qr_target": "https://bm-creations-public.vercel.app/nice-cream-biscuits/",
+  "editing_rule": "Do not alter the locked Page 56 wording, artwork, layout, QR target, or links unless Brian Mountford personally requests a change.",
+  "deployment_note": "Source and lock records are committed; Vercel build-rate limit prevents the public deployment from showing these changes yet."
+}

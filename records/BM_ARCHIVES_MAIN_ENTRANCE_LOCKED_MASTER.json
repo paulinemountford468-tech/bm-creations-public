@@ -1,24 +1,22 @@
 {
-  "title": "B.M. CREATIONS - COMPLETE MAIN ENTRANCE",
-  "status": "OFFICIAL LOCKED MASTER — ALL EXISTING PAGES 1–50 — 18 NOVEMBER 2026",
+  "title": "B.M. CREATIONS — COMPLETE MAIN ENTRANCE",
+  "status": "OFFICIAL LOCKED MASTER — ALL PAGES 1–56 — 19 NOVEMBER 2026",
   "approved_by": "Brian Mountford",
-  "locked_date": "2026-11-18",
-  "archive_entries": 50,
+  "locked_date": "2026-11-19",
+  "archive_entries": 56,
   "public_url": "https://bm-creations-public.vercel.app/BM_MAIN_ENTRANCE_40.html",
   "master_path": "BM_MAIN_ENTRANCE_40.html",
   "also_updated_path": "BM_MAIN_ENTRANCE_39_WITH_ANEWAIRA.html",
-  "locked_source_commit": "fbb446f43be7ace187a93c4cc90af7222c91a753",
-  "master_sha256": "d24ff1b4833f5150efb4305f81d44a1385959ba8da0a25ba2b5132170f939cc3",
+  "locked_source_commit": "b14eb5fe726d922f20ba321c7ae18309e7a28029",
   "page39": "LOCKED - animated ANEWAIRA windmill with static white capital A",
-  "qr_url": "https://bm-creations-public.vercel.app/main-entrance-share/current-50-page-qr.svg",
+  "qr_url": "https://bm-creations-public.vercel.app/main-entrance-share/current-56-page-qr.svg",
   "share_url": "https://bm-creations-public.vercel.app/main-entrance-share/",
   "email_link": "mailto:?subject=BM%20Creations%20%E2%80%94%20Current%20Main%20Entrance&body=https%3A%2F%2Fbm-creations-public.vercel.app%2FBM_MAIN_ENTRANCE_40.html",
-  "editing_rule": "NO CHANGES WHATSOEVER TO ANY OF THE EXISTING PAGES FROM PAGE 1 TO PAGE 50. All 50 existing Main Entrance pages and their current linked flipbooks are approved and locked by Brian Mountford on 18 November 2026. Preserve their content, artwork, layout, numbering, links and QR codes.",
-  "latest_authorised_change": "Remove both redundant continue-to-pages-42–50 panels. Brian confirmed 'thats fine' and approved and locked all existing pages 1–50.",
-  "official_date": "18 November 2026",
-  "official_qr_status": "CURRENT MAIN ENTRANCE QR — APPROVED AND LOCKED 18 NOVEMBER 2026",
-  "official_email_status": "CURRENT MAIN ENTRANCE PUBLIC EMAILABLE LINK — APPROVED AND LOCKED 18 NOVEMBER 2026",
-  "qr_sha256": "85eb9b2dacf110a63e2ec7c4df40c488ecb01ba86506b38110d2b2cce2c7458e",
+  "editing_rule": "NO CHANGES WHATSOEVER TO ANY OF THE EXISTING MAIN ENTRANCE PAGES 1–56 OR THEIR APPROVED CONTENT, ARTWORK, ORDER, PAGE NUMBERS, LINKS, OR QR CODES unless personally requested by Brian Mountford.",
+  "latest_authorised_change": "Brian Mountford requested Page 56 Nice Cream Biscuits and the Main Entrance pages 1–56 be locked after correcting the Page 56 credit to “Original product created by Brian Mountford.”",
+  "official_date": "19 November 2026",
+  "official_qr_status": "CURRENT MAIN ENTRANCE QR — PAGES 1–56 — VERIFIED TO OPEN THE PUBLIC MAIN ENTRANCE",
+  "official_email_status": "CURRENT MAIN ENTRANCE PUBLIC EMAILABLE LINK — PAGES 1–56 — LOCKED 19 NOVEMBER 2026",
   "cleanup": {
     "obsolete_main_entrance_files_moved_to_trash": 24,
     "total_bytes": 77872109,
@@ -26,7 +24,7 @@
     "original_creative_masters": "Retained",
     "official_public_archive": "Retained"
   },
-  "approved_locked_entries": "1–50",
+  "approved_locked_entries": "1–56",
   "pending_review_entries": [],
   "page38_video": {
     "status": "APPROVED AND LOCKED",
@@ -67,11 +65,41 @@
     "current_location": "Within Page 35 — Walter Splash",
     "locked_date": "2026-11-18"
   },
-  "master_blob_sha": "0bae894797d519d8debd8825c00795fddaea1f85",
   "bert_and_barry_comic_1": {
     "title": "Tea for 2",
     "status": "APPROVED AND LOCKED",
     "location": "Within Page 49 — Bert and Barry",
     "public_url": "https://bm-creations-public.vercel.app/bert-and-barry/tea-for-2/"
-  }
+  },
+  "main_entrance_git_blob_sha": "9bf12f9471f47dabe1502994a91e493ba0a3fb2c",
+  "qr_git_blob_sha": "f7168c08bc694088b1565a7035c6dc013fd81817",
+  "page53": {
+    "title": "PhysioBic Ball",
+    "status": "APPROVED AND LOCKED",
+    "locked_date": "2026-11-19",
+    "public_url": "https://bm-creations-public.vercel.app/physiobic-ball/"
+  },
+  "page54": {
+    "title": "Rolls Aftershave",
+    "status": "APPROVED AND LOCKED",
+    "locked_date": "2026-11-19",
+    "public_url": "https://bm-creations-public.vercel.app/rolls-aftershave/"
+  },
+  "page55": {
+    "title": "Viage ’N’ Ice",
+    "status": "APPROVED AND LOCKED",
+    "locked_date": "2026-11-19",
+    "public_url": "https://bm-creations-public.vercel.app/viage55/"
+  },
+  "page56": {
+    "title": "Nice Cream Biscuits",
+    "status": "APPROVED AND LOCKED",
+    "approved_by": "Brian Mountford",
+    "locked_date": "2026-11-19",
+    "public_url": "https://bm-creations-public.vercel.app/nice-cream-biscuits/",
+    "product_credit": "Original product created by Brian Mountford.",
+    "page_qr_url": "https://bm-creations-public.vercel.app/nice-cream-biscuits/assets/page56-qr.svg",
+    "page_qr_target": "https://bm-creations-public.vercel.app/nice-cream-biscuits/"
+  },
+  "public_deployment_status": "Page 56 credit and QR corrections are committed in the source. The current public deployment is still waiting on a successful Vercel build because of the build-rate limit."
 }

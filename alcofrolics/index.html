@@ -106,14 +106,14 @@
           <img class="qr" src="assets/page57-qr.svg" alt="QR code linking directly to the public Alcofrolics Page 57 flipbook">
           <p>Scan to open the public Page 57 flipbook</p>
         </div>
-        <div class="caption"><strong>End of Page 57 flipbook</strong>Return to the full Main Entrance using the button below.</div>
+        <div class="caption"><strong>End of Page 57 flipbook</strong>Return to the cover using the button below.</div>
       </section>
     </div>
     <nav class="controls" aria-label="Flipbook controls">
-      <button id="prev" type="button" aria-label="Previous page">← Previous</button>
+      <button id="prev" type="button" aria-label="Previous page">Previous page</button>
       <span id="counter">1 / 5 · Cover</span>
-      <button id="next" type="button" aria-label="Next page">Next →</button>
-      <a class="main-link" href="https://bm-creations-public.vercel.app/BM_MAIN_ENTRANCE_40.html">Main Entrance · Pages 1–57</a>
+      <button id="next" type="button" aria-label="Next page">Next page</button>
+      <button id="cover" type="button">Back to cover</button>
     </nav>
   </main>
   <div class="extras">B.M. Creations · Product archive · <a href="assets/page57-qr.svg">Open or save Page 57 QR code</a></div>
@@ -123,6 +123,7 @@
       const counter = document.getElementById('counter');
       const prev = document.getElementById('prev');
       const next = document.getElementById('next');
+      const cover = document.getElementById('cover');
       let current = 0;
       function show(n) {
         current = Math.max(0, Math.min(sheets.length - 1, n));
@@ -132,6 +133,7 @@
       }
       prev.addEventListener('click', () => show(current - 1));
       next.addEventListener('click', () => show(current + 1));
+      cover.addEventListener('click', () => show(0));
       document.addEventListener('keydown', e => { if (e.key === 'ArrowLeft') show(current - 1); if (e.key === 'ArrowRight') show(current + 1); });
       let touchStart = 0;
       document.addEventListener('touchstart', e => { touchStart = e.changedTouches[0].screenX; }, {passive:true});

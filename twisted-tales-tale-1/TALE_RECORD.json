@@ -8,9 +8,10 @@
   "format": "A4 portrait",
   "illustration_style": "Monochrome pen-and-ink with pencil shading",
   "public_url": "https://bm-creations-public.vercel.app/twisted-tales-tale-1/",
-  "qr_image_url": "https://api.qrserver.com/v1/create-qr-code/?size=300x300&margin=2&data=https%3A%2F%2Fbm-creations-public.vercel.app%2Ftwisted-tales-tale-1%2F",
-  "main_entrance_page_requested": 48,
+  "qr_image_url": "assets/page59-qr.svg",
+  "main_entrance_page_requested": 59,
   "story_full_text_included": true,
   "text_wraps_around_small_illustration_on_story_pages": true,
-  "back_cover_message": "Thanks for reading! Look out for other Twisted Tales from BM Creations."
+  "back_cover_message": "Thanks for reading! Look out for other Twisted Tales from BM Creations.",
+  "qr_code": "assets/page59-qr.svg"
 }

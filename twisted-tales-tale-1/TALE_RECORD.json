@@ -15,5 +15,31 @@
   "back_cover_message": "Thank you for reading. Look out for more Twisted Tales from BM Creations.",
   "qr_code": "assets/page59-qr.svg",
   "status": "Locked master",
-  "back_cover_sha256": "91583d8e63d879b487145bb945a1dfc9957e622d4fe4e50d13c411f4874c4890"
+  "back_cover_sha256": "91583d8e63d879b487145bb945a1dfc9957e622d4fe4e50d13c411f4874c4890",
+  "locked_story_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "locked_covers": [
+    "front",
+    "back"
+  ],
+  "story_page_5_status": "Locked with corrected illustration of Frank in hospital",
+  "locked_git_blobs": {
+    "assets/back-cover.webp": "102f1d032ac5475e633c3f28ecad978a143ee98a",
+    "assets/front-cover.webp": "c92e5da8b621d2172ed040925f9a74db0cd83ce0",
+    "assets/page59-qr.svg": "8a190f5c74bbcca2e757318ebf802ee75b82fbfc",
+    "assets/story-1.webp": "8fcbf00153c4bddacc07e71886dd7137d696ecfb",
+    "assets/story-2.webp": "675da283d9dc23a98572495b49c339b690dacf91",
+    "assets/story-3.webp": "082d66a9fadb4877f99589f9bd3dafb1c6351ab5",
+    "assets/story-4.webp": "bdf60cd32b0a6b7cb45bb7e88cc978176095492e",
+    "assets/story-5.webp": "2e894d141b640f64605b2a35addd9e5ff19d01a3",
+    "assets/story-6.webp": "0d8aa2ee440db41286d4a42a51dc582762da074a",
+    "index.html": "ae820cf2e4d2d559ef819c4aaee7678e4bb91752"
+  },
+  "main_entrance_url": "https://bm-creations-public.vercel.app/BM_MAIN_ENTRANCE_40.html#page-59"
 }

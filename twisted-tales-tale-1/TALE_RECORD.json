@@ -1,17 +1,19 @@
 {
   "series": "BM Twisted Tales",
   "tale_number": 1,
-  "title": "The Office Mice",
+  "title": "Frank and the Office Mice",
   "author": "Brian Mountford",
   "story_pages": 6,
   "total_pages": 8,
   "format": "A4 portrait",
-  "illustration_style": "Monochrome pen-and-ink with pencil shading",
+  "illustration_style": "Sepia pencil and wash",
   "public_url": "https://bm-creations-public.vercel.app/twisted-tales-tale-1/",
   "qr_image_url": "assets/page59-qr.svg",
   "main_entrance_page_requested": 59,
   "story_full_text_included": true,
   "text_wraps_around_small_illustration_on_story_pages": true,
-  "back_cover_message": "Thanks for reading! Look out for other Twisted Tales from BM Creations.",
-  "qr_code": "assets/page59-qr.svg"
+  "back_cover_message": "Thank you for reading. Look out for more Twisted Tales from BM Creations.",
+  "qr_code": "assets/page59-qr.svg",
+  "status": "Locked master",
+  "back_cover_sha256": "91583d8e63d879b487145bb945a1dfc9957e622d4fe4e50d13c411f4874c4890"
 }

@@ -1,0 +1,43 @@
+{
+  "archive_page": 58,
+  "title": "I’m a Stylebrity — Get Me Out of Here! — An ALIEHAM Comic",
+  "creator": "BM",
+  "creator_credit": "BM is the sole creator of the Aliehams concept.",
+  "format": "A4 portrait pages; all artwork displayed with contain sizing to preserve complete page images.",
+  "public_url": "https://bm-creations-public.vercel.app/im-a-stylebrity/",
+  "main_entrance_url": "https://bm-creations-public.vercel.app/BM_MAIN_ENTRANCE_40.html",
+  "order": [
+    "Cover",
+    "Page 1",
+    "Page 2",
+    "Page 3",
+    "Page 4",
+    "Page 5",
+    "Page 6",
+    "Page 7",
+    "Back cover"
+  ],
+  "locked_assets": [
+    "Cover",
+    "Back cover"
+  ],
+  "viewer_features": [
+    "Previous/next controls",
+    "Keyboard left/right navigation",
+    "Back to BM Main Entrance link on the viewer and share panel"
+  ],
+  "assets": {
+    "cover": "assets/cover.webp",
+    "pages": [
+      "assets/page-1.webp",
+      "assets/page-2.webp",
+      "assets/page-3.webp",
+      "assets/page-4.webp",
+      "assets/page-5.webp",
+      "assets/page-6.webp",
+      "assets/page-7.webp"
+    ],
+    "back_cover": "assets/back-cover.webp",
+    "qr": "assets/page58-qr.svg"
+  }
+}

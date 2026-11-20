@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>I’m a Stylebrity — Get Me Out of Here! | ALIEHAM Comic</title>
+<meta name="description" content="An ALIEHAM comic starring the Stylebrities in a jungle adventure. Created by BM.">
+<style>
+:root{color-scheme:dark;--gold:#e6c573;--ink:#0c2017;--panel:#173226;--cream:#fff9e8}
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at top,#254a34,#091712 70%);color:var(--cream);font:16px/1.45 Georgia,'Times New Roman',serif}
+header{position:sticky;top:0;z-index:2;background:#0b1c16ee;border-bottom:2px solid var(--gold);padding:12px 16px;text-align:center;backdrop-filter:blur(8px)}
+header h1{font-size:clamp(19px,3vw,28px);line-height:1.1;color:var(--gold);margin:2px 0 9px}header a,.back{color:var(--cream)}
+main{width:min(100%,850px);margin:0 auto;padding:18px 12px 38px}.reader{margin:0 auto;width:min(100%,560px,49.5vh);aspect-ratio:210/297;background:#111;border:3px solid var(--gold);box-shadow:0 12px 42px #0009;display:grid;place-items:center;overflow:hidden}.reader img{display:block;width:100%;height:100%;object-fit:contain;background:#0a0a0a}
+.controls{display:flex;gap:12px;justify-content:center;align-items:center;flex-wrap:wrap;margin:16px auto}.controls button,.back{background:#d8b55c;color:#102117;border:0;border-radius:8px;padding:12px 18px;font:700 16px Arial,sans-serif;text-decoration:none;cursor:pointer}.controls button:disabled{opacity:.45;cursor:default}.counter{min-width:118px;text-align:center;font:700 15px Arial,sans-serif;color:var(--gold)}
+.caption{text-align:center;color:#e8dcb9;margin:8px 0 18px}.links{max-width:650px;margin:28px auto 0;padding:18px;background:#10271c;border:1px solid #a98742;border-radius:12px;text-align:center}.links h2{color:var(--gold);margin:0 0 10px}.links a{color:#ffe29a;overflow-wrap:anywhere}.qr{display:block;width:150px;height:150px;background:white;margin:10px auto;padding:8px;border-radius:6px}.email{display:inline-block;margin:10px;background:#d8b55c;padding:10px 14px;color:#102117!important;border-radius:7px;font:bold 15px Arial,sans-serif;text-decoration:none}
+@media(max-width:600px){main{padding:12px 8px 28px}.reader{max-width:100%;max-height:70vh}.controls button,.back{padding:11px 14px}}
+</style>
+</head>
+<body>
+<header><a href="https://bm-creations-public.vercel.app/BM_MAIN_ENTRANCE_40.html">← Back to BM Main Entrance</a><h1>I’M A STYLEBRITY — GET ME OUT OF HERE!</h1><div>AN ALIEHAM COMIC · Created by BM</div></header>
+<main>
+<div class="reader"><img id="comicPage" src="assets/cover.webp" alt="Comic cover" fetchpriority="high"></div>
+<div class="caption" id="caption">Cover</div>
+<nav class="controls" aria-label="Flipbook controls"><button id="prev" type="button" aria-label="Previous page">Previous</button><span class="counter" id="counter">Cover · 1 of 9</span><button id="next" type="button" aria-label="Next page">Next</button></nav>
+<section class="links"><h2>Share this comic</h2><p>Public link:<br><a href="https://bm-creations-public.vercel.app/im-a-stylebrity/">https://bm-creations-public.vercel.app/im-a-stylebrity/</a></p><a href="mailto:?subject=I%E2%80%99m%20a%20Stylebrity%20%E2%80%94%20ALIEHAM%20Comic&amp;body=Read%20the%20comic%20here%3A%20https%3A%2F%2Fbm-creations-public.vercel.app%2Fim-a-stylebrity%2F" class="email">Email this public link</a><p>Scan to open the comic:</p><a href="assets/page58-qr.svg" download="ALIEHAM-Stylebrity-Page-58-QR.svg" aria-label="Open or save QR code"><img class="qr" src="assets/page58-qr.svg" alt="QR code linking to the Page 58 ALIEHAM comic"></a><p><a href="https://bm-creations-public.vercel.app/BM_MAIN_ENTRANCE_40.html">Back to BM Main Entrance</a></p></section>
+</main>
+<script>
+const pages=[
+ {src:'assets/cover.webp',label:'Cover',alt:'I’m a Stylebrity — Get Me Out of Here! comic cover'},
+ {src:'assets/page-1.webp',label:'Page 1',alt:'ALIEHAM comic page 1'},
+ {src:'assets/page-2.webp',label:'Page 2',alt:'ALIEHAM comic page 2'},
+ {src:'assets/page-3.webp',label:'Page 3',alt:'ALIEHAM comic page 3'},
+ {src:'assets/page-4.webp',label:'Page 4',alt:'ALIEHAM comic page 4'},
+ {src:'assets/page-5.webp',label:'Page 5',alt:'ALIEHAM comic page 5'},
+ {src:'assets/page-6.webp',label:'Page 6',alt:'ALIEHAM comic page 6'},
+ {src:'assets/page-7.webp',label:'Page 7',alt:'ALIEHAM comic page 7'},
+ {src:'assets/back-cover.webp',label:'Back cover',alt:'ALIEHAM comic back cover'}
+];
+let index=0;const img=document.getElementById('comicPage'),caption=document.getElementById('caption'),counter=document.getElementById('counter'),prev=document.getElementById('prev'),next=document.getElementById('next');
+function show(n){index=Math.max(0,Math.min(pages.length-1,n));const p=pages[index];img.src=p.src;img.alt=p.alt;caption.textContent=p.label;counter.textContent=`${p.label} · ${index+1} of ${pages.length}`;prev.disabled=index===0;next.disabled=index===pages.length-1;history.replaceState(null,'',`#page=${index+1}`)}
+prev.addEventListener('click',()=>show(index-1));next.addEventListener('click',()=>show(index+1));document.addEventListener('keydown',e=>{if(e.key==='ArrowLeft')show(index-1);if(e.key==='ArrowRight')show(index+1)});const start=Number(new URLSearchParams(location.hash.slice(1)).get('page'));if(start>1)show(start-1);else show(0);
+</script>
+</body></html>

@@ -1,22 +1,22 @@
 {
   "title": "B.M. CREATIONS — COMPLETE MAIN ENTRANCE",
-  "status": "OFFICIAL LOCKED MASTER — ALL PAGES 1–56 — 19 NOVEMBER 2026",
+  "status": "OFFICIAL LOCKED MASTER — ALL PAGES 1–59 — 20 NOVEMBER 2026",
   "approved_by": "Brian Mountford",
-  "locked_date": "2026-11-19",
-  "archive_entries": 56,
+  "locked_date": "2026-11-20",
+  "archive_entries": 59,
   "public_url": "https://bm-creations-public.vercel.app/BM_MAIN_ENTRANCE_40.html",
   "master_path": "BM_MAIN_ENTRANCE_40.html",
   "also_updated_path": "BM_MAIN_ENTRANCE_39_WITH_ANEWAIRA.html",
-  "locked_source_commit": "b14eb5fe726d922f20ba321c7ae18309e7a28029",
+  "locked_source_commit": "0f0e462c5506a630aede1b308d86272528453f10",
   "page39": "LOCKED - animated ANEWAIRA windmill with static white capital A",
-  "qr_url": "https://bm-creations-public.vercel.app/main-entrance-share/current-56-page-qr.svg",
+  "qr_url": "https://bm-creations-public.vercel.app/main-entrance-share/current-59-page-qr.svg",
   "share_url": "https://bm-creations-public.vercel.app/main-entrance-share/",
   "email_link": "mailto:?subject=BM%20Creations%20%E2%80%94%20Current%20Main%20Entrance&body=https%3A%2F%2Fbm-creations-public.vercel.app%2FBM_MAIN_ENTRANCE_40.html",
-  "editing_rule": "NO CHANGES WHATSOEVER TO ANY OF THE EXISTING MAIN ENTRANCE PAGES 1–56 OR THEIR APPROVED CONTENT, ARTWORK, ORDER, PAGE NUMBERS, LINKS, OR QR CODES unless personally requested by Brian Mountford.",
-  "latest_authorised_change": "Brian Mountford requested Page 56 Nice Cream Biscuits and the Main Entrance pages 1–56 be locked after correcting the Page 56 credit to “Original product created by Brian Mountford.”",
-  "official_date": "19 November 2026",
-  "official_qr_status": "CURRENT MAIN ENTRANCE QR — PAGES 1–56 — VERIFIED TO OPEN THE PUBLIC MAIN ENTRANCE",
-  "official_email_status": "CURRENT MAIN ENTRANCE PUBLIC EMAILABLE LINK — PAGES 1–56 — LOCKED 19 NOVEMBER 2026",
+  "editing_rule": "Preserve approved content, artwork, order, page numbers, links and QR codes for Main Entrance pages 1–59. Make changes only when specifically requested by Brian Mountford.",
+  "latest_authorised_change": "Brian Mountford requested that the repaired Main Entrance be locked with pages 1–59.",
+  "official_date": "20 November 2026",
+  "official_qr_status": "CURRENT MAIN ENTRANCE QR — PAGES 1–59",
+  "official_email_status": "CURRENT MAIN ENTRANCE PUBLIC EMAIL LINK — PAGES 1–59",
   "cleanup": {
     "obsolete_main_entrance_files_moved_to_trash": 24,
     "total_bytes": 77872109,
@@ -24,7 +24,7 @@
     "original_creative_masters": "Retained",
     "official_public_archive": "Retained"
   },
-  "approved_locked_entries": "1–56",
+  "approved_locked_entries": "1–59",
   "pending_review_entries": [],
   "page38_video": {
     "status": "APPROVED AND LOCKED",
@@ -71,8 +71,8 @@
     "location": "Within Page 49 — Bert and Barry",
     "public_url": "https://bm-creations-public.vercel.app/bert-and-barry/tea-for-2/"
   },
-  "main_entrance_git_blob_sha": "9bf12f9471f47dabe1502994a91e493ba0a3fb2c",
-  "qr_git_blob_sha": "f7168c08bc694088b1565a7035c6dc013fd81817",
+  "main_entrance_git_blob_sha": "e50434f7f6ea1311674d3fb18dedd082e5a0e847",
+  "qr_git_blob_sha": "8c18843357771181c4133a43b6c4bd7181820c49",
   "page53": {
     "title": "PhysioBic Ball",
     "status": "APPROVED AND LOCKED",
@@ -101,5 +101,12 @@
     "page_qr_url": "https://bm-creations-public.vercel.app/nice-cream-biscuits/assets/page56-qr.svg",
     "page_qr_target": "https://bm-creations-public.vercel.app/nice-cream-biscuits/"
   },
-  "public_deployment_status": "Page 56 credit and QR corrections are committed in the source. The current public deployment is still waiting on a successful Vercel build because of the build-rate limit."
+  "public_deployment_status": "The repaired Main Entrance was verified in the public browser after following the return link from Page 59. The loaded archive showed entries from Page 1 through Page 59.",
+  "earlier_archive_git_blob_sha": "adecfd120ee08b77ea71f06807e6a168aa0687c1",
+  "page59": {
+    "title": "Frank and the Office Mice",
+    "status": "APPROVED AND LOCKED",
+    "public_url": "https://bm-creations-public.vercel.app/twisted-tales-tale-1/",
+    "return_url": "https://bm-creations-public.vercel.app/BM_MAIN_ENTRANCE_40.html"
+  }
 }

@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en"><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BM Universal Pigtures</title>
+<style>
+body { background: #101116; color: #fff4d5; text-align: center; font: 1rem system-ui; margin: 0; }
+header { padding: .6rem; position: sticky; top: 0; background: #101116; }
+nav { display: flex; align-items: center; justify-content: center; gap: .8rem; }
+button { font: inherit; padding: .5rem .8rem; color: #211707; background: #f5d28b; border: 0; border-radius: .25rem; }
+button:disabled { opacity: .45; }
+img { display: block; margin: auto; width: min(100%, 210mm); aspect-ratio: 210 / 297; object-fit: contain; }
+@page { size: A4 portrait; margin: 0; }
+@media print { header { display: none; } main > section[hidden] { display: block; } section + section { break-before: page; } img { width: 210mm; height: 297mm; } }
+</style>
+<header><a style="color:inherit" href="/BM_MAIN_ENTRANCE_40.html#page-60">Back to Main Entrance</a><nav aria-label="Flipbook pages">
+<button id="previous" disabled>Previous</button>
+<span id="label" aria-live="polite">Cover</span>
+<button id="next">Next</button>
+</nav></header>
+<main><section aria-label="Cover"><img alt="BM Universal Pigtures ensemble cover" src="0.webp"></section>
+<section aria-label="Page 1 · STYWARS" hidden><img alt="STYWARS starring Donham Trump, Joe Bideham and Dolly Partham" src="1.webp"></section>
+<section aria-label="Page 2 · STYCO" hidden><img alt="STYCO, directed by Hamfred Hichcock" src="2.webp"></section>
+<section aria-label="Page 3 · STYTANIC" hidden><img alt="STYTANIC film poster" src="3.webp"></section>
+<section aria-label="Page 4 · WAR HAM PEACE" hidden><img alt="WAR HAM PEACE film poster" src="4.webp"></section>
+<section aria-label="Page 5 · WHENHAMRY MET SALLY" hidden><img alt="WHENHAMRY MET SALLY film poster" src="5.webp"></section>
+<section aria-label="Page 6 · HAMCOUNTERS OF THE THIRD KIND" hidden><img alt="HAMCOUNTERS OF THE THIRD KIND film poster" src="6.webp"></section>
+<section aria-label="Page 7 · E T PHONE HAM" hidden><img alt="E T PHONE HAM film poster" src="7.webp"></section>
+<section aria-label="Page 8 · THE BATTLE OF THE ALHAMO" hidden><img alt="THE BATTLE OF THE ALHAMO" src="8.webp"></section></main>
+<script>
+const pages = Array.from(document.querySelectorAll('main > section'))
+const previous = document.getElementById('previous')
+const next = document.getElementById('next')
+const label = document.getElementById('label')
+let current = 0
+function showPage(index) {
+  if (index < 0 || index >= pages.length) return
+  pages[current].hidden = true
+  current = index
+  pages[current].hidden = false
+  label.textContent = pages[current].getAttribute('aria-label')
+  previous.disabled = current === 0
+  next.disabled = current === pages.length - 1
+  window.scrollTo(0, 0)
+}
+previous.addEventListener('click', () => showPage(current - 1))
+next.addEventListener('click', () => showPage(current + 1))
+document.addEventListener('keydown', event => {
+  if (event.key === 'ArrowLeft') showPage(current - 1)
+  if (event.key === 'ArrowRight') showPage(current + 1)
+})
+</script></html>

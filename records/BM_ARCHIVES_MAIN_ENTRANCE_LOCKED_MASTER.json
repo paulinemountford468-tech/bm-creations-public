@@ -1,22 +1,22 @@
 {
   "title": "B.M. CREATIONS — COMPLETE MAIN ENTRANCE",
-  "status": "OFFICIAL LOCKED MASTER — ALL PAGES 1–59 — 20 NOVEMBER 2026",
+  "status": "OFFICIAL LOCKED MASTER — ALL PAGES 1–67 — 25 NOVEMBER 2026",
   "approved_by": "Brian Mountford",
-  "locked_date": "2026-11-20",
-  "archive_entries": 59,
+  "locked_date": "2026-11-25",
+  "archive_entries": 67,
   "public_url": "https://bm-creations-public.vercel.app/BM_MAIN_ENTRANCE_40.html",
   "master_path": "BM_MAIN_ENTRANCE_40.html",
   "also_updated_path": "BM_MAIN_ENTRANCE_39_WITH_ANEWAIRA.html",
-  "locked_source_commit": "0f0e462c5506a630aede1b308d86272528453f10",
+  "locked_source_commit": "81bc6688988eb718094ccf2b186556f197758393",
   "page39": "LOCKED - animated ANEWAIRA windmill with static white capital A",
   "qr_url": "https://bm-creations-public.vercel.app/main-entrance-share/current-59-page-qr.svg",
   "share_url": "https://bm-creations-public.vercel.app/main-entrance-share/",
   "email_link": "mailto:?subject=BM%20Creations%20%E2%80%94%20Current%20Main%20Entrance&body=https%3A%2F%2Fbm-creations-public.vercel.app%2FBM_MAIN_ENTRANCE_40.html",
-  "editing_rule": "Preserve approved content, artwork, order, page numbers, links and QR codes for Main Entrance pages 1–59. Make changes only when specifically requested by Brian Mountford.",
-  "latest_authorised_change": "Brian Mountford requested that the repaired Main Entrance be locked with pages 1–59.",
-  "official_date": "20 November 2026",
-  "official_qr_status": "CURRENT MAIN ENTRANCE QR — PAGES 1–59",
-  "official_email_status": "CURRENT MAIN ENTRANCE PUBLIC EMAIL LINK — PAGES 1–59",
+  "editing_rule": "Preserve approved content, artwork, order, page numbers, links and QR codes for Main Entrance pages 1–67. Make changes only when specifically requested by Brian Mountford.",
+  "latest_authorised_change": "Brian Mountford approved the placement of VIDI LOOK at Page 4 and CHEF BRIAN — THE BEST NON COOK BOOK YOU EVER HAD at Page 67, then requested that the Main Entrance be locked.",
+  "official_date": "25 November 2026",
+  "official_qr_status": "Existing Main Entrance QR points to the canonical Main Entrance URL.",
+  "official_email_status": "Existing email link points to the canonical Main Entrance URL.",
   "cleanup": {
     "obsolete_main_entrance_files_moved_to_trash": 24,
     "total_bytes": 77872109,
@@ -24,7 +24,7 @@
     "original_creative_masters": "Retained",
     "official_public_archive": "Retained"
   },
-  "approved_locked_entries": "1–59",
+  "approved_locked_entries": "1–67",
   "pending_review_entries": [],
   "page38_video": {
     "status": "APPROVED AND LOCKED",
@@ -71,7 +71,7 @@
     "location": "Within Page 49 — Bert and Barry",
     "public_url": "https://bm-creations-public.vercel.app/bert-and-barry/tea-for-2/"
   },
-  "main_entrance_git_blob_sha": "e50434f7f6ea1311674d3fb18dedd082e5a0e847",
+  "main_entrance_git_blob_sha": "8da7c00d4b97bac4f6f25b59c84ec50f223f7e4f",
   "qr_git_blob_sha": "8c18843357771181c4133a43b6c4bd7181820c49",
   "page53": {
     "title": "PhysioBic Ball",
@@ -101,12 +101,23 @@
     "page_qr_url": "https://bm-creations-public.vercel.app/nice-cream-biscuits/assets/page56-qr.svg",
     "page_qr_target": "https://bm-creations-public.vercel.app/nice-cream-biscuits/"
   },
-  "public_deployment_status": "The repaired Main Entrance was verified in the public browser after following the return link from Page 59. The loaded archive showed entries from Page 1 through Page 59.",
+  "public_deployment_status": "The live Main Entrance was verified on 25 November 2026 with VIDI LOOK at Page 4 and the Chef Brian cookbook at Page 67. The VIDI LOOK return link was also verified.",
   "earlier_archive_git_blob_sha": "adecfd120ee08b77ea71f06807e6a168aa0687c1",
   "page59": {
     "title": "Frank and the Office Mice",
     "status": "APPROVED AND LOCKED",
     "public_url": "https://bm-creations-public.vercel.app/twisted-tales-tale-1/",
     "return_url": "https://bm-creations-public.vercel.app/BM_MAIN_ENTRANCE_40.html"
+  },
+  "page4": {
+    "title": "VIDI LOOK",
+    "status": "APPROVED AND LOCKED",
+    "public_url": "https://bm-creations-public.vercel.app/vidi-look/",
+    "pdf_sha256": "7919a69b3b9c542162c892958223a13031f1ac468461eb5fc0801e2e8baeda1e"
+  },
+  "page67": {
+    "title": "CHEF BRIAN — THE BEST NON COOK BOOK YOU EVER HAD",
+    "status": "APPROVED AND LOCKED",
+    "public_url": "https://bm-creations-public.vercel.app/archive-reader.html?entry=67"
   }
 }

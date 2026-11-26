@@ -1,20 +1,20 @@
 {
   "title": "B.M. CREATIONS — COMPLETE MAIN ENTRANCE",
-  "status": "OFFICIAL LOCKED MASTER — ALL PAGES 1–67 — 25 NOVEMBER 2026",
+  "status": "OFFICIAL LOCKED MASTER — ALL PAGES 1–68 — 26 NOVEMBER 2026",
   "approved_by": "Brian Mountford",
-  "locked_date": "2026-11-25",
-  "archive_entries": 67,
+  "locked_date": "2026-11-26",
+  "archive_entries": 68,
   "public_url": "https://bm-creations-public.vercel.app/BM_MAIN_ENTRANCE_40.html",
   "master_path": "BM_MAIN_ENTRANCE_40.html",
   "also_updated_path": "BM_MAIN_ENTRANCE_39_WITH_ANEWAIRA.html",
-  "locked_source_commit": "81bc6688988eb718094ccf2b186556f197758393",
+  "locked_source_commit": "24ebdb9f7940bec9434deda767dd3f1b818cabc1",
   "page39": "LOCKED - animated ANEWAIRA windmill with static white capital A",
   "qr_url": "https://bm-creations-public.vercel.app/main-entrance-share/current-59-page-qr.svg",
   "share_url": "https://bm-creations-public.vercel.app/main-entrance-share/",
   "email_link": "mailto:?subject=BM%20Creations%20%E2%80%94%20Current%20Main%20Entrance&body=https%3A%2F%2Fbm-creations-public.vercel.app%2FBM_MAIN_ENTRANCE_40.html",
-  "editing_rule": "Preserve approved content, artwork, order, page numbers, links and QR codes for Main Entrance pages 1–67. Make changes only when specifically requested by Brian Mountford.",
-  "latest_authorised_change": "Brian Mountford approved the placement of VIDI LOOK at Page 4 and CHEF BRIAN — THE BEST NON COOK BOOK YOU EVER HAD at Page 67, then requested that the Main Entrance be locked.",
-  "official_date": "25 November 2026",
+  "editing_rule": "Preserve approved content, artwork, order, page numbers, links and QR codes for Main Entrance pages 1–68. Make changes only when specifically requested by Brian Mountford.",
+  "latest_authorised_change": "Brian Mountford approved and locked Luani and the Pink Dolphin — Book 1 as page 68.",
+  "official_date": "26 November 2026",
   "official_qr_status": "Existing Main Entrance QR points to the canonical Main Entrance URL.",
   "official_email_status": "Existing email link points to the canonical Main Entrance URL.",
   "cleanup": {
@@ -24,7 +24,7 @@
     "original_creative_masters": "Retained",
     "official_public_archive": "Retained"
   },
-  "approved_locked_entries": "1–67",
+  "approved_locked_entries": "1–68",
   "pending_review_entries": [],
   "page38_video": {
     "status": "APPROVED AND LOCKED",
@@ -71,7 +71,7 @@
     "location": "Within Page 49 — Bert and Barry",
     "public_url": "https://bm-creations-public.vercel.app/bert-and-barry/tea-for-2/"
   },
-  "main_entrance_git_blob_sha": "8da7c00d4b97bac4f6f25b59c84ec50f223f7e4f",
+  "main_entrance_git_blob_sha": "498bd02e356a817b8baa1bc5e4233ca5f3f6c73e",
   "qr_git_blob_sha": "8c18843357771181c4133a43b6c4bd7181820c49",
   "page53": {
     "title": "PhysioBic Ball",
@@ -119,5 +119,13 @@
     "title": "CHEF BRIAN — THE BEST NON COOK BOOK YOU EVER HAD",
     "status": "APPROVED AND LOCKED",
     "public_url": "https://bm-creations-public.vercel.app/archive-reader.html?entry=67"
+  },
+  "page68": {
+    "title": "LUANI AND THE PINK DOLPHIN — BOOK 1",
+    "status": "APPROVED AND LOCKED",
+    "pages": 24,
+    "story_pages": 22,
+    "public_url": "https://bm-creations-public.vercel.app/luani-and-the-pink-dolphin/",
+    "qr_url": "https://bm-creations-public.vercel.app/luani-and-the-pink-dolphin/qr.png"
   }
 }

@@ -1,19 +1,19 @@
 {
   "title": "B.M. CREATIONS — COMPLETE MAIN ENTRANCE",
-  "status": "OFFICIAL LOCKED MASTER — ALL PAGES 1–69 — 26 NOVEMBER 2026",
+  "status": "OFFICIAL LOCKED MASTER — ALL PAGES 1–70 — 26 NOVEMBER 2026",
   "approved_by": "Brian Mountford",
   "locked_date": "2026-11-26",
-  "archive_entries": 69,
+  "archive_entries": 70,
   "public_url": "https://bm-creations-public.vercel.app/BM_MAIN_ENTRANCE_40.html",
   "master_path": "BM_MAIN_ENTRANCE_40.html",
   "also_updated_path": "BM_MAIN_ENTRANCE_39_WITH_ANEWAIRA.html",
-  "locked_source_commit": "f7c6b8359e0aad9d52038148ed90f1bb43a65645",
+  "locked_source_commit": "ac96e41bacb9d3dc8dccad4f1af46581f63321b5",
   "page39": "LOCKED - animated ANEWAIRA windmill with static white capital A",
   "qr_url": "https://bm-creations-public.vercel.app/main-entrance-share/current-59-page-qr.svg",
   "share_url": "https://bm-creations-public.vercel.app/main-entrance-share/",
   "email_link": "mailto:?subject=BM%20Creations%20%E2%80%94%20Current%20Main%20Entrance&body=https%3A%2F%2Fbm-creations-public.vercel.app%2FBM_MAIN_ENTRANCE_40.html",
-  "editing_rule": "Preserve approved content, artwork, order, page numbers, links and QR codes for Main Entrance pages 1–69. Make changes only when specifically requested by Brian Mountford.",
-  "latest_authorised_change": "Brian Mountford approved and locked BEST PALS — First Learning Activities as Main Entrance page 69.",
+  "editing_rule": "Preserve approved content, artwork, order, page numbers, links and QR codes for Main Entrance pages 1–70. Make changes only when specifically requested by Brian Mountford.",
+  "latest_authorised_change": "Brian Mountford approved and locked the BM Creations Main Entrance, pages 1–70.",
   "official_date": "26 November 2026",
   "official_qr_status": "Existing Main Entrance QR points to the canonical Main Entrance URL.",
   "official_email_status": "Existing email link points to the canonical Main Entrance URL.",
@@ -71,7 +71,7 @@
     "location": "Within Page 49 — Bert and Barry",
     "public_url": "https://bm-creations-public.vercel.app/bert-and-barry/tea-for-2/"
   },
-  "main_entrance_git_blob_sha": "a1f31a7a9f5a5d217272421922a09e59fadc8283",
+  "main_entrance_git_blob_sha": "c317281e32b8b0e03859f3c2f1922792c1f729c5",
   "qr_git_blob_sha": "8c18843357771181c4133a43b6c4bd7181820c49",
   "page53": {
     "title": "PhysioBic Ball",
@@ -101,7 +101,7 @@
     "page_qr_url": "https://bm-creations-public.vercel.app/nice-cream-biscuits/assets/page56-qr.svg",
     "page_qr_target": "https://bm-creations-public.vercel.app/nice-cream-biscuits/"
   },
-  "public_deployment_status": "The live Main Entrance was verified on 25 November 2026 with VIDI LOOK at Page 4 and the Chef Brian cookbook at Page 67. The VIDI LOOK return link was also verified.",
+  "public_deployment_status": "Page 70 and its four-page flipbook and QR code were verified on the public site on 26 November 2026.",
   "earlier_archive_git_blob_sha": "adecfd120ee08b77ea71f06807e6a168aa0687c1",
   "page59": {
     "title": "Frank and the Office Mice",
@@ -134,5 +134,14 @@
     "pages": 8,
     "public_url": "https://bm-creations-public.vercel.app/best-pals/",
     "qr_url": "https://bm-creations-public.vercel.app/best-pals/qr.png"
+  },
+  "page70": {
+    "title": "WHAT’S IN THE BOX?",
+    "status": "APPROVED AND LOCKED",
+    "approved_by": "Brian Mountford",
+    "locked_date": "2026-11-26",
+    "pages": 4,
+    "public_url": "https://bm-creations-public.vercel.app/whats-in-the-box/",
+    "qr_url": "https://bm-creations-public.vercel.app/whats-in-the-box/qr.png"
   }
 }

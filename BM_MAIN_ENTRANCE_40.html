@@ -269,6 +269,89 @@
   whatsInTheBox.id = 'page-70';
   whatsInTheBox.innerHTML = '<div class="number">70</div><a href="/whats-in-the-box/"><img class="thumb" style="object-fit:contain" src="/whats-in-the-box/page-00.jpg" alt="What’s in the Box? opening page"></a><div class="desc"><h2>WHAT’S IN THE BOX?</h2><p>A four-page illustrated TV game concept by Brian Mountford.</p><p><a href="/whats-in-the-box/">Open the public flipbook</a></p><p><a href="mailto:?subject=What%E2%80%99s%20in%20the%20Box%3F&amp;body=https%3A%2F%2Fbm-creations-public.vercel.app%2Fwhats-in-the-box%2F">Email this public link</a></p></div><a href="/whats-in-the-box/qr.png"><img class="qr" src="/whats-in-the-box/qr.png" alt="QR code for the What’s in the Box? flipbook"></a>';
   archive.appendChild(whatsInTheBox);
+  const archiveSummaries = [
+  "Past Times cards are specially created for the care sector, where they can be used as memory joggers or conversation starters.",
+  "The true life story of Brian Mountford, including a record of his creative and inventive work.",
+  "A television entertainment format presented as an illustrated pitch for a show called House of Fun.",
+  "A concept for attracting visitors to online projects, with a prize draw as the incentive to take part.",
+  "An illustrated children’s adventure following Albert and Bertie in The Magic Rainbow.",
+  "An illustrated adventure starring Brian’s dogs, Buddy and Dizzy, called If Pigs Could Fly…",
+  "An introduction to the fictional world of Fiddlers End and Sillsea, including places and characters from the stories.",
+  "A comic adventure with the Fiddlers End Mob, with a hidden object to spot on each story page.",
+  "An illustrated children’s story starring Walter Splash, presented with its original front and back covers.",
+  "An illustrated Walter Splash adventure built around the Aqua National Lottery.",
+  "A flipbook gathering a mix of Brian Mountford’s creative work under the title Random.",
+  "A video presentation of Brian Mountford’s 5 Starz creation.",
+  "An interactive abacus concept for helping learners explore numbers and practise counting.",
+  "An illustrated story about Gran Ma Maranda and her wonder drink.",
+  "An illustrated introduction to Hey Hi Oops, Brian Mountford’s comic-learning creation.",
+  "Three original illustrated pages introducing Brian Mountford’s Aliehams.",
+  "A collection of Boarno comics gathered into one place.",
+  "A television game-show proposal with the rules and a pitch for Deal in a Million.",
+  "A collection of satirical Donham Trump comics, including Traffic Disaster, Bitcoin and Golf Championship.",
+  "The first Brave George comic book, an illustrated adventure titled Hell’s Kitchen.",
+  "The seventh set of Past Times reminiscence cards, designed to prompt memories and conversation.",
+  "An illustrated presentation of Brian Mountford’s LINKO: Game, Set & Match concept.",
+  "An illustrated fantasy story about Snowbrite and the Ice Kingdom.",
+  "A presentation of Brian Mountford’s Scoopadisc invention concept.",
+  "An illustrated children’s story about what happens when Hugo bumps his nose.",
+  "The second Boarno comic, presented as a nine-page flipbook.",
+  "A collection of Brian Mountford’s Greetham card designs.",
+  "An 18-page flipbook from the Hey Hi Oops comic-learning collection.",
+  "A Hey Hi Oops flipbook presenting learning material in comic form.",
+  "An illustrated children’s story about Reginald Wriggles and the problem he has to solve.",
+  "An illustrated Red Dragham adventure from Brian Mountford’s collection.",
+  "The Deal in a Million television format, with its game rules and pitch together in one flipbook.",
+  "Monkey Tom’s first illustrated adventure takes him to the fair.",
+  "An illustrated Jeff Boarzos adventure centred on a mystery in Bermuda.",
+  "Walter Splash introduces young readers to early-learning activities in his underwater world.",
+  "Brave George returns for an illustrated school adventure in A Chilly Day at School.",
+  "A short illustrated story told over five pages, with a zoomable reading view.",
+  "An illustrated Albert and Bertie adventure called Nesty, with a link to their video.",
+  "An invention and investment portfolio for Anewaira, a UV air-treatment concept, with a laboratory demonstration video.",
+  "Delboar and Rodhamney Trotter star in a three-page Birmingham Triangle comedy.",
+  "A collection of Brian Mountford’s original songs, poems and personal reflections.",
+  "A preview of Brian’s novel Lucky Devile, showing the cover and his pen name, Damien Grey.",
+  "Seven short satirical comics starring Joe Bideham in Bideham Bites Back.",
+  "Two Kindness Crew comics about helping others, featuring Coco and Harry.",
+  "A children’s milk bar and restaurant concept, with designs for the premises, menus, packaging and products.",
+  "Meet the Kindness Crew and see them set out to save the Christmas party.",
+  "Fourteen Poke Ham on Island character cards, with one Alieham character on each page.",
+  "A selection of fourteen original artworks by Brian Mountford, shown one per page.",
+  "Two inventor comics in which Bert builds a teabag machine and an indoor dog walker, with Barry and Monty on hand.",
+  "A colour-ball game concept exploring how colours can be added to a ball during play.",
+  "Four illustrated early-learning pages featuring Walter Splash.",
+  "A foldable retail unit on wheels that can be moved into position and locked when needed.",
+  "Brian Mountford’s personal exercise ball concept, shown through original designs and an account of the invention.",
+  "Two aftershave product designs, Rolls Silver and Rolls Gold.",
+  "A non-alcoholic lemon and passion fruit drink concept, with bottle and sales-poster designs.",
+  "An original product concept that puts ice cream inside a biscuit.",
+  "Two Alcofrolics range posters and a 1982 letter recording flavour tasting.",
+  "An Alieham jungle-show parody in which celebrity contestants compete to be crowned the winner.",
+  "A caretaker’s obsession with catching mice takes an unexpected turn in the first illustrated Twisted Tale.",
+  "A collection of spoof film posters that gives familiar films and stars an Alieham makeover.",
+  "A television format in which three cooks serve a mystery celebrity couple who judge the dishes blind.",
+  "A television format in which inventors pitch to four judges for cash, specialist help and a place in a semi-final.",
+  "A variety show format in which celebrity judges rank nine acts and a studio jury can overturn the result.",
+  "An illustrated cartoon adventure that follows the Aliehams from Pigzarus to Earth.",
+  "A look at Brian’s environmental ideas, including his tree-seed collection, BM Wishseeds and his High Noon exhibit for COP26.",
+  "A television quiz that combines cash questions with a race to complete a bingo full house.",
+  "Brian Mountford’s illustrated non-cook cookbook, presented under his Chef Brian name.",
+  "An illustrated children’s story in which a pink dolphin comes to Luani’s rescue.",
+  "Six colourful animal activities that help young children practise counting, letters, colours and spotting the odd one out.",
+  "Three contestants answer questions to win mystery boxes, and the winner can keep their prizes or risk them for the jackpot."
+];
+  archiveSummaries.forEach((text, index) => {
+   const entry = archive.querySelector('#page-' + (index + 1));
+   if (!entry) return;
+   const heading = (entry.querySelector(':scope > .desc') || entry).querySelector('h2, strong');
+   const summary = source.createElement('p');
+   summary.className = 'archive-summary';
+   summary.style.cssText = 'font-size:16px;line-height:1.5;margin:6px 0 10px';
+   summary.textContent = text;
+   if (heading) heading.after(summary);
+   else (entry.querySelector('.desc') || entry).appendChild(summary);
+  });
   document.replaceChild(document.importNode(source.documentElement, true), document.documentElement);
  if(location.hash){document.getElementById(location.hash.slice(1))?.scrollIntoView();}
  } catch (error) {

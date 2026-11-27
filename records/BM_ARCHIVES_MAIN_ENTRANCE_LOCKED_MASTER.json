@@ -1,20 +1,20 @@
 {
   "title": "B.M. CREATIONS — COMPLETE MAIN ENTRANCE",
-  "status": "OFFICIAL LOCKED MASTER — ALL PAGES 1–70 — 26 NOVEMBER 2026",
+  "status": "OFFICIAL LOCKED MASTER — ALL PAGES 1–70 — 27 NOVEMBER 2026",
   "approved_by": "Brian Mountford",
-  "locked_date": "2026-11-26",
+  "locked_date": "2026-11-27",
   "archive_entries": 70,
   "public_url": "https://bm-creations-public.vercel.app/BM_MAIN_ENTRANCE_40.html",
   "master_path": "BM_MAIN_ENTRANCE_40.html",
   "also_updated_path": "BM_MAIN_ENTRANCE_39_WITH_ANEWAIRA.html",
-  "locked_source_commit": "ac96e41bacb9d3dc8dccad4f1af46581f63321b5",
+  "locked_source_commit": "8c189e20c19243bffcdd9fd7eaa44275b30808d5",
   "page39": "LOCKED - animated ANEWAIRA windmill with static white capital A",
   "qr_url": "https://bm-creations-public.vercel.app/main-entrance-share/current-59-page-qr.svg",
   "share_url": "https://bm-creations-public.vercel.app/main-entrance-share/",
   "email_link": "mailto:?subject=BM%20Creations%20%E2%80%94%20Current%20Main%20Entrance&body=https%3A%2F%2Fbm-creations-public.vercel.app%2FBM_MAIN_ENTRANCE_40.html",
-  "editing_rule": "Preserve approved content, artwork, order, page numbers, links and QR codes for Main Entrance pages 1–70. Make changes only when specifically requested by Brian Mountford.",
-  "latest_authorised_change": "Brian Mountford approved and locked the BM Creations Main Entrance, pages 1–70.",
-  "official_date": "26 November 2026",
+  "editing_rule": "Preserve the approved welcome, invitation, descriptions, content, artwork, order, page numbers, links and QR codes for Main Entrance pages 1–70. Make changes only when specifically requested by Brian Mountford.",
+  "latest_authorised_change": "Brian Mountford approved and locked the revised Main Entrance, including the colourful welcome, invitation to use or promote the creations, relocated comic shortcuts and short descriptions for all 70 entries.",
+  "official_date": "27 November 2026",
   "official_qr_status": "Existing Main Entrance QR points to the canonical Main Entrance URL.",
   "official_email_status": "Existing email link points to the canonical Main Entrance URL.",
   "cleanup": {
@@ -71,7 +71,7 @@
     "location": "Within Page 49 — Bert and Barry",
     "public_url": "https://bm-creations-public.vercel.app/bert-and-barry/tea-for-2/"
   },
-  "main_entrance_git_blob_sha": "c317281e32b8b0e03859f3c2f1922792c1f729c5",
+  "main_entrance_git_blob_sha": "5cd6cf31bdad3b55f0df5dfe0681f469bba995a4",
   "qr_git_blob_sha": "8c18843357771181c4133a43b6c4bd7181820c49",
   "page53": {
     "title": "PhysioBic Ball",
@@ -101,7 +101,7 @@
     "page_qr_url": "https://bm-creations-public.vercel.app/nice-cream-biscuits/assets/page56-qr.svg",
     "page_qr_target": "https://bm-creations-public.vercel.app/nice-cream-biscuits/"
   },
-  "public_deployment_status": "Page 70 and its four-page flipbook and QR code were verified on the public site on 26 November 2026.",
+  "public_deployment_status": "Verified the live Main Entrance on 27 November 2026 with the revised welcome and all 70 entry descriptions.",
   "earlier_archive_git_blob_sha": "adecfd120ee08b77ea71f06807e6a168aa0687c1",
   "page59": {
     "title": "Frank and the Office Mice",

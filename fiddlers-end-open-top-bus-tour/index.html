@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Fiddlers End Open-Top Bus Tour</title>
+<style>
+* { box-sizing: border-box; }
+body { background: #203528; color: #512618; margin: 0; font: 18px Georgia, serif; }
+nav { position: sticky; z-index: 1; top: 0; padding: .6rem; background: #18291f; color: #fff6dd; display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: .55rem; font: 15px system-ui; }
+button, a { color: #412517; border: 1px solid #d1a951; background: #fff0c5; font: inherit; padding: .4rem .65rem; border-radius: .3rem; text-decoration: none; cursor: pointer; }
+button:disabled { opacity: .55; cursor: auto; }
+#position { min-width: 90px; text-align: center; }
+main { width: min(100% - 16px, 720px); margin: 12px auto 30px; }
+section { position: relative; aspect-ratio: 210 / 297; background: #f9eed0; box-shadow: 0 6px 24px #0008; }
+img { display: block; width: 100%; height: 100%; object-fit: contain; }
+.cover { display: flex; flex-direction: column; justify-content: center; text-align: center; background: radial-gradient(ellipse, #fff4d1 35%, #d5a867); border: 8px double #956429; outline: 2px solid #59744b; outline-offset: -18px; }
+.cover h1 { margin: .12em 0; color: #822c23; font-size: clamp(45px, 11vw, 95px); line-height: 1; }
+.cover p:first-child { text-transform: uppercase; letter-spacing: .1em; font-weight: bold; }
+small { position: absolute; left: 5mm; bottom: 5mm; font-size: 8px; }
+[hidden] { display: none; }
+@page { size: A4 portrait; margin: 0; }
+@media print {
+ body { background: white; } nav { display: none; } main { width: auto; margin: 0; }
+ section, section[hidden] { display: block; width: 210mm; height: 297mm; box-shadow: none; break-after: page; }
+ .cover, .cover[hidden] { display: flex; } section:last-child { break-after: auto; }
+}
+
+main:has(.story-spread:not([hidden])) { width: min(100% - 24px, 1232px); }
+.story-spread { display:grid; grid-template-columns: 1fr 1fr; gap: 12px; aspect-ratio:auto; background:transparent; box-shadow:none; align-items:start; }
+.story-spread[hidden] { display:none; }
+.story-text, .story-art { position:relative; aspect-ratio:210 / 297; background:#fff3d4; box-shadow:0 6px 24px #0008; }
+.story-text { padding: clamp(24px, 3vw, 38px); border: 6px double #956429; color:#332719; font-size:clamp(16px, 1.45vw, 17px); line-height:1.36; }
+.story-text h1 { color:#822c23; font-size:clamp(30px, 4.2vw, 52px); margin:0 0 .5em; line-height:1; }
+.story-text p { margin:0 0 .65em; }
+.story-text footer { text-align:center; font-weight:bold; }
+.story-art img { width:100%; height:100%; }
+@media screen and (max-width: 920px) {
+ main:has(.story-spread:not([hidden])) { width:min(100% - 16px, 720px); }
+ .story-spread { grid-template-columns:1fr; }
+}
+@media print {
+ main:has(.story-spread:not([hidden])) { width:auto; }
+ .story-spread, .story-spread[hidden] { display:block; height:auto; }
+ .story-text, .story-art { width:210mm; height:297mm; box-shadow:none; }
+ .story-text { padding:16mm 18mm; font-size:11pt; break-after:page; }
+}
+</style>
+</head>
+<body>
+<nav aria-label="Flipbook controls"><button id="prev">Previous</button><span id="position" aria-live="polite"></span><button id="next">Next</button><a href="https://bm-creations-public.vercel.app/BM_MAIN_ENTRANCE_40.html#page-72">Back to Main Entrance</a><a href="mailto:?subject=Fiddlers%20End%20Open-Top%20Bus%20Tour&amp;body=https%3A%2F%2Fbm-creations-public.vercel.app%2Ffiddlers-end-open-top-bus-tour%2F">Email public link</a><a href="qr.svg">QR code</a></nav>
+<main><section aria-label="Front cover"><img alt="Front cover" src="page-0.webp"></section><section hidden aria-label="Departure from Fiddlers End"><img alt="Departure from Fiddlers End" src="page-1.webp"></section><section hidden aria-label="Stop 1 — NOWT"><img alt="Stop 1 — NOWT" src="page-2.webp"></section><section hidden aria-label="Stop 2 — Daftshire"><img alt="Stop 2 — Daftshire" src="page-3.webp"></section><section hidden aria-label="Stop 3 — Sillyshire: Inn and Lifeboat"><img alt="Stop 3 — Sillyshire: Inn and Lifeboat" src="page-4.webp"></section><section hidden aria-label="Stop 3 — Billy Goat School"><img alt="Stop 3 — Billy Goat School" src="page-5.webp"></section><section hidden aria-label="Stop 3 — Sillysausage Factory Lunch"><img alt="Stop 3 — Sillysausage Factory Lunch" src="page-6.webp"></section><section hidden aria-label="Stop 4 — Winkshire"><img alt="Stop 4 — Winkshire" src="page-7.webp"></section><section hidden aria-label="Stop 5 — Littleshire"><img alt="Stop 5 — Littleshire" src="page-8.webp"></section><section hidden aria-label="Stop 6 — Tickleshire"><img alt="Stop 6 — Tickleshire" src="page-9.webp"></section><section hidden aria-label="Stop 7 — Makemshire"><img alt="Stop 7 — Makemshire" src="page-10.webp"></section><section hidden aria-label="Stop 8 — Oatshire"><img alt="Stop 8 — Oatshire" src="page-11.webp"></section><section hidden aria-label="Stop 9 — Fiddleshire"><img alt="Stop 9 — Fiddleshire" src="page-12.webp"></section><section hidden aria-label="Back home in Fiddlers End"><img alt="Back home in Fiddlers End" src="page-13.webp"></section><section hidden aria-label="Back cover — Map and farewell"><img alt="Back cover — Map and farewell" src="page-14.webp"></section></main>
+<script>
+const pages = Array.from(document.querySelectorAll('main section'));
+const previous = document.getElementById('prev');
+const next = document.getElementById('next');
+const position = document.getElementById('position');
+let current = 0;
+function turnTo(index) {
+    current = Math.max(0, Math.min(index, pages.length - 1));
+    pages.forEach((page, number) => { page.hidden = number !== current; });
+    previous.disabled = current === 0;
+    next.disabled = current === pages.length - 1;
+    position.textContent = (current + 1) + ' / ' + pages.length + ' · ' + pages[current].getAttribute('aria-label');
+    window.scrollTo(0, 0);
+}
+previous.onclick = () => turnTo(current - 1);
+next.onclick = () => turnTo(current + 1);
+document.addEventListener('keydown', event => {
+    if (event.key === 'ArrowLeft' || event.key === 'ArrowRight') {
+        event.preventDefault();
+        turnTo(current + (event.key === 'ArrowRight' ? 1 : -1));
+    }
+});
+turnTo(0);
+</script>
+</body>
+</html>
